@@ -1,24 +1,27 @@
 # Arcane Warren
 
-**Many paths. Shared discoveries.**
+Many paths. Shared discoveries.
 
-A Cunilab project exploring a curiosity-driven ecosystem of specialized AI workers. The fantasy is the identity; the purpose remains human.
+A Cunilab concept-stage project for human-guided multi-agent collaboration. This repository hosts the static project website; no agent runtime or Cairn integration is implemented here.
 
-This repository begins with a static concept landing page. The agent runtime, orchestration and Cairn Memory integration described on the site are planned, not implemented here.
+## Preview
 
-## Preview locally
+Run `python3 -m http.server 8000` from the repository root and visit http://localhost:8000.
 
-```sh
-python3 -m http.server 8000
-```
+## Website
 
-Open http://localhost:8000. No build step or dependencies.
+- `index.html`: overview
+- `philosophy/`: origin, name, creed
+- `circles/`: directory and nine discipline pages
+- `delvers/`: individual worker profiles
+- `orchestration/`: proposed coordination and authority model
+- `memory/`: Cairn Memory integration plan
+- `expeditions/`: lifecycle and illustrative collaboration
+- `guide/`: vocabulary and agent/task contracts
+- `roadmap/`: proposed development phases
+- `styles.css`: shared responsive stylesheet
+- `assets/`: existing artwork
 
-## Publishing
+All navigation uses relative URLs for GitHub Pages project-site hosting. No build step or external dependencies.
 
-The site can be served from any static host. For GitHub Pages, if available for this private repository, select Settings → Pages → Deploy from a branch → main / (root). Review visibility before publishing.
-
-## Related projects
-
-- [Cunilab](https://github.com/cunilab)
-- [Cairn Memory](https://github.com/cunilab/cairn-memory)
+Related: [Cunilab](https://github.com/cunilab), [Cairn Memory](https://github.com/cunilab/cairn-memory).
