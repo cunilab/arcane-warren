@@ -76,8 +76,7 @@
     "pages": [
       "circles/abjuration/index.html",
       "delvers/aldric/index.html",
-      "delvers/index.html",
-      "delvers/kael/index.html"
+      "delvers/index.html"
     ]
   },
   "assets/images/characters/auren.svg": {
@@ -88,9 +87,7 @@
     "pages": [
       "circles/commerce/index.html",
       "delvers/auren/index.html",
-      "delvers/elara/index.html",
-      "delvers/index.html",
-      "delvers/valen/index.html"
+      "delvers/index.html"
     ]
   },
   "assets/images/characters/cyra.svg": {
@@ -101,9 +98,7 @@
     "pages": [
       "circles/divination/index.html",
       "delvers/cyra/index.html",
-      "delvers/index.html",
-      "delvers/vesper/index.html",
-      "delvers/zephyr/index.html"
+      "delvers/index.html"
     ]
   },
   "assets/images/characters/dorian.svg": {
@@ -114,8 +109,7 @@
     "pages": [
       "circles/alchemy/index.html",
       "delvers/dorian/index.html",
-      "delvers/index.html",
-      "delvers/mira/index.html"
+      "delvers/index.html"
     ]
   },
   "assets/images/characters/elara.svg": {
@@ -125,10 +119,8 @@
     "description": "Individual Elara portrait; consistent character design.",
     "pages": [
       "circles/commerce/index.html",
-      "delvers/auren/index.html",
       "delvers/elara/index.html",
-      "delvers/index.html",
-      "delvers/valen/index.html"
+      "delvers/index.html"
     ]
   },
   "assets/images/characters/eldrin.svg": {
@@ -139,9 +131,7 @@
     "pages": [
       "circles/lore/index.html",
       "delvers/eldrin/index.html",
-      "delvers/index.html",
-      "delvers/orin/index.html",
-      "delvers/vaelis/index.html"
+      "delvers/index.html"
     ]
   },
   "assets/images/characters/eryx.svg": {
@@ -152,8 +142,7 @@
     "pages": [
       "circles/chronomancy/index.html",
       "delvers/eryx/index.html",
-      "delvers/index.html",
-      "delvers/sylwen/index.html"
+      "delvers/index.html"
     ]
   },
   "assets/images/characters/kael.svg": {
@@ -163,7 +152,6 @@
     "description": "Individual Kael portrait; consistent character design.",
     "pages": [
       "circles/abjuration/index.html",
-      "delvers/aldric/index.html",
       "delvers/index.html",
       "delvers/kael/index.html"
     ]
@@ -176,9 +164,7 @@
     "pages": [
       "circles/illusion/index.html",
       "delvers/index.html",
-      "delvers/kairen/index.html",
-      "delvers/lyra/index.html",
-      "delvers/morwen/index.html"
+      "delvers/kairen/index.html"
     ]
   },
   "assets/images/characters/keeper.svg": {
@@ -198,9 +184,7 @@
     "pages": [
       "circles/enchantment/index.html",
       "delvers/index.html",
-      "delvers/liora/index.html",
-      "delvers/nyra/index.html",
-      "delvers/veyra/index.html"
+      "delvers/liora/index.html"
     ]
   },
   "assets/images/characters/lucerna.svg": {
@@ -220,9 +204,7 @@
     "pages": [
       "circles/illusion/index.html",
       "delvers/index.html",
-      "delvers/kairen/index.html",
-      "delvers/lyra/index.html",
-      "delvers/morwen/index.html"
+      "delvers/lyra/index.html"
     ]
   },
   "assets/images/characters/magnus.svg": {
@@ -233,8 +215,7 @@
     "pages": [
       "circles/artifice/index.html",
       "delvers/index.html",
-      "delvers/magnus/index.html",
-      "delvers/rune/index.html"
+      "delvers/magnus/index.html"
     ]
   },
   "assets/images/characters/mira.svg": {
@@ -244,7 +225,6 @@
     "description": "Individual Mira portrait; consistent character design.",
     "pages": [
       "circles/alchemy/index.html",
-      "delvers/dorian/index.html",
       "delvers/index.html",
       "delvers/mira/index.html"
     ]
@@ -257,8 +237,6 @@
     "pages": [
       "circles/illusion/index.html",
       "delvers/index.html",
-      "delvers/kairen/index.html",
-      "delvers/lyra/index.html",
       "delvers/morwen/index.html"
     ]
   },
@@ -270,9 +248,7 @@
     "pages": [
       "circles/enchantment/index.html",
       "delvers/index.html",
-      "delvers/liora/index.html",
-      "delvers/nyra/index.html",
-      "delvers/veyra/index.html"
+      "delvers/nyra/index.html"
     ]
   },
   "assets/images/characters/orin.svg": {
@@ -282,10 +258,8 @@
     "description": "Individual Orin portrait; consistent character design.",
     "pages": [
       "circles/lore/index.html",
-      "delvers/eldrin/index.html",
       "delvers/index.html",
-      "delvers/orin/index.html",
-      "delvers/vaelis/index.html"
+      "delvers/orin/index.html"
     ]
   },
   "assets/images/characters/rune.svg": {
@@ -296,7 +270,6 @@
     "pages": [
       "circles/artifice/index.html",
       "delvers/index.html",
-      "delvers/magnus/index.html",
       "delvers/rune/index.html"
     ]
   },
@@ -307,7 +280,6 @@
     "description": "Individual Sylwen portrait; consistent character design.",
     "pages": [
       "circles/chronomancy/index.html",
-      "delvers/eryx/index.html",
       "delvers/index.html",
       "delvers/sylwen/index.html"
     ]
@@ -320,8 +292,6 @@
     "pages": [
       "circles/artifice/index.html",
       "delvers/index.html",
-      "delvers/magnus/index.html",
-      "delvers/rune/index.html",
       "delvers/thalos/index.html"
     ]
   },
@@ -332,9 +302,7 @@
     "description": "Individual Vaelis portrait; consistent character design.",
     "pages": [
       "circles/lore/index.html",
-      "delvers/eldrin/index.html",
       "delvers/index.html",
-      "delvers/orin/index.html",
       "delvers/vaelis/index.html"
     ]
   },
@@ -345,8 +313,6 @@
     "description": "Individual Valen portrait; consistent character design.",
     "pages": [
       "circles/commerce/index.html",
-      "delvers/auren/index.html",
-      "delvers/elara/index.html",
       "delvers/index.html",
       "delvers/valen/index.html"
     ]
@@ -358,10 +324,8 @@
     "description": "Individual Vesper portrait; consistent character design.",
     "pages": [
       "circles/divination/index.html",
-      "delvers/cyra/index.html",
       "delvers/index.html",
-      "delvers/vesper/index.html",
-      "delvers/zephyr/index.html"
+      "delvers/vesper/index.html"
     ]
   },
   "assets/images/characters/veyra.svg": {
@@ -372,8 +336,6 @@
     "pages": [
       "circles/enchantment/index.html",
       "delvers/index.html",
-      "delvers/liora/index.html",
-      "delvers/nyra/index.html",
       "delvers/veyra/index.html"
     ]
   },
@@ -384,9 +346,7 @@
     "description": "Individual Zephyr portrait; consistent character design.",
     "pages": [
       "circles/divination/index.html",
-      "delvers/cyra/index.html",
       "delvers/index.html",
-      "delvers/vesper/index.html",
       "delvers/zephyr/index.html"
     ]
   },
@@ -534,6 +494,24 @@
       "roadmap/index.html"
     ]
   },
+  "assets/images/scenes/aldric-workspace.svg": {
+    "label": "Aldric — Hall of Trials",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Aldric. An independent sentinel with a stamped verification seal, test instruments and orderly evidence boards in a quiet hall. Placeholder only.",
+    "pages": [
+      "delvers/aldric/index.html"
+    ]
+  },
+  "assets/images/scenes/auren-workspace.svg": {
+    "label": "Auren — Vault of Measures",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Auren. A disciplined treasurer with balanced scales, orderly ledgers and restrained antique gold in a quiet accounting vault. Placeholder only.",
+    "pages": [
+      "delvers/auren/index.html"
+    ]
+  },
   "assets/images/scenes/cairn-memory.svg": {
     "label": "Cairn Memory",
     "width": 1200,
@@ -542,6 +520,123 @@
     "pages": [
       "index.html",
       "memory/index.html"
+    ]
+  },
+  "assets/images/scenes/cyra-workspace.svg": {
+    "label": "Cyra — Observatory of Questions",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Cyra. A quiet oracle at an astronomical observatory with open manuscripts, a luminous eye-like lens and star maps used as metaphors for inquiry. Placeholder only.",
+    "pages": [
+      "delvers/cyra/index.html"
+    ]
+  },
+  "assets/images/scenes/dorian-workspace.svg": {
+    "label": "Dorian — The Foundry",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Dorian. A grounded forg​​emaster in protective work attire among furnaces, gauges, material samples and carefully organized production stations. Placeholder only.",
+    "pages": [
+      "delvers/dorian/index.html"
+    ]
+  },
+  "assets/images/scenes/elara-workspace.svg": {
+    "label": "Elara — Chamber of Welcome",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Elara. A welcoming arcane envoy in warm muted garments with sealed correspondence, an open doorway and a calm listening chamber. Placeholder only.",
+    "pages": [
+      "delvers/elara/index.html"
+    ]
+  },
+  "assets/images/scenes/eldrin-workspace.svg": {
+    "label": "Eldrin — Council Library",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Eldrin. A thoughtful sage in a quiet council library with multiple open manuscripts, a modest guiding lantern and overlapping maps of perspectives. Placeholder only.",
+    "pages": [
+      "delvers/eldrin/index.html"
+    ]
+  },
+  "assets/images/scenes/eryx-workspace.svg": {
+    "label": "Eryx — Chamber of Hours",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Eryx. A chronomancer with a restrained mechanical dial, sequencing charts and interconnected time markers in a dark observatory-like planning room. Placeholder only.",
+    "pages": [
+      "delvers/eryx/index.html"
+    ]
+  },
+  "assets/images/scenes/kael-workspace.svg": {
+    "label": "Kael — Gatehouse of Wards",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Kael. A restrained arcane guardian in dark protective attire with geometric wardstones, gate mechanisms and a carefully mapped boundary diagram. Placeholder only.",
+    "pages": [
+      "delvers/kael/index.html"
+    ]
+  },
+  "assets/images/scenes/kairen-workspace.svg": {
+    "label": "Kairen — The Lantern Theater",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Kairen. A media conjurer with a dark theater, floating rectangular frames, optical lanterns and carefully arranged editing instruments. Placeholder only.",
+    "pages": [
+      "delvers/kairen/index.html"
+    ]
+  },
+  "assets/images/scenes/liora-workspace.svg": {
+    "label": "Liora — Storyloom Archive",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Liora. An arcane storyteller with luminous quill, layered parchment and threads of ink woven into a restrained dark fantasy library. Placeholder only.",
+    "pages": [
+      "delvers/liora/index.html"
+    ]
+  },
+  "assets/images/scenes/lyra-workspace.svg": {
+    "label": "Lyra — Prismatic Atelier",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Lyra. A poised illusionist in an atelier of restrained violet prisms, color studies, translucent planes and elegant visual compositions. Placeholder only.",
+    "pages": [
+      "delvers/lyra/index.html"
+    ]
+  },
+  "assets/images/scenes/magnus-workspace.svg": {
+    "label": "Magnus — Hall of Blueprints",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Magnus. A meticulous arcane architect with measuring compass, architectural drawings and suspended geometric models in a vaulted drafting chamber. Placeholder only.",
+    "pages": [
+      "delvers/magnus/index.html"
+    ]
+  },
+  "assets/images/scenes/mira-workspace.svg": {
+    "label": "Mira — Laboratory of Transformations",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Mira. A pragmatic alchemist with labeled vessels, prototype objects, experiment notes and restrained green-violet glow in a practical laboratory. Placeholder only.",
+    "pages": [
+      "delvers/mira/index.html"
+    ]
+  },
+  "assets/images/scenes/morwen-workspace.svg": {
+    "label": "Morwen — Chamber of Forms",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Morwen. An arcane sculptor with faceted models, measuring instruments, carved geometric objects and a practical fabrication bench. Placeholder only.",
+    "pages": [
+      "delvers/morwen/index.html"
+    ]
+  },
+  "assets/images/scenes/nyra-workspace.svg": {
+    "label": "Nyra — Gallery of Echoes",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Nyra. An alert messenger in layered midnight-violet garments, surrounded by delicate threads connecting illuminated message panels and listening alcoves. Placeholder only.",
+    "pages": [
+      "delvers/nyra/index.html"
     ]
   },
   "assets/images/scenes/origin.svg": {
@@ -555,6 +650,15 @@
       "philosophy/index.html"
     ]
   },
+  "assets/images/scenes/orin-workspace.svg": {
+    "label": "Orin — Atlas of Landmarks",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Orin. A knowledge cartographer with layered maps, indexed cairn landmarks and interconnected archival shelves, restrained sage and violet tones. Placeholder only.",
+    "pages": [
+      "delvers/orin/index.html"
+    ]
+  },
   "assets/images/scenes/product-expedition.svg": {
     "label": "Product expedition",
     "width": 1200,
@@ -563,6 +667,24 @@
     "pages": [
       "expeditions/index.html",
       "index.html"
+    ]
+  },
+  "assets/images/scenes/rune-workspace.svg": {
+    "label": "Rune — Scriptorium of Mechanisms",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Rune. A practical runesmith in dark ink-stained workwear, surrounded by etched plates, orderly code-like inscriptions and articulated mechanisms. Avoid literal unreadable code as decoration. Placeholder only.",
+    "pages": [
+      "delvers/rune/index.html"
+    ]
+  },
+  "assets/images/scenes/sylwen-workspace.svg": {
+    "label": "Sylwen — Loom of Rituals",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Sylwen. A workflow weaver at a mechanical loom of interlocking threads and structured runic circuits, with teal-violet highlights. Placeholder only.",
+    "pages": [
+      "delvers/sylwen/index.html"
     ]
   },
   "assets/images/scenes/thalos-workshop.svg": {
@@ -574,6 +696,42 @@
       "delvers/thalos/index.html"
     ]
   },
+  "assets/images/scenes/vaelis-workspace.svg": {
+    "label": "Vaelis — Archive of Decisions",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Vaelis. A chronicler at a dark archive desk, with bound volumes, precise ink markings and a luminous seal on organized decision records. Placeholder only.",
+    "pages": [
+      "delvers/vaelis/index.html"
+    ]
+  },
+  "assets/images/scenes/valen-workspace.svg": {
+    "label": "Valen — Hall of Exchange",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Valen. An elegant but practical arcane merchant with trade ledgers, balanced tokens and a dark marketplace map rather than extravagant treasure. Placeholder only.",
+    "pages": [
+      "delvers/valen/index.html"
+    ]
+  },
+  "assets/images/scenes/vesper-workspace.svg": {
+    "label": "Vesper — Chamber of Measures",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Vesper. A precise seer surrounded by measured constellations, calibrated lenses and clean geometric data diagrams in a dark blue observatory. Placeholder only.",
+    "pages": [
+      "delvers/vesper/index.html"
+    ]
+  },
+  "assets/images/scenes/veyra-workspace.svg": {
+    "label": "Veyra — Chamber of Resonance",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Veyra. A composed arcane strategist surrounded by resonance rings, audience maps and illuminated communication scrolls; refined violet textiles and warm brass. Placeholder only.",
+    "pages": [
+      "delvers/veyra/index.html"
+    ]
+  },
   "assets/images/scenes/warren-hero.svg": {
     "label": "Warren hero",
     "width": 1200,
@@ -581,6 +739,15 @@
     "description": "Main hero artwork: interconnected arcane realm.",
     "pages": [
       "index.html"
+    ]
+  },
+  "assets/images/scenes/zephyr-workspace.svg": {
+    "label": "Zephyr — Frontier Map Room",
+    "width": 1200,
+    "height": 900,
+    "description": "Workspace concept for Zephyr. A frontier pathfinder in practical dark traveling attire, with windrose, maps, directional instruments and distant passages. Placeholder only.",
+    "pages": [
+      "delvers/zephyr/index.html"
     ]
   }
 }

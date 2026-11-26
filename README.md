@@ -25,7 +25,7 @@ Commit generated pages alongside source changes. GitHub Pages serves the checked
 
 ## Artwork
 
-All 46 artwork slots are placeholders. See [the artwork checklist](assets/ASSET-MANIFEST.md) for dimensions and placements. No finished artwork is supplied. To replace a placeholder with your own SVG, PNG, JPG or WebP:
+All 70 artwork slots are placeholders. See [the artwork checklist](assets/ASSET-MANIFEST.md) for dimensions and placements. No finished artwork is supplied. To replace a placeholder with your own SVG, PNG, JPG or WebP:
 
 ```sh
 python3 scripts/replace_asset.py characters/veyra /path/to/veyra.webp
