@@ -1,0 +1,324 @@
+{
+  "brand/mark": {
+    "path": "assets/images/brand/mark.svg",
+    "label": "Brand mark",
+    "width": 512,
+    "height": 512,
+    "description": "Square logo mark / favicon; transparent background preferred."
+  },
+  "brand/wordmark": {
+    "path": "assets/images/brand/wordmark.svg",
+    "label": "Full brand logo",
+    "width": 1000,
+    "height": 400,
+    "description": "Full logo or wordmark; transparent background preferred."
+  },
+  "characters/aldric": {
+    "path": "assets/images/characters/aldric.svg",
+    "label": "Aldric",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Aldric portrait; consistent character design."
+  },
+  "characters/auren": {
+    "path": "assets/images/characters/auren.svg",
+    "label": "Auren",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Auren portrait; consistent character design."
+  },
+  "characters/cyra": {
+    "path": "assets/images/characters/cyra.svg",
+    "label": "Cyra",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Cyra portrait; consistent character design."
+  },
+  "characters/dorian": {
+    "path": "assets/images/characters/dorian.svg",
+    "label": "Dorian",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Dorian portrait; consistent character design."
+  },
+  "characters/elara": {
+    "path": "assets/images/characters/elara.svg",
+    "label": "Elara",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Elara portrait; consistent character design."
+  },
+  "characters/eldrin": {
+    "path": "assets/images/characters/eldrin.svg",
+    "label": "Eldrin",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Eldrin portrait; consistent character design."
+  },
+  "characters/eryx": {
+    "path": "assets/images/characters/eryx.svg",
+    "label": "Eryx",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Eryx portrait; consistent character design."
+  },
+  "characters/kael": {
+    "path": "assets/images/characters/kael.svg",
+    "label": "Kael",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Kael portrait; consistent character design."
+  },
+  "characters/kairen": {
+    "path": "assets/images/characters/kairen.svg",
+    "label": "Kairen",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Kairen portrait; consistent character design."
+  },
+  "characters/keeper": {
+    "path": "assets/images/characters/keeper.svg",
+    "label": "The Keeper",
+    "width": 900,
+    "height": 1200,
+    "description": "Symbolic human authority portrait."
+  },
+  "characters/liora": {
+    "path": "assets/images/characters/liora.svg",
+    "label": "Liora",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Liora portrait; consistent character design."
+  },
+  "characters/lucerna": {
+    "path": "assets/images/characters/lucerna.svg",
+    "label": "Lucerna",
+    "width": 900,
+    "height": 1200,
+    "description": "Lightkeeper portrait."
+  },
+  "characters/lyra": {
+    "path": "assets/images/characters/lyra.svg",
+    "label": "Lyra",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Lyra portrait; consistent character design."
+  },
+  "characters/magnus": {
+    "path": "assets/images/characters/magnus.svg",
+    "label": "Magnus",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Magnus portrait; consistent character design."
+  },
+  "characters/mira": {
+    "path": "assets/images/characters/mira.svg",
+    "label": "Mira",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Mira portrait; consistent character design."
+  },
+  "characters/morwen": {
+    "path": "assets/images/characters/morwen.svg",
+    "label": "Morwen",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Morwen portrait; consistent character design."
+  },
+  "characters/nyra": {
+    "path": "assets/images/characters/nyra.svg",
+    "label": "Nyra",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Nyra portrait; consistent character design."
+  },
+  "characters/orin": {
+    "path": "assets/images/characters/orin.svg",
+    "label": "Orin",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Orin portrait; consistent character design."
+  },
+  "characters/rune": {
+    "path": "assets/images/characters/rune.svg",
+    "label": "Rune",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Rune portrait; consistent character design."
+  },
+  "characters/sylwen": {
+    "path": "assets/images/characters/sylwen.svg",
+    "label": "Sylwen",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Sylwen portrait; consistent character design."
+  },
+  "characters/thalos": {
+    "path": "assets/images/characters/thalos.svg",
+    "label": "Thalos",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Thalos portrait; consistent character design."
+  },
+  "characters/vaelis": {
+    "path": "assets/images/characters/vaelis.svg",
+    "label": "Vaelis",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Vaelis portrait; consistent character design."
+  },
+  "characters/valen": {
+    "path": "assets/images/characters/valen.svg",
+    "label": "Valen",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Valen portrait; consistent character design."
+  },
+  "characters/vesper": {
+    "path": "assets/images/characters/vesper.svg",
+    "label": "Vesper",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Vesper portrait; consistent character design."
+  },
+  "characters/veyra": {
+    "path": "assets/images/characters/veyra.svg",
+    "label": "Veyra",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Veyra portrait; consistent character design."
+  },
+  "characters/zephyr": {
+    "path": "assets/images/characters/zephyr.svg",
+    "label": "Zephyr",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Zephyr portrait; consistent character design."
+  },
+  "circles/abjuration": {
+    "path": "assets/images/circles/abjuration.svg",
+    "label": "Circle of Abjuration",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Abjuration."
+  },
+  "circles/alchemy": {
+    "path": "assets/images/circles/alchemy.svg",
+    "label": "Circle of Alchemy",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Alchemy."
+  },
+  "circles/artifice": {
+    "path": "assets/images/circles/artifice.svg",
+    "label": "Circle of Artifice",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Artifice."
+  },
+  "circles/chronomancy": {
+    "path": "assets/images/circles/chronomancy.svg",
+    "label": "Circle of Chronomancy",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Chronomancy."
+  },
+  "circles/commerce": {
+    "path": "assets/images/circles/commerce.svg",
+    "label": "Circle of Commerce",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Commerce."
+  },
+  "circles/divination": {
+    "path": "assets/images/circles/divination.svg",
+    "label": "Circle of Divination",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Divination."
+  },
+  "circles/enchantment": {
+    "path": "assets/images/circles/enchantment.svg",
+    "label": "Circle of Enchantment",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Enchantment."
+  },
+  "circles/illusion": {
+    "path": "assets/images/circles/illusion.svg",
+    "label": "Circle of Illusion",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Illusion."
+  },
+  "circles/lore": {
+    "path": "assets/images/circles/lore.svg",
+    "label": "Circle of Lore",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Lore."
+  },
+  "diagrams/delver-anatomy": {
+    "path": "assets/images/diagrams/delver-anatomy.svg",
+    "label": "Delver anatomy",
+    "width": 1600,
+    "height": 900,
+    "description": "Identity, skills, tools, permissions and outputs."
+  },
+  "diagrams/expedition-lifecycle": {
+    "path": "assets/images/diagrams/expedition-lifecycle.svg",
+    "label": "Expedition lifecycle",
+    "width": 1600,
+    "height": 900,
+    "description": "Seven-stage expedition diagram."
+  },
+  "diagrams/memory-lifecycle": {
+    "path": "assets/images/diagrams/memory-lifecycle.svg",
+    "label": "Memory lifecycle",
+    "width": 1600,
+    "height": 900,
+    "description": "Recall, Explore, Distill, Preserve."
+  },
+  "diagrams/orchestration": {
+    "path": "assets/images/diagrams/orchestration.svg",
+    "label": "Orchestration overview",
+    "width": 1600,
+    "height": 900,
+    "description": "Keeper, Lucerna, Circles and Cairn. HTML diagram remains."
+  },
+  "diagrams/roadmap": {
+    "path": "assets/images/diagrams/roadmap.svg",
+    "label": "Development roadmap",
+    "width": 1600,
+    "height": 900,
+    "description": "Four-phase roadmap; no invented dates."
+  },
+  "scenes/cairn-memory": {
+    "path": "assets/images/scenes/cairn-memory.svg",
+    "label": "Cairn Memory",
+    "width": 1200,
+    "height": 675,
+    "description": "Memory landmark illustration."
+  },
+  "scenes/origin": {
+    "path": "assets/images/scenes/origin.svg",
+    "label": "Cunilab origin",
+    "width": 1200,
+    "height": 675,
+    "description": "Rabbit hole, curiosity and discovery."
+  },
+  "scenes/product-expedition": {
+    "path": "assets/images/scenes/product-expedition.svg",
+    "label": "Product expedition",
+    "width": 1200,
+    "height": 675,
+    "description": "Product launch collaboration illustration."
+  },
+  "scenes/warren-hero": {
+    "path": "assets/images/scenes/warren-hero.svg",
+    "label": "Warren hero",
+    "width": 1200,
+    "height": 1000,
+    "description": "Main hero artwork: interconnected arcane realm."
+  }
+}

@@ -2,30 +2,39 @@
 
 Many paths. Shared discoveries.
 
-A Cunilab concept-stage project for human-guided multi-agent collaboration. This repository hosts the static project website; no agent runtime or Cairn integration is implemented here.
+A Cunilab concept-stage project for human-guided multi-agent collaboration. This repository hosts a static website and foundation blueprint; no agent runtime or Cairn integration is implemented here.
 
-## Preview
+## Preview and edit
 
-Run `python3 -m http.server 8000` from the repository root and visit http://localhost:8000.
+The generated website requires no build step to serve on GitHub Pages.
 
-## Website
+```sh
+python3 -m http.server 8000
+```
 
-- `index.html`: overview
-- `philosophy/`: origin, name, creed
-- `circles/`: directory and nine discipline pages
-- `delvers/`: individual worker profiles
-- `orchestration/`: proposed coordination and authority model
-- `memory/`: Cairn Memory integration plan
-- `expeditions/`: lifecycle and illustrative collaboration
-- `guide/`: vocabulary and agent/task contracts
-- `roadmap/`: proposed development phases
-- `styles.css`: shared responsive stylesheet
-- `assets/`: existing artwork
+Open http://localhost:8000.
 
-All navigation uses relative URLs for GitHub Pages project-site hosting. No build step or external dependencies.
+Edit `site/content.json` for Circle and Delver information, `site/assets.json` for artwork paths, `site/build.mjs` for shared layout and content, and `styles.css` or `site.js` for presentation and filtering. Regenerate and audit with Node.js and Python 3:
 
-Related: [Cunilab](https://github.com/cunilab), [Cairn Memory](https://github.com/cunilab/cairn-memory).
+```sh
+node site/build.mjs
+python3 scripts/check_site.py
+```
+
+Commit generated pages alongside source changes. GitHub Pages serves the checked-in static output from main.
 
 ## Artwork
 
-All site artwork is represented by labeled placeholders in `assets/images/`. See [the asset checklist](assets/ASSET-MANIFEST.md) for recommended dimensions, intended subject and placements. Replace SVGs directly, or run `python3 scripts/replace_asset.py <registered-path> <your-image>` for PNG, JPG or WebP artwork. The script updates references across all registered pages. Original artwork files remain unused. No finished artwork was added.
+All 46 artwork slots are placeholders. See [the artwork checklist](assets/ASSET-MANIFEST.md) for dimensions and placements. No finished artwork is supplied. To replace a placeholder with your own SVG, PNG, JPG or WebP:
+
+```sh
+python3 scripts/replace_asset.py characters/veyra /path/to/veyra.webp
+python3 scripts/check_site.py
+```
+
+The registry and generated pages are updated together. Original unused SVG files remain for history.
+
+## Related
+
+- [Cunilab](https://github.com/cunilab)
+- [Cairn Memory](https://github.com/cunilab/cairn-memory)

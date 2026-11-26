@@ -5,47 +5,58 @@
     "height": 512,
     "description": "Square logo mark / favicon; transparent background preferred.",
     "pages": [
-      "index.html",
-      "circles/index.html",
-      "philosophy/index.html",
-      "orchestration/index.html",
-      "memory/index.html",
-      "expeditions/index.html",
-      "guide/index.html",
-      "roadmap/index.html",
+      "404.html",
+      "architecture/index.html",
+      "capabilities/index.html",
+      "circles/abjuration/index.html",
+      "circles/alchemy/index.html",
       "circles/artifice/index.html",
+      "circles/chronomancy/index.html",
+      "circles/commerce/index.html",
+      "circles/divination/index.html",
       "circles/enchantment/index.html",
       "circles/illusion/index.html",
-      "circles/divination/index.html",
-      "circles/alchemy/index.html",
-      "circles/commerce/index.html",
-      "circles/abjuration/index.html",
-      "circles/chronomancy/index.html",
+      "circles/index.html",
       "circles/lore/index.html",
-      "delvers/thalos/index.html",
-      "delvers/rune/index.html",
-      "delvers/magnus/index.html",
-      "delvers/veyra/index.html",
-      "delvers/nyra/index.html",
+      "covenants/index.html",
+      "delvers/aldric/index.html",
+      "delvers/auren/index.html",
+      "delvers/cyra/index.html",
+      "delvers/dorian/index.html",
+      "delvers/elara/index.html",
+      "delvers/eldrin/index.html",
+      "delvers/eryx/index.html",
+      "delvers/index.html",
+      "delvers/kael/index.html",
+      "delvers/kairen/index.html",
       "delvers/liora/index.html",
       "delvers/lyra/index.html",
-      "delvers/morwen/index.html",
-      "delvers/kairen/index.html",
-      "delvers/cyra/index.html",
-      "delvers/vesper/index.html",
-      "delvers/zephyr/index.html",
+      "delvers/magnus/index.html",
       "delvers/mira/index.html",
-      "delvers/dorian/index.html",
-      "delvers/valen/index.html",
-      "delvers/auren/index.html",
-      "delvers/elara/index.html",
-      "delvers/kael/index.html",
-      "delvers/aldric/index.html",
-      "delvers/eryx/index.html",
-      "delvers/sylwen/index.html",
+      "delvers/morwen/index.html",
+      "delvers/nyra/index.html",
       "delvers/orin/index.html",
+      "delvers/rune/index.html",
+      "delvers/sylwen/index.html",
+      "delvers/thalos/index.html",
       "delvers/vaelis/index.html",
-      "delvers/eldrin/index.html"
+      "delvers/valen/index.html",
+      "delvers/vesper/index.html",
+      "delvers/veyra/index.html",
+      "delvers/zephyr/index.html",
+      "ecosystem/index.html",
+      "expeditions/index.html",
+      "grimoire/index.html",
+      "guide/index.html",
+      "index.html",
+      "keeper/index.html",
+      "lore/index.html",
+      "lucerna/index.html",
+      "memory/index.html",
+      "orchestration/index.html",
+      "philosophy/index.html",
+      "quests/index.html",
+      "roadmap/index.html"
     ]
   },
   "assets/images/brand/wordmark.svg": {
@@ -64,7 +75,9 @@
     "description": "Individual Aldric portrait; consistent character design.",
     "pages": [
       "circles/abjuration/index.html",
-      "delvers/aldric/index.html"
+      "delvers/aldric/index.html",
+      "delvers/index.html",
+      "delvers/kael/index.html"
     ]
   },
   "assets/images/characters/auren.svg": {
@@ -74,7 +87,10 @@
     "description": "Individual Auren portrait; consistent character design.",
     "pages": [
       "circles/commerce/index.html",
-      "delvers/auren/index.html"
+      "delvers/auren/index.html",
+      "delvers/elara/index.html",
+      "delvers/index.html",
+      "delvers/valen/index.html"
     ]
   },
   "assets/images/characters/cyra.svg": {
@@ -84,7 +100,10 @@
     "description": "Individual Cyra portrait; consistent character design.",
     "pages": [
       "circles/divination/index.html",
-      "delvers/cyra/index.html"
+      "delvers/cyra/index.html",
+      "delvers/index.html",
+      "delvers/vesper/index.html",
+      "delvers/zephyr/index.html"
     ]
   },
   "assets/images/characters/dorian.svg": {
@@ -94,7 +113,9 @@
     "description": "Individual Dorian portrait; consistent character design.",
     "pages": [
       "circles/alchemy/index.html",
-      "delvers/dorian/index.html"
+      "delvers/dorian/index.html",
+      "delvers/index.html",
+      "delvers/mira/index.html"
     ]
   },
   "assets/images/characters/elara.svg": {
@@ -104,7 +125,10 @@
     "description": "Individual Elara portrait; consistent character design.",
     "pages": [
       "circles/commerce/index.html",
-      "delvers/elara/index.html"
+      "delvers/auren/index.html",
+      "delvers/elara/index.html",
+      "delvers/index.html",
+      "delvers/valen/index.html"
     ]
   },
   "assets/images/characters/eldrin.svg": {
@@ -114,7 +138,10 @@
     "description": "Individual Eldrin portrait; consistent character design.",
     "pages": [
       "circles/lore/index.html",
-      "delvers/eldrin/index.html"
+      "delvers/eldrin/index.html",
+      "delvers/index.html",
+      "delvers/orin/index.html",
+      "delvers/vaelis/index.html"
     ]
   },
   "assets/images/characters/eryx.svg": {
@@ -124,7 +151,9 @@
     "description": "Individual Eryx portrait; consistent character design.",
     "pages": [
       "circles/chronomancy/index.html",
-      "delvers/eryx/index.html"
+      "delvers/eryx/index.html",
+      "delvers/index.html",
+      "delvers/sylwen/index.html"
     ]
   },
   "assets/images/characters/kael.svg": {
@@ -134,6 +163,8 @@
     "description": "Individual Kael portrait; consistent character design.",
     "pages": [
       "circles/abjuration/index.html",
+      "delvers/aldric/index.html",
+      "delvers/index.html",
       "delvers/kael/index.html"
     ]
   },
@@ -144,7 +175,10 @@
     "description": "Individual Kairen portrait; consistent character design.",
     "pages": [
       "circles/illusion/index.html",
-      "delvers/kairen/index.html"
+      "delvers/index.html",
+      "delvers/kairen/index.html",
+      "delvers/lyra/index.html",
+      "delvers/morwen/index.html"
     ]
   },
   "assets/images/characters/keeper.svg": {
@@ -153,7 +187,7 @@
     "height": 1200,
     "description": "Symbolic human authority portrait.",
     "pages": [
-      "orchestration/index.html"
+      "keeper/index.html"
     ]
   },
   "assets/images/characters/liora.svg": {
@@ -163,7 +197,10 @@
     "description": "Individual Liora portrait; consistent character design.",
     "pages": [
       "circles/enchantment/index.html",
-      "delvers/liora/index.html"
+      "delvers/index.html",
+      "delvers/liora/index.html",
+      "delvers/nyra/index.html",
+      "delvers/veyra/index.html"
     ]
   },
   "assets/images/characters/lucerna.svg": {
@@ -172,7 +209,7 @@
     "height": 1200,
     "description": "Lightkeeper portrait.",
     "pages": [
-      "orchestration/index.html"
+      "lucerna/index.html"
     ]
   },
   "assets/images/characters/lyra.svg": {
@@ -182,7 +219,10 @@
     "description": "Individual Lyra portrait; consistent character design.",
     "pages": [
       "circles/illusion/index.html",
-      "delvers/lyra/index.html"
+      "delvers/index.html",
+      "delvers/kairen/index.html",
+      "delvers/lyra/index.html",
+      "delvers/morwen/index.html"
     ]
   },
   "assets/images/characters/magnus.svg": {
@@ -192,7 +232,10 @@
     "description": "Individual Magnus portrait; consistent character design.",
     "pages": [
       "circles/artifice/index.html",
-      "delvers/magnus/index.html"
+      "delvers/index.html",
+      "delvers/magnus/index.html",
+      "delvers/rune/index.html",
+      "delvers/thalos/index.html"
     ]
   },
   "assets/images/characters/mira.svg": {
@@ -202,6 +245,8 @@
     "description": "Individual Mira portrait; consistent character design.",
     "pages": [
       "circles/alchemy/index.html",
+      "delvers/dorian/index.html",
+      "delvers/index.html",
       "delvers/mira/index.html"
     ]
   },
@@ -212,6 +257,9 @@
     "description": "Individual Morwen portrait; consistent character design.",
     "pages": [
       "circles/illusion/index.html",
+      "delvers/index.html",
+      "delvers/kairen/index.html",
+      "delvers/lyra/index.html",
       "delvers/morwen/index.html"
     ]
   },
@@ -222,7 +270,10 @@
     "description": "Individual Nyra portrait; consistent character design.",
     "pages": [
       "circles/enchantment/index.html",
-      "delvers/nyra/index.html"
+      "delvers/index.html",
+      "delvers/liora/index.html",
+      "delvers/nyra/index.html",
+      "delvers/veyra/index.html"
     ]
   },
   "assets/images/characters/orin.svg": {
@@ -232,7 +283,10 @@
     "description": "Individual Orin portrait; consistent character design.",
     "pages": [
       "circles/lore/index.html",
-      "delvers/orin/index.html"
+      "delvers/eldrin/index.html",
+      "delvers/index.html",
+      "delvers/orin/index.html",
+      "delvers/vaelis/index.html"
     ]
   },
   "assets/images/characters/rune.svg": {
@@ -242,7 +296,10 @@
     "description": "Individual Rune portrait; consistent character design.",
     "pages": [
       "circles/artifice/index.html",
-      "delvers/rune/index.html"
+      "delvers/index.html",
+      "delvers/magnus/index.html",
+      "delvers/rune/index.html",
+      "delvers/thalos/index.html"
     ]
   },
   "assets/images/characters/sylwen.svg": {
@@ -252,6 +309,8 @@
     "description": "Individual Sylwen portrait; consistent character design.",
     "pages": [
       "circles/chronomancy/index.html",
+      "delvers/eryx/index.html",
+      "delvers/index.html",
       "delvers/sylwen/index.html"
     ]
   },
@@ -262,6 +321,9 @@
     "description": "Individual Thalos portrait; consistent character design.",
     "pages": [
       "circles/artifice/index.html",
+      "delvers/index.html",
+      "delvers/magnus/index.html",
+      "delvers/rune/index.html",
       "delvers/thalos/index.html"
     ]
   },
@@ -272,6 +334,9 @@
     "description": "Individual Vaelis portrait; consistent character design.",
     "pages": [
       "circles/lore/index.html",
+      "delvers/eldrin/index.html",
+      "delvers/index.html",
+      "delvers/orin/index.html",
       "delvers/vaelis/index.html"
     ]
   },
@@ -282,6 +347,9 @@
     "description": "Individual Valen portrait; consistent character design.",
     "pages": [
       "circles/commerce/index.html",
+      "delvers/auren/index.html",
+      "delvers/elara/index.html",
+      "delvers/index.html",
       "delvers/valen/index.html"
     ]
   },
@@ -292,7 +360,10 @@
     "description": "Individual Vesper portrait; consistent character design.",
     "pages": [
       "circles/divination/index.html",
-      "delvers/vesper/index.html"
+      "delvers/cyra/index.html",
+      "delvers/index.html",
+      "delvers/vesper/index.html",
+      "delvers/zephyr/index.html"
     ]
   },
   "assets/images/characters/veyra.svg": {
@@ -302,6 +373,9 @@
     "description": "Individual Veyra portrait; consistent character design.",
     "pages": [
       "circles/enchantment/index.html",
+      "delvers/index.html",
+      "delvers/liora/index.html",
+      "delvers/nyra/index.html",
       "delvers/veyra/index.html"
     ]
   },
@@ -312,6 +386,9 @@
     "description": "Individual Zephyr portrait; consistent character design.",
     "pages": [
       "circles/divination/index.html",
+      "delvers/cyra/index.html",
+      "delvers/index.html",
+      "delvers/vesper/index.html",
       "delvers/zephyr/index.html"
     ]
   },
@@ -321,9 +398,9 @@
     "height": 675,
     "description": "Discipline environment or symbolic illustration for Abjuration.",
     "pages": [
-      "index.html",
+      "circles/abjuration/index.html",
       "circles/index.html",
-      "circles/abjuration/index.html"
+      "index.html"
     ]
   },
   "assets/images/circles/alchemy.svg": {
@@ -332,9 +409,9 @@
     "height": 675,
     "description": "Discipline environment or symbolic illustration for Alchemy.",
     "pages": [
-      "index.html",
+      "circles/alchemy/index.html",
       "circles/index.html",
-      "circles/alchemy/index.html"
+      "index.html"
     ]
   },
   "assets/images/circles/artifice.svg": {
@@ -343,9 +420,9 @@
     "height": 675,
     "description": "Discipline environment or symbolic illustration for Artifice.",
     "pages": [
-      "index.html",
+      "circles/artifice/index.html",
       "circles/index.html",
-      "circles/artifice/index.html"
+      "index.html"
     ]
   },
   "assets/images/circles/chronomancy.svg": {
@@ -354,9 +431,9 @@
     "height": 675,
     "description": "Discipline environment or symbolic illustration for Chronomancy.",
     "pages": [
-      "index.html",
+      "circles/chronomancy/index.html",
       "circles/index.html",
-      "circles/chronomancy/index.html"
+      "index.html"
     ]
   },
   "assets/images/circles/commerce.svg": {
@@ -365,9 +442,9 @@
     "height": 675,
     "description": "Discipline environment or symbolic illustration for Commerce.",
     "pages": [
-      "index.html",
+      "circles/commerce/index.html",
       "circles/index.html",
-      "circles/commerce/index.html"
+      "index.html"
     ]
   },
   "assets/images/circles/divination.svg": {
@@ -376,9 +453,9 @@
     "height": 675,
     "description": "Discipline environment or symbolic illustration for Divination.",
     "pages": [
-      "index.html",
+      "circles/divination/index.html",
       "circles/index.html",
-      "circles/divination/index.html"
+      "index.html"
     ]
   },
   "assets/images/circles/enchantment.svg": {
@@ -387,9 +464,9 @@
     "height": 675,
     "description": "Discipline environment or symbolic illustration for Enchantment.",
     "pages": [
-      "index.html",
+      "circles/enchantment/index.html",
       "circles/index.html",
-      "circles/enchantment/index.html"
+      "index.html"
     ]
   },
   "assets/images/circles/illusion.svg": {
@@ -398,9 +475,9 @@
     "height": 675,
     "description": "Discipline environment or symbolic illustration for Illusion.",
     "pages": [
-      "index.html",
+      "circles/illusion/index.html",
       "circles/index.html",
-      "circles/illusion/index.html"
+      "index.html"
     ]
   },
   "assets/images/circles/lore.svg": {
@@ -409,9 +486,9 @@
     "height": 675,
     "description": "Discipline environment or symbolic illustration for Lore.",
     "pages": [
-      "index.html",
       "circles/index.html",
-      "circles/lore/index.html"
+      "circles/lore/index.html",
+      "index.html"
     ]
   },
   "assets/images/diagrams/delver-anatomy.svg": {
@@ -447,7 +524,7 @@
     "height": 900,
     "description": "Keeper, Lucerna, Circles and Cairn. HTML diagram remains.",
     "pages": [
-      "orchestration/index.html"
+      "architecture/index.html"
     ]
   },
   "assets/images/diagrams/roadmap.svg": {
@@ -465,6 +542,7 @@
     "height": 675,
     "description": "Memory landmark illustration.",
     "pages": [
+      "index.html",
       "memory/index.html"
     ]
   },
@@ -475,6 +553,7 @@
     "description": "Rabbit hole, curiosity and discovery.",
     "pages": [
       "index.html",
+      "lore/index.html",
       "philosophy/index.html"
     ]
   },
@@ -484,7 +563,8 @@
     "height": 675,
     "description": "Product launch collaboration illustration.",
     "pages": [
-      "expeditions/index.html"
+      "expeditions/index.html",
+      "index.html"
     ]
   },
   "assets/images/scenes/warren-hero.svg": {
