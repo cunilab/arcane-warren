@@ -234,8 +234,7 @@
       "circles/artifice/index.html",
       "delvers/index.html",
       "delvers/magnus/index.html",
-      "delvers/rune/index.html",
-      "delvers/thalos/index.html"
+      "delvers/rune/index.html"
     ]
   },
   "assets/images/characters/mira.svg": {
@@ -298,8 +297,7 @@
       "circles/artifice/index.html",
       "delvers/index.html",
       "delvers/magnus/index.html",
-      "delvers/rune/index.html",
-      "delvers/thalos/index.html"
+      "delvers/rune/index.html"
     ]
   },
   "assets/images/characters/sylwen.svg": {
@@ -565,6 +563,15 @@
     "pages": [
       "expeditions/index.html",
       "index.html"
+    ]
+  },
+  "assets/images/scenes/thalos-workshop.svg": {
+    "label": "Thalos — Arcane workshop",
+    "width": 1200,
+    "height": 900,
+    "description": "Landscape concept art of Thalos's engineering workshop; practical machinery, manuscripts, bronze and ember accents. Placeholder only.",
+    "pages": [
+      "delvers/thalos/index.html"
     ]
   },
   "assets/images/scenes/warren-hero.svg": {

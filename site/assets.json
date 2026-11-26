@@ -320,5 +320,12 @@
     "width": 1200,
     "height": 1000,
     "description": "Main hero artwork: interconnected arcane realm."
+  },
+  "scenes/thalos-workshop": {
+    "path": "assets/images/scenes/thalos-workshop.svg",
+    "label": "Thalos — Arcane workshop",
+    "width": 1200,
+    "height": 900,
+    "description": "Landscape concept art of Thalos's engineering workshop; practical machinery, manuscripts, bronze and ember accents. Placeholder only."
   }
 }
