@@ -1,0 +1,499 @@
+{
+  "assets/images/brand/mark.svg": {
+    "label": "Brand mark",
+    "width": 512,
+    "height": 512,
+    "description": "Square logo mark / favicon; transparent background preferred.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "philosophy/index.html",
+      "orchestration/index.html",
+      "memory/index.html",
+      "expeditions/index.html",
+      "guide/index.html",
+      "roadmap/index.html",
+      "circles/artifice/index.html",
+      "circles/enchantment/index.html",
+      "circles/illusion/index.html",
+      "circles/divination/index.html",
+      "circles/alchemy/index.html",
+      "circles/commerce/index.html",
+      "circles/abjuration/index.html",
+      "circles/chronomancy/index.html",
+      "circles/lore/index.html",
+      "delvers/thalos/index.html",
+      "delvers/rune/index.html",
+      "delvers/magnus/index.html",
+      "delvers/veyra/index.html",
+      "delvers/nyra/index.html",
+      "delvers/liora/index.html",
+      "delvers/lyra/index.html",
+      "delvers/morwen/index.html",
+      "delvers/kairen/index.html",
+      "delvers/cyra/index.html",
+      "delvers/vesper/index.html",
+      "delvers/zephyr/index.html",
+      "delvers/mira/index.html",
+      "delvers/dorian/index.html",
+      "delvers/valen/index.html",
+      "delvers/auren/index.html",
+      "delvers/elara/index.html",
+      "delvers/kael/index.html",
+      "delvers/aldric/index.html",
+      "delvers/eryx/index.html",
+      "delvers/sylwen/index.html",
+      "delvers/orin/index.html",
+      "delvers/vaelis/index.html",
+      "delvers/eldrin/index.html"
+    ]
+  },
+  "assets/images/brand/wordmark.svg": {
+    "label": "Full brand logo",
+    "width": 1000,
+    "height": 400,
+    "description": "Full logo or wordmark; transparent background preferred.",
+    "pages": [
+      "index.html"
+    ]
+  },
+  "assets/images/characters/aldric.svg": {
+    "label": "Aldric",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Aldric portrait; consistent character design.",
+    "pages": [
+      "circles/abjuration/index.html",
+      "delvers/aldric/index.html"
+    ]
+  },
+  "assets/images/characters/auren.svg": {
+    "label": "Auren",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Auren portrait; consistent character design.",
+    "pages": [
+      "circles/commerce/index.html",
+      "delvers/auren/index.html"
+    ]
+  },
+  "assets/images/characters/cyra.svg": {
+    "label": "Cyra",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Cyra portrait; consistent character design.",
+    "pages": [
+      "circles/divination/index.html",
+      "delvers/cyra/index.html"
+    ]
+  },
+  "assets/images/characters/dorian.svg": {
+    "label": "Dorian",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Dorian portrait; consistent character design.",
+    "pages": [
+      "circles/alchemy/index.html",
+      "delvers/dorian/index.html"
+    ]
+  },
+  "assets/images/characters/elara.svg": {
+    "label": "Elara",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Elara portrait; consistent character design.",
+    "pages": [
+      "circles/commerce/index.html",
+      "delvers/elara/index.html"
+    ]
+  },
+  "assets/images/characters/eldrin.svg": {
+    "label": "Eldrin",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Eldrin portrait; consistent character design.",
+    "pages": [
+      "circles/lore/index.html",
+      "delvers/eldrin/index.html"
+    ]
+  },
+  "assets/images/characters/eryx.svg": {
+    "label": "Eryx",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Eryx portrait; consistent character design.",
+    "pages": [
+      "circles/chronomancy/index.html",
+      "delvers/eryx/index.html"
+    ]
+  },
+  "assets/images/characters/kael.svg": {
+    "label": "Kael",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Kael portrait; consistent character design.",
+    "pages": [
+      "circles/abjuration/index.html",
+      "delvers/kael/index.html"
+    ]
+  },
+  "assets/images/characters/kairen.svg": {
+    "label": "Kairen",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Kairen portrait; consistent character design.",
+    "pages": [
+      "circles/illusion/index.html",
+      "delvers/kairen/index.html"
+    ]
+  },
+  "assets/images/characters/keeper.svg": {
+    "label": "The Keeper",
+    "width": 900,
+    "height": 1200,
+    "description": "Symbolic human authority portrait.",
+    "pages": [
+      "orchestration/index.html"
+    ]
+  },
+  "assets/images/characters/liora.svg": {
+    "label": "Liora",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Liora portrait; consistent character design.",
+    "pages": [
+      "circles/enchantment/index.html",
+      "delvers/liora/index.html"
+    ]
+  },
+  "assets/images/characters/lucerna.svg": {
+    "label": "Lucerna",
+    "width": 900,
+    "height": 1200,
+    "description": "Lightkeeper portrait.",
+    "pages": [
+      "orchestration/index.html"
+    ]
+  },
+  "assets/images/characters/lyra.svg": {
+    "label": "Lyra",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Lyra portrait; consistent character design.",
+    "pages": [
+      "circles/illusion/index.html",
+      "delvers/lyra/index.html"
+    ]
+  },
+  "assets/images/characters/magnus.svg": {
+    "label": "Magnus",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Magnus portrait; consistent character design.",
+    "pages": [
+      "circles/artifice/index.html",
+      "delvers/magnus/index.html"
+    ]
+  },
+  "assets/images/characters/mira.svg": {
+    "label": "Mira",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Mira portrait; consistent character design.",
+    "pages": [
+      "circles/alchemy/index.html",
+      "delvers/mira/index.html"
+    ]
+  },
+  "assets/images/characters/morwen.svg": {
+    "label": "Morwen",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Morwen portrait; consistent character design.",
+    "pages": [
+      "circles/illusion/index.html",
+      "delvers/morwen/index.html"
+    ]
+  },
+  "assets/images/characters/nyra.svg": {
+    "label": "Nyra",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Nyra portrait; consistent character design.",
+    "pages": [
+      "circles/enchantment/index.html",
+      "delvers/nyra/index.html"
+    ]
+  },
+  "assets/images/characters/orin.svg": {
+    "label": "Orin",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Orin portrait; consistent character design.",
+    "pages": [
+      "circles/lore/index.html",
+      "delvers/orin/index.html"
+    ]
+  },
+  "assets/images/characters/rune.svg": {
+    "label": "Rune",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Rune portrait; consistent character design.",
+    "pages": [
+      "circles/artifice/index.html",
+      "delvers/rune/index.html"
+    ]
+  },
+  "assets/images/characters/sylwen.svg": {
+    "label": "Sylwen",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Sylwen portrait; consistent character design.",
+    "pages": [
+      "circles/chronomancy/index.html",
+      "delvers/sylwen/index.html"
+    ]
+  },
+  "assets/images/characters/thalos.svg": {
+    "label": "Thalos",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Thalos portrait; consistent character design.",
+    "pages": [
+      "circles/artifice/index.html",
+      "delvers/thalos/index.html"
+    ]
+  },
+  "assets/images/characters/vaelis.svg": {
+    "label": "Vaelis",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Vaelis portrait; consistent character design.",
+    "pages": [
+      "circles/lore/index.html",
+      "delvers/vaelis/index.html"
+    ]
+  },
+  "assets/images/characters/valen.svg": {
+    "label": "Valen",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Valen portrait; consistent character design.",
+    "pages": [
+      "circles/commerce/index.html",
+      "delvers/valen/index.html"
+    ]
+  },
+  "assets/images/characters/vesper.svg": {
+    "label": "Vesper",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Vesper portrait; consistent character design.",
+    "pages": [
+      "circles/divination/index.html",
+      "delvers/vesper/index.html"
+    ]
+  },
+  "assets/images/characters/veyra.svg": {
+    "label": "Veyra",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Veyra portrait; consistent character design.",
+    "pages": [
+      "circles/enchantment/index.html",
+      "delvers/veyra/index.html"
+    ]
+  },
+  "assets/images/characters/zephyr.svg": {
+    "label": "Zephyr",
+    "width": 900,
+    "height": 1200,
+    "description": "Individual Zephyr portrait; consistent character design.",
+    "pages": [
+      "circles/divination/index.html",
+      "delvers/zephyr/index.html"
+    ]
+  },
+  "assets/images/circles/abjuration.svg": {
+    "label": "Circle of Abjuration",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Abjuration.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "circles/abjuration/index.html"
+    ]
+  },
+  "assets/images/circles/alchemy.svg": {
+    "label": "Circle of Alchemy",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Alchemy.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "circles/alchemy/index.html"
+    ]
+  },
+  "assets/images/circles/artifice.svg": {
+    "label": "Circle of Artifice",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Artifice.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "circles/artifice/index.html"
+    ]
+  },
+  "assets/images/circles/chronomancy.svg": {
+    "label": "Circle of Chronomancy",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Chronomancy.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "circles/chronomancy/index.html"
+    ]
+  },
+  "assets/images/circles/commerce.svg": {
+    "label": "Circle of Commerce",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Commerce.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "circles/commerce/index.html"
+    ]
+  },
+  "assets/images/circles/divination.svg": {
+    "label": "Circle of Divination",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Divination.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "circles/divination/index.html"
+    ]
+  },
+  "assets/images/circles/enchantment.svg": {
+    "label": "Circle of Enchantment",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Enchantment.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "circles/enchantment/index.html"
+    ]
+  },
+  "assets/images/circles/illusion.svg": {
+    "label": "Circle of Illusion",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Illusion.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "circles/illusion/index.html"
+    ]
+  },
+  "assets/images/circles/lore.svg": {
+    "label": "Circle of Lore",
+    "width": 1200,
+    "height": 675,
+    "description": "Discipline environment or symbolic illustration for Lore.",
+    "pages": [
+      "index.html",
+      "circles/index.html",
+      "circles/lore/index.html"
+    ]
+  },
+  "assets/images/diagrams/delver-anatomy.svg": {
+    "label": "Delver anatomy",
+    "width": 1600,
+    "height": 900,
+    "description": "Identity, skills, tools, permissions and outputs.",
+    "pages": [
+      "guide/index.html"
+    ]
+  },
+  "assets/images/diagrams/expedition-lifecycle.svg": {
+    "label": "Expedition lifecycle",
+    "width": 1600,
+    "height": 900,
+    "description": "Seven-stage expedition diagram.",
+    "pages": [
+      "expeditions/index.html"
+    ]
+  },
+  "assets/images/diagrams/memory-lifecycle.svg": {
+    "label": "Memory lifecycle",
+    "width": 1600,
+    "height": 900,
+    "description": "Recall, Explore, Distill, Preserve.",
+    "pages": [
+      "memory/index.html"
+    ]
+  },
+  "assets/images/diagrams/orchestration.svg": {
+    "label": "Orchestration overview",
+    "width": 1600,
+    "height": 900,
+    "description": "Keeper, Lucerna, Circles and Cairn. HTML diagram remains.",
+    "pages": [
+      "orchestration/index.html"
+    ]
+  },
+  "assets/images/diagrams/roadmap.svg": {
+    "label": "Development roadmap",
+    "width": 1600,
+    "height": 900,
+    "description": "Four-phase roadmap; no invented dates.",
+    "pages": [
+      "roadmap/index.html"
+    ]
+  },
+  "assets/images/scenes/cairn-memory.svg": {
+    "label": "Cairn Memory",
+    "width": 1200,
+    "height": 675,
+    "description": "Memory landmark illustration.",
+    "pages": [
+      "memory/index.html"
+    ]
+  },
+  "assets/images/scenes/origin.svg": {
+    "label": "Cunilab origin",
+    "width": 1200,
+    "height": 675,
+    "description": "Rabbit hole, curiosity and discovery.",
+    "pages": [
+      "index.html",
+      "philosophy/index.html"
+    ]
+  },
+  "assets/images/scenes/product-expedition.svg": {
+    "label": "Product expedition",
+    "width": 1200,
+    "height": 675,
+    "description": "Product launch collaboration illustration.",
+    "pages": [
+      "expeditions/index.html"
+    ]
+  },
+  "assets/images/scenes/warren-hero.svg": {
+    "label": "Warren hero",
+    "width": 1200,
+    "height": 1000,
+    "description": "Main hero artwork: interconnected arcane realm.",
+    "pages": [
+      "index.html"
+    ]
+  }
+}
