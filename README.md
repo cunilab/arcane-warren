@@ -38,3 +38,7 @@ The registry and generated pages are updated together. Original unused SVG files
 
 - [Cunilab](https://github.com/cunilab)
 - [Cairn Memory](https://github.com/cunilab/cairn-memory)
+
+## Exploration and specifications
+
+The map, comparison, global search, simulation and capability registry are static conceptual tools. The simulator does not execute agents. Run the build and static audit before committing.

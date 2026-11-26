@@ -18,6 +18,8 @@
       "circles/illusion/index.html",
       "circles/index.html",
       "circles/lore/index.html",
+      "codex/index.html",
+      "compare/index.html",
       "covenants/index.html",
       "delvers/aldric/index.html",
       "delvers/auren/index.html",
@@ -52,11 +54,15 @@
       "keeper/index.html",
       "lore/index.html",
       "lucerna/index.html",
+      "map/index.html",
       "memory/index.html",
       "orchestration/index.html",
       "philosophy/index.html",
       "quests/index.html",
-      "roadmap/index.html"
+      "registry/index.html",
+      "roadmap/index.html",
+      "search/index.html",
+      "simulator/index.html"
     ]
   },
   "assets/images/brand/wordmark.svg": {
@@ -500,7 +506,7 @@
     "height": 900,
     "description": "Workspace concept for Aldric. An independent sentinel with a stamped verification seal, test instruments and orderly evidence boards in a quiet hall. Placeholder only.",
     "pages": [
-      "delvers/aldric/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/auren-workspace.svg": {
@@ -509,7 +515,7 @@
     "height": 900,
     "description": "Workspace concept for Auren. A disciplined treasurer with balanced scales, orderly ledgers and restrained antique gold in a quiet accounting vault. Placeholder only.",
     "pages": [
-      "delvers/auren/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/cairn-memory.svg": {
@@ -528,7 +534,7 @@
     "height": 900,
     "description": "Workspace concept for Cyra. A quiet oracle at an astronomical observatory with open manuscripts, a luminous eye-like lens and star maps used as metaphors for inquiry. Placeholder only.",
     "pages": [
-      "delvers/cyra/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/dorian-workspace.svg": {
@@ -537,7 +543,7 @@
     "height": 900,
     "description": "Workspace concept for Dorian. A grounded forg​​emaster in protective work attire among furnaces, gauges, material samples and carefully organized production stations. Placeholder only.",
     "pages": [
-      "delvers/dorian/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/elara-workspace.svg": {
@@ -546,7 +552,7 @@
     "height": 900,
     "description": "Workspace concept for Elara. A welcoming arcane envoy in warm muted garments with sealed correspondence, an open doorway and a calm listening chamber. Placeholder only.",
     "pages": [
-      "delvers/elara/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/eldrin-workspace.svg": {
@@ -555,7 +561,7 @@
     "height": 900,
     "description": "Workspace concept for Eldrin. A thoughtful sage in a quiet council library with multiple open manuscripts, a modest guiding lantern and overlapping maps of perspectives. Placeholder only.",
     "pages": [
-      "delvers/eldrin/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/eryx-workspace.svg": {
@@ -564,7 +570,7 @@
     "height": 900,
     "description": "Workspace concept for Eryx. A chronomancer with a restrained mechanical dial, sequencing charts and interconnected time markers in a dark observatory-like planning room. Placeholder only.",
     "pages": [
-      "delvers/eryx/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/kael-workspace.svg": {
@@ -573,7 +579,7 @@
     "height": 900,
     "description": "Workspace concept for Kael. A restrained arcane guardian in dark protective attire with geometric wardstones, gate mechanisms and a carefully mapped boundary diagram. Placeholder only.",
     "pages": [
-      "delvers/kael/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/kairen-workspace.svg": {
@@ -582,7 +588,7 @@
     "height": 900,
     "description": "Workspace concept for Kairen. A media conjurer with a dark theater, floating rectangular frames, optical lanterns and carefully arranged editing instruments. Placeholder only.",
     "pages": [
-      "delvers/kairen/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/liora-workspace.svg": {
@@ -591,7 +597,7 @@
     "height": 900,
     "description": "Workspace concept for Liora. An arcane storyteller with luminous quill, layered parchment and threads of ink woven into a restrained dark fantasy library. Placeholder only.",
     "pages": [
-      "delvers/liora/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/lyra-workspace.svg": {
@@ -600,7 +606,7 @@
     "height": 900,
     "description": "Workspace concept for Lyra. A poised illusionist in an atelier of restrained violet prisms, color studies, translucent planes and elegant visual compositions. Placeholder only.",
     "pages": [
-      "delvers/lyra/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/magnus-workspace.svg": {
@@ -609,7 +615,7 @@
     "height": 900,
     "description": "Workspace concept for Magnus. A meticulous arcane architect with measuring compass, architectural drawings and suspended geometric models in a vaulted drafting chamber. Placeholder only.",
     "pages": [
-      "delvers/magnus/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/mira-workspace.svg": {
@@ -618,7 +624,7 @@
     "height": 900,
     "description": "Workspace concept for Mira. A pragmatic alchemist with labeled vessels, prototype objects, experiment notes and restrained green-violet glow in a practical laboratory. Placeholder only.",
     "pages": [
-      "delvers/mira/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/morwen-workspace.svg": {
@@ -627,7 +633,7 @@
     "height": 900,
     "description": "Workspace concept for Morwen. An arcane sculptor with faceted models, measuring instruments, carved geometric objects and a practical fabrication bench. Placeholder only.",
     "pages": [
-      "delvers/morwen/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/nyra-workspace.svg": {
@@ -636,7 +642,7 @@
     "height": 900,
     "description": "Workspace concept for Nyra. An alert messenger in layered midnight-violet garments, surrounded by delicate threads connecting illuminated message panels and listening alcoves. Placeholder only.",
     "pages": [
-      "delvers/nyra/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/origin.svg": {
@@ -656,7 +662,7 @@
     "height": 900,
     "description": "Workspace concept for Orin. A knowledge cartographer with layered maps, indexed cairn landmarks and interconnected archival shelves, restrained sage and violet tones. Placeholder only.",
     "pages": [
-      "delvers/orin/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/product-expedition.svg": {
@@ -675,7 +681,7 @@
     "height": 900,
     "description": "Workspace concept for Rune. A practical runesmith in dark ink-stained workwear, surrounded by etched plates, orderly code-like inscriptions and articulated mechanisms. Avoid literal unreadable code as decoration. Placeholder only.",
     "pages": [
-      "delvers/rune/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/sylwen-workspace.svg": {
@@ -684,7 +690,7 @@
     "height": 900,
     "description": "Workspace concept for Sylwen. A workflow weaver at a mechanical loom of interlocking threads and structured runic circuits, with teal-violet highlights. Placeholder only.",
     "pages": [
-      "delvers/sylwen/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/thalos-workshop.svg": {
@@ -693,7 +699,7 @@
     "height": 900,
     "description": "Landscape concept art of Thalos's engineering workshop; practical machinery, manuscripts, bronze and ember accents. Placeholder only.",
     "pages": [
-      "delvers/thalos/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/vaelis-workspace.svg": {
@@ -702,7 +708,7 @@
     "height": 900,
     "description": "Workspace concept for Vaelis. A chronicler at a dark archive desk, with bound volumes, precise ink markings and a luminous seal on organized decision records. Placeholder only.",
     "pages": [
-      "delvers/vaelis/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/valen-workspace.svg": {
@@ -711,7 +717,7 @@
     "height": 900,
     "description": "Workspace concept for Valen. An elegant but practical arcane merchant with trade ledgers, balanced tokens and a dark marketplace map rather than extravagant treasure. Placeholder only.",
     "pages": [
-      "delvers/valen/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/vesper-workspace.svg": {
@@ -720,7 +726,7 @@
     "height": 900,
     "description": "Workspace concept for Vesper. A precise seer surrounded by measured constellations, calibrated lenses and clean geometric data diagrams in a dark blue observatory. Placeholder only.",
     "pages": [
-      "delvers/vesper/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/veyra-workspace.svg": {
@@ -729,7 +735,7 @@
     "height": 900,
     "description": "Workspace concept for Veyra. A composed arcane strategist surrounded by resonance rings, audience maps and illuminated communication scrolls; refined violet textiles and warm brass. Placeholder only.",
     "pages": [
-      "delvers/veyra/index.html"
+      "codex/index.html"
     ]
   },
   "assets/images/scenes/warren-hero.svg": {
@@ -747,7 +753,7 @@
     "height": 900,
     "description": "Workspace concept for Zephyr. A frontier pathfinder in practical dark traveling attire, with windrose, maps, directional instruments and distant passages. Placeholder only.",
     "pages": [
-      "delvers/zephyr/index.html"
+      "codex/index.html"
     ]
   }
 }

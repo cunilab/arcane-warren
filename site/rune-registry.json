@@ -1,0 +1,4325 @@
+{
+  "runes": [
+    {
+      "id": "artifice.thalos.feasibility",
+      "name": "Feasibility",
+      "purpose": "Technical feasibility analysis",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable technical feasibility analysis result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.forge",
+      "name": "Forge",
+      "purpose": "Rapid prototyping",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable rapid prototyping result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.integration",
+      "name": "Integration",
+      "purpose": "API and system integration",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable api and system integration result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.diagnosis",
+      "name": "Diagnosis",
+      "purpose": "Debugging and root cause analysis",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable debugging and root cause analysis result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.refinement",
+      "name": "Refinement",
+      "purpose": "Performance optimization",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable performance optimization result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.mechanism",
+      "name": "Mechanism",
+      "purpose": "Automation development",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable automation development result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.fabrication",
+      "name": "Fabrication",
+      "purpose": "Engineering implementation",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable engineering implementation result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.validation",
+      "name": "Validation",
+      "purpose": "Technical experimentation",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable technical experimentation result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.restoration",
+      "name": "Restoration",
+      "purpose": "Troubleshooting and recovery",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable troubleshooting and recovery result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.appraisal",
+      "name": "Appraisal",
+      "purpose": "Technology evaluation",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable technology evaluation result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.instrumentation",
+      "name": "Instrumentation",
+      "purpose": "Monitoring and observability",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable monitoring and observability result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.thalos.reconstruction",
+      "name": "Reconstruction",
+      "purpose": "Improving existing systems",
+      "owner": "thalos",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable improving existing systems result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.rune.specification",
+      "name": "Specification",
+      "purpose": "Translate acceptance criteria into executable behavior",
+      "owner": "rune",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable translate acceptance criteria into executable behavior result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.rune.inscription",
+      "name": "Inscription",
+      "purpose": "Implement readable software",
+      "owner": "rune",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable implement readable software result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.rune.refinement",
+      "name": "Refinement",
+      "purpose": "Refactor without changing behavior",
+      "owner": "rune",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable refactor without changing behavior result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.rune.verification",
+      "name": "Verification",
+      "purpose": "Write unit and integration tests",
+      "owner": "rune",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable write unit and integration tests result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.rune.review",
+      "name": "Review",
+      "purpose": "Inspect code changes and edge cases",
+      "owner": "rune",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable inspect code changes and edge cases result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.rune.diagnosis",
+      "name": "Diagnosis",
+      "purpose": "Reproduce defects and isolate causes",
+      "owner": "rune",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable reproduce defects and isolate causes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.rune.versioning",
+      "name": "Versioning",
+      "purpose": "Use small reviewable commits",
+      "owner": "rune",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable use small reviewable commits result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.rune.compatibility",
+      "name": "Compatibility",
+      "purpose": "Check interfaces and migrations",
+      "owner": "rune",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable check interfaces and migrations result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.rune.documentation",
+      "name": "Documentation",
+      "purpose": "Explain usage and maintainability",
+      "owner": "rune",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable explain usage and maintainability result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.magnus.survey",
+      "name": "Survey",
+      "purpose": "Map current systems and dependencies",
+      "owner": "magnus",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable map current systems and dependencies result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.magnus.partition",
+      "name": "Partition",
+      "purpose": "Define responsibilities and boundaries",
+      "owner": "magnus",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define responsibilities and boundaries result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.magnus.contract",
+      "name": "Contract",
+      "purpose": "Specify interfaces and data contracts",
+      "owner": "magnus",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable specify interfaces and data contracts result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.magnus.model",
+      "name": "Model",
+      "purpose": "Design data and state models",
+      "owner": "magnus",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable design data and state models result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.magnus.trade-off",
+      "name": "Trade-off",
+      "purpose": "Compare architectural options",
+      "owner": "magnus",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable compare architectural options result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.magnus.capacity",
+      "name": "Capacity",
+      "purpose": "Assess scale and resource assumptions",
+      "owner": "magnus",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable assess scale and resource assumptions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.magnus.evolution",
+      "name": "Evolution",
+      "purpose": "Plan compatible changes and migration",
+      "owner": "magnus",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable plan compatible changes and migration result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.magnus.review",
+      "name": "Review",
+      "purpose": "Evaluate architecture against requirements",
+      "owner": "magnus",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable evaluate architecture against requirements result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "artifice.magnus.decision",
+      "name": "Decision",
+      "purpose": "Record rationale and consequences",
+      "owner": "magnus",
+      "family": "artifice",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable record rationale and consequences result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.veyra.audience",
+      "name": "Audience",
+      "purpose": "Segment audiences and clarify needs",
+      "owner": "veyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable segment audiences and clarify needs result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.veyra.position",
+      "name": "Position",
+      "purpose": "Develop value propositions",
+      "owner": "veyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable develop value propositions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.veyra.campaign",
+      "name": "Campaign",
+      "purpose": "Plan objectives, channels and creative briefs",
+      "owner": "veyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable plan objectives, channels and creative briefs result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.veyra.discovery",
+      "name": "Discovery",
+      "purpose": "Research market and search intent",
+      "owner": "veyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable research market and search intent result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.veyra.measurement",
+      "name": "Measurement",
+      "purpose": "Define success metrics",
+      "owner": "veyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define success metrics result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.veyra.experiment",
+      "name": "Experiment",
+      "purpose": "Design campaign hypotheses and tests",
+      "owner": "veyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable design campaign hypotheses and tests result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.veyra.budget",
+      "name": "Budget",
+      "purpose": "Model allocation assumptions",
+      "owner": "veyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable model allocation assumptions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.veyra.optimization",
+      "name": "Optimization",
+      "purpose": "Review performance and recommend changes",
+      "owner": "veyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable review performance and recommend changes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.veyra.briefing",
+      "name": "Briefing",
+      "purpose": "Translate strategy into creative direction",
+      "owner": "veyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable translate strategy into creative direction result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.nyra.listening",
+      "name": "Listening",
+      "purpose": "Review public or authorized audience signals",
+      "owner": "nyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable review public or authorized audience signals result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.nyra.calendar",
+      "name": "Calendar",
+      "purpose": "Plan a consistent editorial schedule",
+      "owner": "nyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable plan a consistent editorial schedule result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.nyra.adaptation",
+      "name": "Adaptation",
+      "purpose": "Tailor content to platform formats",
+      "owner": "nyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable tailor content to platform formats result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.nyra.community",
+      "name": "Community",
+      "purpose": "Draft constructive responses",
+      "owner": "nyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable draft constructive responses result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.nyra.trend",
+      "name": "Trend",
+      "purpose": "Evaluate relevant trends with context",
+      "owner": "nyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable evaluate relevant trends with context result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.nyra.moderation",
+      "name": "Moderation",
+      "purpose": "Triage comments for human review",
+      "owner": "nyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable triage comments for human review result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.nyra.reporting",
+      "name": "Reporting",
+      "purpose": "Analyze channel metrics",
+      "owner": "nyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable analyze channel metrics result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.nyra.experiment",
+      "name": "Experiment",
+      "purpose": "Compare formats and posting hypotheses",
+      "owner": "nyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable compare formats and posting hypotheses result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.nyra.handoff",
+      "name": "Handoff",
+      "purpose": "Package publication-ready drafts",
+      "owner": "nyra",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable package publication-ready drafts result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.liora.brief",
+      "name": "Brief",
+      "purpose": "Clarify audience, objective and tone",
+      "owner": "liora",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable clarify audience, objective and tone result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.liora.narrative",
+      "name": "Narrative",
+      "purpose": "Develop coherent story structure",
+      "owner": "liora",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable develop coherent story structure result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.liora.copy",
+      "name": "Copy",
+      "purpose": "Write product and campaign copy",
+      "owner": "liora",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable write product and campaign copy result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.liora.script",
+      "name": "Script",
+      "purpose": "Draft spoken and video scripts",
+      "owner": "liora",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable draft spoken and video scripts result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.liora.editing",
+      "name": "Editing",
+      "purpose": "Improve clarity and concision",
+      "owner": "liora",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable improve clarity and concision result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.liora.voice",
+      "name": "Voice",
+      "purpose": "Maintain brand voice",
+      "owner": "liora",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable maintain brand voice result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.liora.evidence",
+      "name": "Evidence",
+      "purpose": "Check claims against supplied facts",
+      "owner": "liora",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable check claims against supplied facts result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.liora.variants",
+      "name": "Variants",
+      "purpose": "Create testable message alternatives",
+      "owner": "liora",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable create testable message alternatives result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "enchantment.liora.localization",
+      "name": "Localization",
+      "purpose": "Adapt language with cultural context",
+      "owner": "liora",
+      "family": "enchantment",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable adapt language with cultural context result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.lyra.direction",
+      "name": "Direction",
+      "purpose": "Set visual concept and reference criteria",
+      "owner": "lyra",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable set visual concept and reference criteria result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.lyra.composition",
+      "name": "Composition",
+      "purpose": "Design hierarchy and layout",
+      "owner": "lyra",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable design hierarchy and layout result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.lyra.identity",
+      "name": "Identity",
+      "purpose": "Develop coherent brand systems",
+      "owner": "lyra",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable develop coherent brand systems result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.lyra.typography",
+      "name": "Typography",
+      "purpose": "Select readable type systems",
+      "owner": "lyra",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable select readable type systems result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.lyra.color",
+      "name": "Color",
+      "purpose": "Build accessible palettes",
+      "owner": "lyra",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable build accessible palettes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.lyra.interface",
+      "name": "Interface",
+      "purpose": "Design responsive UI concepts",
+      "owner": "lyra",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable design responsive ui concepts result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.lyra.critique",
+      "name": "Critique",
+      "purpose": "Evaluate visual clarity and consistency",
+      "owner": "lyra",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable evaluate visual clarity and consistency result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.lyra.asset",
+      "name": "Asset",
+      "purpose": "Specify imagery and formats",
+      "owner": "lyra",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable specify imagery and formats result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.lyra.handoff",
+      "name": "Handoff",
+      "purpose": "Document reusable design rules",
+      "owner": "lyra",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable document reusable design rules result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.morwen.geometry",
+      "name": "Geometry",
+      "purpose": "Create and inspect 3D models",
+      "owner": "morwen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable create and inspect 3d models result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.morwen.dimension",
+      "name": "Dimension",
+      "purpose": "Define tolerances and scale",
+      "owner": "morwen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define tolerances and scale result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.morwen.fabrication",
+      "name": "Fabrication",
+      "purpose": "Design with process constraints",
+      "owner": "morwen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable design with process constraints result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.morwen.mesh",
+      "name": "Mesh",
+      "purpose": "Identify non-manifold or invalid geometry",
+      "owner": "morwen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify non-manifold or invalid geometry result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.morwen.assembly",
+      "name": "Assembly",
+      "purpose": "Check clearances and fit",
+      "owner": "morwen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable check clearances and fit result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.morwen.material",
+      "name": "Material",
+      "purpose": "Model material-dependent assumptions",
+      "owner": "morwen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable model material-dependent assumptions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.morwen.render",
+      "name": "Render",
+      "purpose": "Produce explanatory views",
+      "owner": "morwen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable produce explanatory views result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.morwen.iteration",
+      "name": "Iteration",
+      "purpose": "Revise forms from prototype feedback",
+      "owner": "morwen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable revise forms from prototype feedback result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.morwen.export",
+      "name": "Export",
+      "purpose": "Prepare appropriate manufacturing files",
+      "owner": "morwen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable prepare appropriate manufacturing files result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.kairen.storyboard",
+      "name": "Storyboard",
+      "purpose": "Translate scripts into shots",
+      "owner": "kairen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable translate scripts into shots result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.kairen.shotlist",
+      "name": "Shotlist",
+      "purpose": "Plan coverage and timing",
+      "owner": "kairen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable plan coverage and timing result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.kairen.motion",
+      "name": "Motion",
+      "purpose": "Define animation and transitions",
+      "owner": "kairen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define animation and transitions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.kairen.edit",
+      "name": "Edit",
+      "purpose": "Assemble footage or generated assets",
+      "owner": "kairen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable assemble footage or generated assets result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.kairen.sound",
+      "name": "Sound",
+      "purpose": "Plan appropriate audio",
+      "owner": "kairen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable plan appropriate audio result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.kairen.format",
+      "name": "Format",
+      "purpose": "Adapt aspect ratios and duration",
+      "owner": "kairen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable adapt aspect ratios and duration result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.kairen.caption",
+      "name": "Caption",
+      "purpose": "Create accessible captions",
+      "owner": "kairen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable create accessible captions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.kairen.quality",
+      "name": "Quality",
+      "purpose": "Review continuity and technical output",
+      "owner": "kairen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable review continuity and technical output result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "illusion.kairen.delivery",
+      "name": "Delivery",
+      "purpose": "Package masters and variants",
+      "owner": "kairen",
+      "family": "illusion",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable package masters and variants result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.cyra.question",
+      "name": "Question",
+      "purpose": "Define research scope and criteria",
+      "owner": "cyra",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define research scope and criteria result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.cyra.discovery",
+      "name": "Discovery",
+      "purpose": "Find relevant primary sources",
+      "owner": "cyra",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable find relevant primary sources result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.cyra.verification",
+      "name": "Verification",
+      "purpose": "Cross-check material claims",
+      "owner": "cyra",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable cross-check material claims result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.cyra.provenance",
+      "name": "Provenance",
+      "purpose": "Track source dates and origin",
+      "owner": "cyra",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable track source dates and origin result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.cyra.synthesis",
+      "name": "Synthesis",
+      "purpose": "Combine evidence coherently",
+      "owner": "cyra",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable combine evidence coherently result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.cyra.uncertainty",
+      "name": "Uncertainty",
+      "purpose": "Grade confidence and limitations",
+      "owner": "cyra",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable grade confidence and limitations result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.cyra.comparison",
+      "name": "Comparison",
+      "purpose": "Evaluate competing explanations",
+      "owner": "cyra",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable evaluate competing explanations result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.cyra.brief",
+      "name": "Brief",
+      "purpose": "Write concise evidence-backed findings",
+      "owner": "cyra",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable write concise evidence-backed findings result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.cyra.update",
+      "name": "Update",
+      "purpose": "Identify stale findings needing revision",
+      "owner": "cyra",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify stale findings needing revision result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.vesper.intake",
+      "name": "Intake",
+      "purpose": "Inspect dataset structure and provenance",
+      "owner": "vesper",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable inspect dataset structure and provenance result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.vesper.cleansing",
+      "name": "Cleansing",
+      "purpose": "Handle missing and inconsistent values",
+      "owner": "vesper",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable handle missing and inconsistent values result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.vesper.measure",
+      "name": "Measure",
+      "purpose": "Define metrics and denominators",
+      "owner": "vesper",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define metrics and denominators result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.vesper.explore",
+      "name": "Explore",
+      "purpose": "Find patterns and anomalies",
+      "owner": "vesper",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable find patterns and anomalies result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.vesper.compare",
+      "name": "Compare",
+      "purpose": "Evaluate cohorts and baselines",
+      "owner": "vesper",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable evaluate cohorts and baselines result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.vesper.uncertainty",
+      "name": "Uncertainty",
+      "purpose": "Describe variation and limitations",
+      "owner": "vesper",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable describe variation and limitations result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.vesper.visualize",
+      "name": "Visualize",
+      "purpose": "Create readable charts",
+      "owner": "vesper",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable create readable charts result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.vesper.validate",
+      "name": "Validate",
+      "purpose": "Check calculations and assumptions",
+      "owner": "vesper",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable check calculations and assumptions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.vesper.reproduce",
+      "name": "Reproduce",
+      "purpose": "Return repeatable analytical steps",
+      "owner": "vesper",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable return repeatable analytical steps result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.zephyr.scan",
+      "name": "Scan",
+      "purpose": "Monitor relevant market signals",
+      "owner": "zephyr",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable monitor relevant market signals result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.zephyr.map",
+      "name": "Map",
+      "purpose": "Compare competitors and offers",
+      "owner": "zephyr",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable compare competitors and offers result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.zephyr.segment",
+      "name": "Segment",
+      "purpose": "Identify potential customer groups",
+      "owner": "zephyr",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify potential customer groups result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.zephyr.demand",
+      "name": "Demand",
+      "purpose": "Evaluate demand proxies",
+      "owner": "zephyr",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable evaluate demand proxies result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.zephyr.trend",
+      "name": "Trend",
+      "purpose": "Distinguish emerging and established patterns",
+      "owner": "zephyr",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable distinguish emerging and established patterns result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.zephyr.gap",
+      "name": "Gap",
+      "purpose": "Identify unmet needs and risks",
+      "owner": "zephyr",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify unmet needs and risks result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.zephyr.benchmark",
+      "name": "Benchmark",
+      "purpose": "Compare relevant pricing and features",
+      "owner": "zephyr",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable compare relevant pricing and features result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.zephyr.prioritize",
+      "name": "Prioritize",
+      "purpose": "Rank hypotheses by evidence",
+      "owner": "zephyr",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable rank hypotheses by evidence result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "divination.zephyr.brief",
+      "name": "Brief",
+      "purpose": "Produce an opportunity map",
+      "owner": "zephyr",
+      "family": "divination",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable produce an opportunity map result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.mira.discovery",
+      "name": "Discovery",
+      "purpose": "Clarify customer needs and problems",
+      "owner": "mira",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable clarify customer needs and problems result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.mira.hypothesis",
+      "name": "Hypothesis",
+      "purpose": "Make assumptions testable",
+      "owner": "mira",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable make assumptions testable result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.mira.concept",
+      "name": "Concept",
+      "purpose": "Compare product alternatives",
+      "owner": "mira",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable compare product alternatives result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.mira.prioritize",
+      "name": "Prioritize",
+      "purpose": "Evaluate value, risk and effort",
+      "owner": "mira",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable evaluate value, risk and effort result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.mira.experiment",
+      "name": "Experiment",
+      "purpose": "Design bounded validation tests",
+      "owner": "mira",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable design bounded validation tests result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.mira.prototype",
+      "name": "Prototype",
+      "purpose": "Define minimal testable prototypes",
+      "owner": "mira",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define minimal testable prototypes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.mira.feedback",
+      "name": "Feedback",
+      "purpose": "Synthesize observations",
+      "owner": "mira",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable synthesize observations result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.mira.criteria",
+      "name": "Criteria",
+      "purpose": "Set success and stop conditions",
+      "owner": "mira",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable set success and stop conditions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.mira.iteration",
+      "name": "Iteration",
+      "purpose": "Revise direction from evidence",
+      "owner": "mira",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable revise direction from evidence result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.dorian.material",
+      "name": "Material",
+      "purpose": "Assess material suitability and constraints",
+      "owner": "dorian",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable assess material suitability and constraints result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.dorian.process",
+      "name": "Process",
+      "purpose": "Map manufacturing steps",
+      "owner": "dorian",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable map manufacturing steps result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.dorian.capacity",
+      "name": "Capacity",
+      "purpose": "Estimate throughput and bottlenecks",
+      "owner": "dorian",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable estimate throughput and bottlenecks result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.dorian.cost",
+      "name": "Cost",
+      "purpose": "Estimate production resource use",
+      "owner": "dorian",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable estimate production resource use result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.dorian.quality",
+      "name": "Quality",
+      "purpose": "Define checks and tolerances",
+      "owner": "dorian",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define checks and tolerances result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.dorian.trial",
+      "name": "Trial",
+      "purpose": "Plan bounded production trials",
+      "owner": "dorian",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable plan bounded production trials result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.dorian.waste",
+      "name": "Waste",
+      "purpose": "Identify avoidable material loss",
+      "owner": "dorian",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify avoidable material loss result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.dorian.safety",
+      "name": "Safety",
+      "purpose": "Flag hazards for human verification",
+      "owner": "dorian",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable flag hazards for human verification result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "alchemy.dorian.standard",
+      "name": "Standard",
+      "purpose": "Document repeatable process assumptions",
+      "owner": "dorian",
+      "family": "alchemy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable document repeatable process assumptions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.valen.qualification",
+      "name": "Qualification",
+      "purpose": "Assess lead fit and needs",
+      "owner": "valen",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable assess lead fit and needs result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.valen.offer",
+      "name": "Offer",
+      "purpose": "Develop value-aligned offers",
+      "owner": "valen",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable develop value-aligned offers result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.valen.pipeline",
+      "name": "Pipeline",
+      "purpose": "Map sales stages and follow-ups",
+      "owner": "valen",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable map sales stages and follow-ups result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.valen.outreach",
+      "name": "Outreach",
+      "purpose": "Draft relevant communications",
+      "owner": "valen",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable draft relevant communications result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.valen.objection",
+      "name": "Objection",
+      "purpose": "Prepare honest responses",
+      "owner": "valen",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable prepare honest responses result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.valen.pricing",
+      "name": "Pricing",
+      "purpose": "Coordinate pricing assumptions",
+      "owner": "valen",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable coordinate pricing assumptions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.valen.forecast",
+      "name": "Forecast",
+      "purpose": "Estimate scenarios with uncertainty",
+      "owner": "valen",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable estimate scenarios with uncertainty result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.valen.reporting",
+      "name": "Reporting",
+      "purpose": "Track authorized conversion measures",
+      "owner": "valen",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable track authorized conversion measures result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.valen.handoff",
+      "name": "Handoff",
+      "purpose": "Escalate commitments for review",
+      "owner": "valen",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable escalate commitments for review result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.auren.cost",
+      "name": "Cost",
+      "purpose": "Estimate fixed and variable costs",
+      "owner": "auren",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable estimate fixed and variable costs result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.auren.margin",
+      "name": "Margin",
+      "purpose": "Model contribution and unit economics",
+      "owner": "auren",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable model contribution and unit economics result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.auren.budget",
+      "name": "Budget",
+      "purpose": "Plan resource allocation scenarios",
+      "owner": "auren",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable plan resource allocation scenarios result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.auren.cash",
+      "name": "Cash",
+      "purpose": "Estimate cash-flow timing",
+      "owner": "auren",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable estimate cash-flow timing result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.auren.sensitivity",
+      "name": "Sensitivity",
+      "purpose": "Test changing assumptions",
+      "owner": "auren",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable test changing assumptions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.auren.break-even",
+      "name": "Break-even",
+      "purpose": "Calculate break-even quantities",
+      "owner": "auren",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable calculate break-even quantities result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.auren.reconcile",
+      "name": "Reconcile",
+      "purpose": "Check authorized records and totals",
+      "owner": "auren",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable check authorized records and totals result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.auren.forecast",
+      "name": "Forecast",
+      "purpose": "Compare plausible scenarios",
+      "owner": "auren",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable compare plausible scenarios result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.auren.explain",
+      "name": "Explain",
+      "purpose": "Document financial assumptions and limits",
+      "owner": "auren",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable document financial assumptions and limits result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.elara.listen",
+      "name": "Listen",
+      "purpose": "Extract the customer need",
+      "owner": "elara",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable extract the customer need result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.elara.triage",
+      "name": "Triage",
+      "purpose": "Classify issues and urgency",
+      "owner": "elara",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable classify issues and urgency result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.elara.response",
+      "name": "Response",
+      "purpose": "Draft accurate helpful replies",
+      "owner": "elara",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable draft accurate helpful replies result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.elara.escalate",
+      "name": "Escalate",
+      "purpose": "Identify sensitive or blocked cases",
+      "owner": "elara",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify sensitive or blocked cases result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.elara.feedback",
+      "name": "Feedback",
+      "purpose": "Summarize recurring themes",
+      "owner": "elara",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable summarize recurring themes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.elara.expectation",
+      "name": "Expectation",
+      "purpose": "Clarify next steps without promises",
+      "owner": "elara",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable clarify next steps without promises result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.elara.knowledge",
+      "name": "Knowledge",
+      "purpose": "Use approved support references",
+      "owner": "elara",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable use approved support references result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.elara.privacy",
+      "name": "Privacy",
+      "purpose": "Minimize sensitive data",
+      "owner": "elara",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable minimize sensitive data result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "commerce.elara.follow-up",
+      "name": "Follow-up",
+      "purpose": "Suggest appropriate resolution checks",
+      "owner": "elara",
+      "family": "commerce",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable suggest appropriate resolution checks result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.kael.threat",
+      "name": "Threat",
+      "purpose": "Map assets and plausible threats",
+      "owner": "kael",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable map assets and plausible threats result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.kael.boundary",
+      "name": "Boundary",
+      "purpose": "Identify trust and access boundaries",
+      "owner": "kael",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify trust and access boundaries result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.kael.privilege",
+      "name": "Privilege",
+      "purpose": "Review minimum required permissions",
+      "owner": "kael",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable review minimum required permissions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.kael.assessment",
+      "name": "Assessment",
+      "purpose": "Evaluate authorized controls",
+      "owner": "kael",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable evaluate authorized controls result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.kael.risk",
+      "name": "Risk",
+      "purpose": "Prioritize likelihood and impact",
+      "owner": "kael",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable prioritize likelihood and impact result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.kael.privacy",
+      "name": "Privacy",
+      "purpose": "Identify sensitive information exposure",
+      "owner": "kael",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify sensitive information exposure result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.kael.remediation",
+      "name": "Remediation",
+      "purpose": "Recommend proportionate fixes",
+      "owner": "kael",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable recommend proportionate fixes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.kael.review",
+      "name": "Review",
+      "purpose": "Verify mitigation evidence",
+      "owner": "kael",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable verify mitigation evidence result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.kael.escalation",
+      "name": "Escalation",
+      "purpose": "Flag unresolved consequential risks",
+      "owner": "kael",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable flag unresolved consequential risks result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.aldric.criteria",
+      "name": "Criteria",
+      "purpose": "Translate requirements into testable checks",
+      "owner": "aldric",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable translate requirements into testable checks result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.aldric.plan",
+      "name": "Plan",
+      "purpose": "Design coverage and test cases",
+      "owner": "aldric",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable design coverage and test cases result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.aldric.regression",
+      "name": "Regression",
+      "purpose": "Check existing behavior",
+      "owner": "aldric",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable check existing behavior result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.aldric.acceptance",
+      "name": "Acceptance",
+      "purpose": "Verify scoped deliverables",
+      "owner": "aldric",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable verify scoped deliverables result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.aldric.edge",
+      "name": "Edge",
+      "purpose": "Explore boundary and failure cases",
+      "owner": "aldric",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable explore boundary and failure cases result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.aldric.reproduce",
+      "name": "Reproduce",
+      "purpose": "Document repeatable defects",
+      "owner": "aldric",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable document repeatable defects result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.aldric.evidence",
+      "name": "Evidence",
+      "purpose": "Record actual outcomes",
+      "owner": "aldric",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable record actual outcomes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.aldric.triage",
+      "name": "Triage",
+      "purpose": "Prioritize defects by impact",
+      "owner": "aldric",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable prioritize defects by impact result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "abjuration.aldric.report",
+      "name": "Report",
+      "purpose": "Summarize passes, failures and limitations",
+      "owner": "aldric",
+      "family": "abjuration",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable summarize passes, failures and limitations result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.eryx.scope",
+      "name": "Scope",
+      "purpose": "Clarify project boundaries",
+      "owner": "eryx",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable clarify project boundaries result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.eryx.milestone",
+      "name": "Milestone",
+      "purpose": "Define measurable checkpoints",
+      "owner": "eryx",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define measurable checkpoints result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.eryx.dependency",
+      "name": "Dependency",
+      "purpose": "Map prerequisite work",
+      "owner": "eryx",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable map prerequisite work result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.eryx.estimate",
+      "name": "Estimate",
+      "purpose": "Capture ranges and assumptions",
+      "owner": "eryx",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable capture ranges and assumptions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.eryx.capacity",
+      "name": "Capacity",
+      "purpose": "Assess available resources",
+      "owner": "eryx",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable assess available resources result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.eryx.track",
+      "name": "Track",
+      "purpose": "Maintain observable progress",
+      "owner": "eryx",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable maintain observable progress result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.eryx.risk",
+      "name": "Risk",
+      "purpose": "Surface blockers and critical paths",
+      "owner": "eryx",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable surface blockers and critical paths result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.eryx.change",
+      "name": "Change",
+      "purpose": "Record scope proposals",
+      "owner": "eryx",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable record scope proposals result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.eryx.review",
+      "name": "Review",
+      "purpose": "Prepare status and decision summaries",
+      "owner": "eryx",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable prepare status and decision summaries result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.sylwen.map",
+      "name": "Map",
+      "purpose": "Model current processes",
+      "owner": "sylwen",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable model current processes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.sylwen.trigger",
+      "name": "Trigger",
+      "purpose": "Define events and conditions",
+      "owner": "sylwen",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define events and conditions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.sylwen.sequence",
+      "name": "Sequence",
+      "purpose": "Design workflow steps and dependencies",
+      "owner": "sylwen",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable design workflow steps and dependencies result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.sylwen.integrate",
+      "name": "Integrate",
+      "purpose": "Specify tool interfaces",
+      "owner": "sylwen",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable specify tool interfaces result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.sylwen.guard",
+      "name": "Guard",
+      "purpose": "Define approval and permission gates",
+      "owner": "sylwen",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable define approval and permission gates result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.sylwen.recovery",
+      "name": "Recovery",
+      "purpose": "Plan retries and failure handling",
+      "owner": "sylwen",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable plan retries and failure handling result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.sylwen.idempotence",
+      "name": "Idempotence",
+      "purpose": "Prevent unintended duplicate effects",
+      "owner": "sylwen",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable prevent unintended duplicate effects result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.sylwen.observe",
+      "name": "Observe",
+      "purpose": "Specify logs and outcomes",
+      "owner": "sylwen",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable specify logs and outcomes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "chronomancy.sylwen.validate",
+      "name": "Validate",
+      "purpose": "Test workflows with safe fixtures",
+      "owner": "sylwen",
+      "family": "chronomancy",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable test workflows with safe fixtures result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.orin.map",
+      "name": "Map",
+      "purpose": "Organize knowledge by topic and relationship",
+      "owner": "orin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable organize knowledge by topic and relationship result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.orin.curate",
+      "name": "Curate",
+      "purpose": "Select durable useful lessons",
+      "owner": "orin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable select durable useful lessons result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.orin.provenance",
+      "name": "Provenance",
+      "purpose": "Record source and context",
+      "owner": "orin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable record source and context result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.orin.scope",
+      "name": "Scope",
+      "purpose": "Classify intended access",
+      "owner": "orin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable classify intended access result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.orin.retrieve",
+      "name": "Retrieve",
+      "purpose": "Evaluate relevance of search results",
+      "owner": "orin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable evaluate relevance of search results result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.orin.deduplicate",
+      "name": "Deduplicate",
+      "purpose": "Identify overlapping records",
+      "owner": "orin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify overlapping records result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.orin.correct",
+      "name": "Correct",
+      "purpose": "Flag stale or contradictory findings",
+      "owner": "orin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable flag stale or contradictory findings result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.orin.taxonomy",
+      "name": "Taxonomy",
+      "purpose": "Maintain usable categories",
+      "owner": "orin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable maintain usable categories result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.orin.review",
+      "name": "Review",
+      "purpose": "Audit knowledge quality and retention",
+      "owner": "orin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable audit knowledge quality and retention result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.vaelis.capture",
+      "name": "Capture",
+      "purpose": "Identify important decisions and outcomes",
+      "owner": "vaelis",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify important decisions and outcomes result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.vaelis.structure",
+      "name": "Structure",
+      "purpose": "Organize readable documents",
+      "owner": "vaelis",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable organize readable documents result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.vaelis.technical",
+      "name": "Technical",
+      "purpose": "Explain interfaces and procedures",
+      "owner": "vaelis",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable explain interfaces and procedures result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.vaelis.decision",
+      "name": "Decision",
+      "purpose": "Document rationale and alternatives",
+      "owner": "vaelis",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable document rationale and alternatives result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.vaelis.process",
+      "name": "Process",
+      "purpose": "Write repeatable instructions",
+      "owner": "vaelis",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable write repeatable instructions result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.vaelis.edit",
+      "name": "Edit",
+      "purpose": "Improve clarity and brevity",
+      "owner": "vaelis",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable improve clarity and brevity result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.vaelis.version",
+      "name": "Version",
+      "purpose": "Track revisions and status",
+      "owner": "vaelis",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable track revisions and status result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.vaelis.verify",
+      "name": "Verify",
+      "purpose": "Check facts against evidence",
+      "owner": "vaelis",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable check facts against evidence result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.vaelis.handoff",
+      "name": "Handoff",
+      "purpose": "Package documentation for future readers",
+      "owner": "vaelis",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable package documentation for future readers result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.eldrin.synthesis",
+      "name": "Synthesis",
+      "purpose": "Combine relevant specialist findings",
+      "owner": "eldrin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable combine relevant specialist findings result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.eldrin.critique",
+      "name": "Critique",
+      "purpose": "Challenge assumptions and reasoning",
+      "owner": "eldrin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable challenge assumptions and reasoning result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.eldrin.trade-off",
+      "name": "Trade-off",
+      "purpose": "Compare benefits and constraints",
+      "owner": "eldrin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable compare benefits and constraints result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.eldrin.perspective",
+      "name": "Perspective",
+      "purpose": "Represent competing views fairly",
+      "owner": "eldrin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable represent competing views fairly result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.eldrin.uncertainty",
+      "name": "Uncertainty",
+      "purpose": "Identify limits and missing evidence",
+      "owner": "eldrin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable identify limits and missing evidence result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.eldrin.scenario",
+      "name": "Scenario",
+      "purpose": "Explore plausible alternatives",
+      "owner": "eldrin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable explore plausible alternatives result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.eldrin.prioritize",
+      "name": "Prioritize",
+      "purpose": "Clarify important decision criteria",
+      "owner": "eldrin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable clarify important decision criteria result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.eldrin.mentor",
+      "name": "Mentor",
+      "purpose": "Suggest ways to improve reasoning",
+      "owner": "eldrin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable suggest ways to improve reasoning result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    },
+    {
+      "id": "lore.eldrin.advise",
+      "name": "Advise",
+      "purpose": "Write a reasoned recommendation",
+      "owner": "eldrin",
+      "family": "lore",
+      "version": "0.1.0",
+      "status": "proposed",
+      "input": "Scoped Quest, authorized context, applicable criteria.",
+      "output": "Reviewable write a reasoned recommendation result, supporting evidence and limitations.",
+      "evaluation": "Check the result against the Quest criteria; record failure or uncertainty.",
+      "toolPolicy": "Only explicitly authorized Relics; no implied execution access."
+    }
+  ],
+  "relics": [
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "Execute authorized engineering commands."
+        },
+        {
+          "worker": "rune",
+          "use": "Run permitted development commands"
+        }
+      ]
+    },
+    {
+      "id": "filesystem",
+      "name": "Filesystem",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "Read or modify authorized project files."
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "Version control and reviewable changes."
+        },
+        {
+          "worker": "rune",
+          "use": "Create scoped changes and review diffs"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "Repository collaboration within granted access."
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "Isolated environments and services."
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "name": "Database",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "Authorized data operations."
+        }
+      ]
+    },
+    {
+      "id": "browser",
+      "name": "Browser",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "Research and application testing."
+        },
+        {
+          "worker": "aldric",
+          "use": "Inspect authorized application behavior"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "name": "MCP",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "External tool integrations."
+        }
+      ]
+    },
+    {
+      "id": "testing-frameworks",
+      "name": "Testing frameworks",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "Technical validation and reproducibility."
+        }
+      ]
+    },
+    {
+      "id": "cairn-memory",
+      "name": "Cairn Memory",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "thalos",
+          "use": "Retrieve relevant engineering knowledge and preserve approved lessons."
+        },
+        {
+          "worker": "rune",
+          "use": "Retrieve and preserve authorized knowledge when integration is verified."
+        },
+        {
+          "worker": "magnus",
+          "use": "Retrieve and preserve authorized knowledge when integration is verified."
+        },
+        {
+          "worker": "veyra",
+          "use": "Recall prior campaign lessons"
+        },
+        {
+          "worker": "nyra",
+          "use": "Recall channel lessons"
+        },
+        {
+          "worker": "liora",
+          "use": "Retrieve validated messaging lessons"
+        },
+        {
+          "worker": "lyra",
+          "use": "Recall visual decisions"
+        },
+        {
+          "worker": "morwen",
+          "use": "Recall validated geometry patterns"
+        },
+        {
+          "worker": "kairen",
+          "use": "Recall production lessons"
+        },
+        {
+          "worker": "cyra",
+          "use": "Recall prior research with verification"
+        },
+        {
+          "worker": "vesper",
+          "use": "Retrieve metric definitions and lessons"
+        },
+        {
+          "worker": "zephyr",
+          "use": "Recall prior market scans"
+        },
+        {
+          "worker": "mira",
+          "use": "Recall product lessons"
+        },
+        {
+          "worker": "dorian",
+          "use": "Preserve trial observations"
+        },
+        {
+          "worker": "valen",
+          "use": "Recall approved sales lessons"
+        },
+        {
+          "worker": "auren",
+          "use": "Recall verified cost assumptions"
+        },
+        {
+          "worker": "elara",
+          "use": "Recall approved support lessons"
+        },
+        {
+          "worker": "kael",
+          "use": "Recall validated security lessons"
+        },
+        {
+          "worker": "aldric",
+          "use": "Recall regression lessons"
+        },
+        {
+          "worker": "eryx",
+          "use": "Recall project lessons"
+        },
+        {
+          "worker": "sylwen",
+          "use": "Recall workflow lessons"
+        },
+        {
+          "worker": "orin",
+          "use": "Inspect authorized memory through verified interfaces"
+        },
+        {
+          "worker": "vaelis",
+          "use": "Retrieve relevant approved context"
+        },
+        {
+          "worker": "eldrin",
+          "use": "Recall relevant lessons"
+        }
+      ]
+    },
+    {
+      "id": "editor",
+      "name": "Editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "rune",
+          "use": "Edit authorized source files"
+        }
+      ]
+    },
+    {
+      "id": "test-runner",
+      "name": "Test runner",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "rune",
+          "use": "Execute reproducible tests"
+        },
+        {
+          "worker": "aldric",
+          "use": "Execute permitted checks"
+        }
+      ]
+    },
+    {
+      "id": "package-manager",
+      "name": "Package manager",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "rune",
+          "use": "Inspect and update dependencies within scope"
+        }
+      ]
+    },
+    {
+      "id": "ci",
+      "name": "CI",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "rune",
+          "use": "Read build results and propose fixes"
+        }
+      ]
+    },
+    {
+      "id": "diagram-editor",
+      "name": "Diagram editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "magnus",
+          "use": "Model components and flows"
+        }
+      ]
+    },
+    {
+      "id": "repository-reader",
+      "name": "Repository reader",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "magnus",
+          "use": "Inspect existing architecture"
+        }
+      ]
+    },
+    {
+      "id": "schema-tools",
+      "name": "Schema tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "magnus",
+          "use": "Review data models"
+        }
+      ]
+    },
+    {
+      "id": "profiling-reports",
+      "name": "Profiling reports",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "magnus",
+          "use": "Evaluate measured constraints"
+        }
+      ]
+    },
+    {
+      "id": "decision-records",
+      "name": "Decision records",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "magnus",
+          "use": "Capture options and rationale"
+        }
+      ]
+    },
+    {
+      "id": "documentation",
+      "name": "Documentation",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "magnus",
+          "use": "Reference standards and contracts"
+        }
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "veyra",
+          "use": "Inspect authorized performance metrics"
+        }
+      ]
+    },
+    {
+      "id": "search-research",
+      "name": "Search research",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "veyra",
+          "use": "Review relevant demand and keywords"
+        }
+      ]
+    },
+    {
+      "id": "ad-dashboards",
+      "name": "Ad dashboards",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "veyra",
+          "use": "Read reports and prepare drafts"
+        }
+      ]
+    },
+    {
+      "id": "spreadsheet",
+      "name": "Spreadsheet",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "veyra",
+          "use": "Model budgets and hypotheses"
+        },
+        {
+          "worker": "cyra",
+          "use": "Compare evidence"
+        },
+        {
+          "worker": "vesper",
+          "use": "Inspect and model data"
+        },
+        {
+          "worker": "zephyr",
+          "use": "Build comparison matrices"
+        },
+        {
+          "worker": "mira",
+          "use": "Compare value and effort"
+        },
+        {
+          "worker": "dorian",
+          "use": "Model capacity and costs"
+        },
+        {
+          "worker": "valen",
+          "use": "Model sales scenarios"
+        },
+        {
+          "worker": "auren",
+          "use": "Build auditable financial models"
+        },
+        {
+          "worker": "eryx",
+          "use": "Model capacity assumptions"
+        }
+      ]
+    },
+    {
+      "id": "content-planner",
+      "name": "Content planner",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "veyra",
+          "use": "Coordinate campaign milestones"
+        }
+      ]
+    },
+    {
+      "id": "social-dashboards",
+      "name": "Social dashboards",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "nyra",
+          "use": "Read authorized analytics"
+        }
+      ]
+    },
+    {
+      "id": "content-calendar",
+      "name": "Content calendar",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "nyra",
+          "use": "Plan schedules and handoffs"
+        }
+      ]
+    },
+    {
+      "id": "media-library",
+      "name": "Media library",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "nyra",
+          "use": "Select approved assets"
+        }
+      ]
+    },
+    {
+      "id": "platform-documentation",
+      "name": "Platform documentation",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "nyra",
+          "use": "Check format and policy constraints"
+        }
+      ]
+    },
+    {
+      "id": "draft-editor",
+      "name": "Draft editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "nyra",
+          "use": "Prepare captions and replies"
+        },
+        {
+          "worker": "valen",
+          "use": "Prepare outreach"
+        },
+        {
+          "worker": "elara",
+          "use": "Prepare responses"
+        },
+        {
+          "worker": "eldrin",
+          "use": "Produce advisory briefs"
+        }
+      ]
+    },
+    {
+      "id": "text-editor",
+      "name": "Text editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "liora",
+          "use": "Draft and edit copy"
+        }
+      ]
+    },
+    {
+      "id": "brand-guidelines",
+      "name": "Brand guidelines",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "liora",
+          "use": "Reference approved voice and terminology"
+        }
+      ]
+    },
+    {
+      "id": "product-documentation",
+      "name": "Product documentation",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "liora",
+          "use": "Verify claims"
+        }
+      ]
+    },
+    {
+      "id": "readability-tools",
+      "name": "Readability tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "liora",
+          "use": "Review clarity"
+        }
+      ]
+    },
+    {
+      "id": "editorial-tracker",
+      "name": "Editorial tracker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "liora",
+          "use": "Manage versions and approvals"
+        }
+      ]
+    },
+    {
+      "id": "design-editor",
+      "name": "Design editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "lyra",
+          "use": "Create and review layouts"
+        }
+      ]
+    },
+    {
+      "id": "vector-tools",
+      "name": "Vector tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "lyra",
+          "use": "Prepare scalable assets"
+        }
+      ]
+    },
+    {
+      "id": "contrast-checker",
+      "name": "Contrast checker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "lyra",
+          "use": "Evaluate accessibility"
+        }
+      ]
+    },
+    {
+      "id": "image-library",
+      "name": "Image library",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "lyra",
+          "use": "Inspect approved references and rights"
+        }
+      ]
+    },
+    {
+      "id": "prototype-viewer",
+      "name": "Prototype viewer",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "lyra",
+          "use": "Review interaction and responsive composition"
+        }
+      ]
+    },
+    {
+      "id": "cad",
+      "name": "CAD",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "morwen",
+          "use": "Parametric modeling and dimension checks"
+        }
+      ]
+    },
+    {
+      "id": "mesh-editor",
+      "name": "Mesh editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "morwen",
+          "use": "Inspect topology and repair models"
+        }
+      ]
+    },
+    {
+      "id": "slicer",
+      "name": "Slicer",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "morwen",
+          "use": "Evaluate print assumptions"
+        }
+      ]
+    },
+    {
+      "id": "renderer",
+      "name": "Renderer",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "morwen",
+          "use": "Produce useful product views"
+        }
+      ]
+    },
+    {
+      "id": "measurement-tools",
+      "name": "Measurement tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "morwen",
+          "use": "Review tolerances and scale"
+        }
+      ]
+    },
+    {
+      "id": "video-editor",
+      "name": "Video editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kairen",
+          "use": "Assemble and review timelines"
+        }
+      ]
+    },
+    {
+      "id": "motion-tools",
+      "name": "Motion tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kairen",
+          "use": "Create approved animations"
+        }
+      ]
+    },
+    {
+      "id": "audio-editor",
+      "name": "Audio editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kairen",
+          "use": "Review levels and timing"
+        }
+      ]
+    },
+    {
+      "id": "asset-library",
+      "name": "Asset library",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kairen",
+          "use": "Use authorized visuals and sound"
+        }
+      ]
+    },
+    {
+      "id": "encoder",
+      "name": "Encoder",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kairen",
+          "use": "Export requested formats"
+        }
+      ]
+    },
+    {
+      "id": "web-search",
+      "name": "Web search",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "cyra",
+          "use": "Locate public sources"
+        }
+      ]
+    },
+    {
+      "id": "document-reader",
+      "name": "Document reader",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "cyra",
+          "use": "Inspect authorized documents"
+        },
+        {
+          "worker": "orin",
+          "use": "Inspect authorized evidence"
+        },
+        {
+          "worker": "eldrin",
+          "use": "Review authorized evidence"
+        }
+      ]
+    },
+    {
+      "id": "citation-tracker",
+      "name": "Citation tracker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "cyra",
+          "use": "Record provenance"
+        }
+      ]
+    },
+    {
+      "id": "reference-database",
+      "name": "Reference database",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "cyra",
+          "use": "Organize findings"
+        }
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "vesper",
+          "use": "Query authorized datasets"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "vesper",
+          "use": "Analyze data reproducibly"
+        }
+      ]
+    },
+    {
+      "id": "chart-tools",
+      "name": "Chart tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "vesper",
+          "use": "Visualize findings"
+        },
+        {
+          "worker": "auren",
+          "use": "Explain scenarios"
+        }
+      ]
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "vesper",
+          "use": "Record methods and assumptions"
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "zephyr",
+          "use": "Find public market information"
+        }
+      ]
+    },
+    {
+      "id": "marketplaces",
+      "name": "Marketplaces",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "zephyr",
+          "use": "Review public listings and signals"
+        }
+      ]
+    },
+    {
+      "id": "trend-reports",
+      "name": "Trend reports",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "zephyr",
+          "use": "Compare dated observations"
+        }
+      ]
+    },
+    {
+      "id": "research-tracker",
+      "name": "Research tracker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "zephyr",
+          "use": "Record source and confidence"
+        }
+      ]
+    },
+    {
+      "id": "research-notes",
+      "name": "Research notes",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "mira",
+          "use": "Review evidence and customer needs"
+        }
+      ]
+    },
+    {
+      "id": "prototype-tools",
+      "name": "Prototype tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "mira",
+          "use": "Sketch testable concepts"
+        }
+      ]
+    },
+    {
+      "id": "experiment-tracker",
+      "name": "Experiment tracker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "mira",
+          "use": "Record hypotheses and results"
+        }
+      ]
+    },
+    {
+      "id": "survey-tools",
+      "name": "Survey tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "mira",
+          "use": "Prepare authorized research drafts"
+        }
+      ]
+    },
+    {
+      "id": "slicer-reports",
+      "name": "Slicer reports",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "dorian",
+          "use": "Review print time and material estimates"
+        }
+      ]
+    },
+    {
+      "id": "process-sheets",
+      "name": "Process sheets",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "dorian",
+          "use": "Document manufacturing steps"
+        }
+      ]
+    },
+    {
+      "id": "quality-checklist",
+      "name": "Quality checklist",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "dorian",
+          "use": "Plan inspection"
+        }
+      ]
+    },
+    {
+      "id": "material-documentation",
+      "name": "Material documentation",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "dorian",
+          "use": "Review manufacturer specifications"
+        }
+      ]
+    },
+    {
+      "id": "crm",
+      "name": "CRM",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "valen",
+          "use": "Read authorized pipeline records"
+        }
+      ]
+    },
+    {
+      "id": "product-catalog",
+      "name": "Product catalog",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "valen",
+          "use": "Verify offer facts"
+        }
+      ]
+    },
+    {
+      "id": "sales-analytics",
+      "name": "Sales analytics",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "valen",
+          "use": "Review conversion data"
+        }
+      ]
+    },
+    {
+      "id": "accounting-exports",
+      "name": "Accounting exports",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "auren",
+          "use": "Inspect authorized records"
+        }
+      ]
+    },
+    {
+      "id": "calculator",
+      "name": "Calculator",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "auren",
+          "use": "Verify arithmetic"
+        }
+      ]
+    },
+    {
+      "id": "budget-tracker",
+      "name": "Budget tracker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "auren",
+          "use": "Compare planned and actual figures"
+        }
+      ]
+    },
+    {
+      "id": "support-inbox",
+      "name": "Support inbox",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "elara",
+          "use": "Read authorized customer issues"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-base",
+      "name": "Knowledge base",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "elara",
+          "use": "Verify approved answers"
+        }
+      ]
+    },
+    {
+      "id": "ticket-tracker",
+      "name": "Ticket tracker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "elara",
+          "use": "Organize escalation status"
+        }
+      ]
+    },
+    {
+      "id": "feedback-analysis",
+      "name": "Feedback analysis",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "elara",
+          "use": "Summarize anonymized themes"
+        }
+      ]
+    },
+    {
+      "id": "policy-documents",
+      "name": "Policy documents",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kael",
+          "use": "Review granted scope"
+        }
+      ]
+    },
+    {
+      "id": "configuration-reader",
+      "name": "Configuration reader",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kael",
+          "use": "Inspect authorized settings"
+        }
+      ]
+    },
+    {
+      "id": "dependency-reports",
+      "name": "Dependency reports",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kael",
+          "use": "Review known vulnerability findings"
+        }
+      ]
+    },
+    {
+      "id": "audit-logs",
+      "name": "Audit logs",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kael",
+          "use": "Inspect permitted events"
+        }
+      ]
+    },
+    {
+      "id": "threat-modeling",
+      "name": "Threat modeling",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "kael",
+          "use": "Map trust boundaries"
+        }
+      ]
+    },
+    {
+      "id": "fixtures",
+      "name": "Fixtures",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "aldric",
+          "use": "Prepare representative test inputs"
+        }
+      ]
+    },
+    {
+      "id": "issue-tracker",
+      "name": "Issue tracker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "aldric",
+          "use": "Record defects"
+        }
+      ]
+    },
+    {
+      "id": "logs",
+      "name": "Logs",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "aldric",
+          "use": "Review test evidence"
+        }
+      ]
+    },
+    {
+      "id": "project-tracker",
+      "name": "Project tracker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "eryx",
+          "use": "Inspect authorized task state"
+        }
+      ]
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "eryx",
+          "use": "Review permitted milestones"
+        }
+      ]
+    },
+    {
+      "id": "dependency-diagrams",
+      "name": "Dependency diagrams",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "eryx",
+          "use": "Map sequencing"
+        }
+      ]
+    },
+    {
+      "id": "status-board",
+      "name": "Status board",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "eryx",
+          "use": "Prepare progress summaries"
+        }
+      ]
+    },
+    {
+      "id": "workflow-editor",
+      "name": "Workflow editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "sylwen",
+          "use": "Map triggers and steps"
+        }
+      ]
+    },
+    {
+      "id": "api-documentation",
+      "name": "API documentation",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "sylwen",
+          "use": "Review tool interfaces"
+        }
+      ]
+    },
+    {
+      "id": "test-environment",
+      "name": "Test environment",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "sylwen",
+          "use": "Simulate permitted flows"
+        }
+      ]
+    },
+    {
+      "id": "event-logs",
+      "name": "Event logs",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "sylwen",
+          "use": "Inspect authorized outcomes"
+        }
+      ]
+    },
+    {
+      "id": "scheduler",
+      "name": "Scheduler",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "sylwen",
+          "use": "Design timed execution plans"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-catalog",
+      "name": "Knowledge catalog",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "orin",
+          "use": "Organize references"
+        }
+      ]
+    },
+    {
+      "id": "search-tools",
+      "name": "Search tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "orin",
+          "use": "Evaluate retrieval relevance"
+        }
+      ]
+    },
+    {
+      "id": "metadata-editor",
+      "name": "Metadata editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "orin",
+          "use": "Record source and scope"
+        }
+      ]
+    },
+    {
+      "id": "review-queue",
+      "name": "Review queue",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "orin",
+          "use": "Flag corrections"
+        }
+      ]
+    },
+    {
+      "id": "document-editor",
+      "name": "Document editor",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "vaelis",
+          "use": "Write structured documentation"
+        }
+      ]
+    },
+    {
+      "id": "repository",
+      "name": "Repository",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "vaelis",
+          "use": "Review authorized source changes"
+        }
+      ]
+    },
+    {
+      "id": "decision-log",
+      "name": "Decision log",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "vaelis",
+          "use": "Record rationale and status"
+        }
+      ]
+    },
+    {
+      "id": "diagram-tools",
+      "name": "Diagram tools",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "vaelis",
+          "use": "Clarify processes"
+        }
+      ]
+    },
+    {
+      "id": "review-tracker",
+      "name": "Review tracker",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "vaelis",
+          "use": "Collect corrections"
+        }
+      ]
+    },
+    {
+      "id": "decision-matrix",
+      "name": "Decision matrix",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "eldrin",
+          "use": "Compare options and criteria"
+        }
+      ]
+    },
+    {
+      "id": "research-references",
+      "name": "Research references",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "eldrin",
+          "use": "Verify supporting claims"
+        }
+      ]
+    },
+    {
+      "id": "review-notes",
+      "name": "Review notes",
+      "status": "proposed",
+      "access": "Explicit Quest authorization; credentials and adapters are not implemented.",
+      "assignments": [
+        {
+          "worker": "eldrin",
+          "use": "Track disagreement and assumptions"
+        }
+      ]
+    }
+  ]
+}
