@@ -33,7 +33,7 @@ export default async function HandbookPage({ params }: PageProps<'/[...slug]'>) 
             <CodeBlock className="my-2 bg-fd-background">
               <Pre className="w-full whitespace-pre-wrap ps-3 pe-10"><code>npx skills add cunilab/arcane-warren</code></Pre>
             </CodeBlock>
-            <p>Install all 12 skills together. Lucerna pastes the Quest and Circle skills into each worker brief.</p>
+            <p>Install all {skillEntries.length} skills together. Lucerna pastes the Quest, Covenant, and Circle skills into each worker brief.</p>
             <p>Lucerna uses Cairn Memory for the remembered model list and the Chronicle. If Cairn is unavailable, Lucerna tells the Keeper once and continues without those records.</p>
           </section>
           <SkillDirectory skills={skillEntries} />

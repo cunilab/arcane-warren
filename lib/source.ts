@@ -20,7 +20,8 @@ export const skillEntries = skills.entries.map(({ name, description, info }) => 
   return {
     name,
     description,
-    audience: name === 'warren' || name === 'warren-lucerna' ? 'Main session' : 'Worker',
+    audience: name === 'warren-covenant' ? 'Lucerna and workers'
+      : name === 'warren' || name === 'warren-lucerna' ? 'Main session' : 'Worker',
   };
 }).sort((a, b) => a.audience.localeCompare(b.audience) || a.name.localeCompare(b.name));
 

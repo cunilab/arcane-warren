@@ -14,6 +14,6 @@ Arcane Warren coordinates specialized AI workers under human direction.
 - **Covenant** sets the data, tools, actions, budget, and approvals allowed for a Quest.
 - **Relic** is a tool or integration a Circle can use when its Covenant allows it.
 
-1. In the main session, load `warren-lucerna`.
-2. For a worker, use `warren-quest` and the one Circle skill named in the brief. Lucerna supplies both texts in the brief.
+1. In the main session, load `warren-lucerna` and `warren-covenant`.
+2. For a worker, use `warren-quest`, `warren-covenant`, and the one Circle skill named in the brief. Lucerna supplies all three texts in every worker brief.
 3. Follow the skills as the operating rules. Use the handbook for explanation. If the handbook disagrees with a skill, follow the skill.
