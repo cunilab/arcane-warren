@@ -159,6 +159,22 @@ export function PracticePrinciples() {
   );
 }
 
+export function SkillDirectory({ skills }: {
+  skills: { name: string; description: string; audience: string }[];
+}) {
+  return (
+    <ul className="not-prose warren-card-grid warren-skill">
+      {skills.map(({ name, description, audience }) => (
+        <li key={name} className="warren-panel">
+          <h2><Link href={`/skills/${name}/`}>{name}</Link></h2>
+          <p>{audience}</p>
+          <p>{description}</p>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 export function RelicCatalog() {
   return (
     <div className="not-prose">

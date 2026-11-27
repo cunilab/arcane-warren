@@ -35,6 +35,7 @@ export default function Home() {
             <Link href="/circles/">Circles</Link>
             <Link href="/quests/">Quests</Link>
             <Link href="/runes/">Runes</Link>
+            <Link href="/skills/">Skills</Link>
           </nav>
         </div>
       </header>

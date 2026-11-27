@@ -140,6 +140,7 @@ ol.warren-diagram-key { padding-inline-start: 1.35rem; list-style: decimal; }
 .warren-panel dt { font-weight: 650; }
 .warren-panel dd, .warren-panel p { margin-top: .25rem; color: var(--color-fd-muted-foreground); font-size: .88rem; }
 .warren-panel a, .warren-chips a { text-decoration: underline; text-underline-offset: .18em; }
+.warren-skill { overflow-wrap: anywhere; }
 .warren-directory > .warren-panel { overflow: hidden; padding: 0; }
 .warren-directory .warren-art { margin: 0; border-width: 0 0 1px; border-radius: 0; }
 .warren-directory-copy { padding: .9rem; }

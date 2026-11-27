@@ -5,7 +5,7 @@ description: Carry verified findings, decisions, and dead ends forward so the ne
 
 <SceneHero id="scenes/cairn-memory" title="Memory and lessons" summary="Carry verified findings, decisions, and dead ends forward so the next Quest can build on them." />
 
-[Cairn Memory](https://github.com/cunilab/cairn-memory) is the independent project selected for the Warren’s planned memory integration. Warren owns Quest artifacts and the Chronicle.
+[Cairn Memory](https://github.com/cunilab/cairn-memory) is the independent memory service chosen for the Warren. Quest artifacts stay with their Quests. Lucerna stores the Chronicle and model notes in Cairn.
 
 ## What gets recorded
 
@@ -14,10 +14,14 @@ description: Carry verified findings, decisions, and dead ends forward so the ne
 | Record | What it holds |
 | --- | --- |
 | **Quest artifact** | The delivered brief, design, patch, or other result, with evidence a reviewer can check. |
-| **Chronicle** | The execution history, including assignments, state changes, approvals, and failures. |
+| **Chronicle** | One Cairn note per completed, failed, or canceled Quest. It records the Circle, model choices, state changes, approvals, and outcome. |
+| **Model capabilities** | What previously chosen models can do, such as edit files or accept images. |
+| **Usage-limit notes** | Dated records of when a model hit a limit, shown to the Keeper as hints. |
 | **Cairn lesson** | A reusable finding or decision with evidence, context, and limits on where it applies. |
 
 </div>
+
+See the [Lucerna skill](/skills/warren-lucerna/) for when these notes are saved.
 
 ## Recall, check, record
 
@@ -38,4 +42,4 @@ description: Carry verified findings, decisions, and dead ends forward so the ne
   <div className="warren-panel"><dt>Warren</dt><dd>Reviewed lessons suitable for reuse across projects.</dd></div>
 </dl>
 
-Before this is connected to a live system, check who is asking, what they are allowed to see, how records are searched and saved, how corrections and deletions work, how long records are kept, and what a Quest does when the memory service is unavailable.
+Before this is connected to a live system, check who is asking, what they are allowed to see, how records are searched and saved, how corrections and deletions work, and how long records are kept. If Cairn is unavailable, Lucerna tells the Keeper once and continues.

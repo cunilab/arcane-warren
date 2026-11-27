@@ -39,9 +39,10 @@ content = json.loads((PROJECT / "site/content.json").read_text())
 registered = {v["path"] for v in registry.values()}
 routes = [
     "", "guide/", "architecture/", "keeper/", "lucerna/", "quests/",
-    "circles/", "runes/", "grimoire/", "covenants/", "memory/",
+    "circles/", "runes/", "skills/", "grimoire/", "covenants/", "memory/",
 ]
 routes += [f"circles/{circle['id']}/" for circle in content["circles"]]
+routes += [f"skills/{path.parent.name}/" for path in (PROJECT / "skills").glob("*/SKILL.md")]
 for route in routes:
     if ROOT / f"{route}index.html" not in pages: errors.append(f"Missing page: /{route}")
 for path, p in pages.items():

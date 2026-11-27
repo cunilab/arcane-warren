@@ -14,7 +14,7 @@ description: The proposed coordinator that plans Quests, assigns Circles, and br
 <ol className="not-prose warren-diagram-key" aria-label="Lucerna dispatch and review">
   <li><strong>Frame</strong><p>Confirm the objective, acceptance criteria, budget, and stop conditions.</p></li>
   <li><strong>Plan</strong><p>Define one Circle owner per Quest. Record inputs, dependencies, and the expected deliverable.</p></li>
-  <li><strong>Dispatch</strong><p>Start independent Quests when ready. Pass each Circle the locations of the results it needs and the approved context for its work.</p></li>
+  <li><strong>Dispatch</strong><p>Before each Quest, name the Circle and explain why it fits. Wait for the Keeper to choose the provider, model, and effort before starting. Pass the Circle the inputs and approved context it needs.</p></li>
   <li><strong>Observe</strong><p>Track where the work stands, how long it has taken, which tools were used, which models were used, and what is blocking it.</p></li>
   <li><strong>Review</strong><p>Check acceptance criteria, complete and unaltered results, unresolved risks, and approval status.</p></li>
   <li><strong>Return</strong><p>Give the Keeper the artifacts, evidence, limitations, and outstanding decisions.</p></li>
@@ -33,12 +33,16 @@ description: The proposed coordinator that plans Quests, assigns Circles, and br
 
 </div>
 
-Choose the smallest set of [Circles](/circles/) that can deliver. Escalate a capability gap or unresolved scope question to the [Keeper](/keeper/).
+Choose the smallest set of [Circles](/circles/) that can deliver. If the chosen model lacks a capability the Quest needs, explain the gap and ask the [Keeper](/keeper/) whether to keep the choice or pick again. Bring unresolved scope questions to the Keeper too.
 
 ## Track work and handle blockers
 
-Keep a [Quest](/quests/#quest-states) blocked when a required input, result, or approval is missing. Retry a transient failure within the agreed limits. Verify the outcome of an action that might already have taken effect before considering another attempt.
+Keep a [Quest](/quests/#quest-states) blocked when a required input, result, or approval is missing. For a temporary error such as a dropped connection, retry within the agreed limits. If the first attempt might have taken effect, check its outcome before trying again.
+
+If a model hits a usage limit, Lucerna marks the Quest **Blocked: limit** and stops. Lucerna asks the Keeper which provider, model, and effort should continue the Quest or whether to discard the work. If work resumes, the next worker reads the progress file and checks the worktree diff against the start commit.
 
 ## Review and return
 
-If Circles disagree, evaluate their evidence against the criteria and use an independent reviewer if needed. Record assignments, state changes, and outcomes in the [Chronicle](/memory/#what-gets-recorded). In the design, Lucerna verifies recalled Cairn records against current evidence before using them.
+If Circles disagree, evaluate their evidence against the criteria and use an independent reviewer if needed. The Keeper must approve the changes before they are merged. Lucerna records the settled Quest in the [Chronicle](/memory/#what-gets-recorded) and checks recalled Cairn records against current evidence before using them.
+
+See the [Lucerna skill](/skills/warren-lucerna/) for the operating rules.
