@@ -2,7 +2,7 @@
   "pages": [
     "---Start here---", "guide",
     "---System design---", "architecture", "keeper", "lucerna",
-    "---Work and skills---", "quests", "circles", "runes",
+    "---Work and skills---", "quests", "circles", "runes", "skills",
     "---Operating rules---", "grimoire", "covenants", "memory"
   ]
 }
