@@ -30,11 +30,17 @@ export default async function HandbookPage({ params }: PageProps<'/[...slug]'>) 
         <DocsBody>
           <section className="not-prose warren-panel warren-skill mb-4" aria-labelledby="skills-install">
             <h2 id="skills-install" className="text-xl">Install</h2>
+            <p>For this project only, install into its agent folders on this machine.</p>
             <CodeBlock className="my-2 bg-fd-background">
               <Pre className="w-full whitespace-pre-wrap ps-3 pe-10"><code>npx skills add cunilab/arcane-warren</code></Pre>
             </CodeBlock>
+            <p>For your user, install across all projects on this machine.</p>
+            <CodeBlock className="my-2 bg-fd-background">
+              <Pre className="w-full whitespace-pre-wrap ps-3 pe-10"><code>npx skills add cunilab/arcane-warren -g</code></Pre>
+            </CodeBlock>
             <p>Install all {skillEntries.length} skills together. Lucerna pastes the Quest, Covenant, and Circle skills into each worker brief.</p>
             <p>Lucerna uses Cairn Memory for the remembered model list and the Chronicle. If Cairn is unavailable, Lucerna tells the Keeper once and continues without those records.</p>
+            <p><strong>Using Cairn?</strong> These commands install skills on this machine only. To add them to Cairn Memory, ask your agent to publish each <code>skills/*/SKILL.md</code> to your Cairn skill library with <code>skill_save</code>. Any agent connected to that Cairn can find them with <code>skill_search</code>.</p>
           </section>
           <SkillDirectory skills={skillEntries} />
         </DocsBody>
