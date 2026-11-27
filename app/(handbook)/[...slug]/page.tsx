@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { CodeBlock, Pre } from 'fumadocs-ui/components/codeblock';
 import { DocsBody, DocsDescription, DocsPage, DocsTitle } from 'fumadocs-ui/layouts/docs/page';
 import { createRelativeLink } from 'fumadocs-ui/mdx';
 import { SkillDirectory } from '@/components/handbook';
@@ -26,7 +27,17 @@ export default async function HandbookPage({ params }: PageProps<'/[...slug]'>) 
       <DocsPage>
         <DocsTitle>{page.data.title}</DocsTitle>
         <DocsDescription>{page.data.description}</DocsDescription>
-        <DocsBody><SkillDirectory skills={skillEntries} /></DocsBody>
+        <DocsBody>
+          <section className="not-prose warren-panel warren-skill mb-4" aria-labelledby="skills-install">
+            <h2 id="skills-install" className="text-xl">Install</h2>
+            <CodeBlock className="my-2 bg-fd-background">
+              <Pre className="w-full whitespace-pre-wrap ps-3 pe-10"><code>npx skills add cunilab/arcane-warren</code></Pre>
+            </CodeBlock>
+            <p>Install all 12 skills together. Lucerna pastes the Quest and Circle skills into each worker brief.</p>
+            <p>Lucerna uses Cairn Memory for the remembered model list and the Chronicle. If Cairn is unavailable, Lucerna tells the Keeper once and continues without those records.</p>
+          </section>
+          <SkillDirectory skills={skillEntries} />
+        </DocsBody>
       </DocsPage>
     );
   }
