@@ -1,6 +1,6 @@
 {
   "brand/mark": {
-    "path": "assets/images/brand/mark.svg",
+    "path": "assets/images/brand/mark.png",
     "label": "Brand mark",
     "width": 512,
     "height": 512,
@@ -77,11 +77,13 @@
     "description": "Individual Kairen portrait; consistent character design."
   },
   "characters/keeper": {
-    "path": "assets/images/characters/keeper.svg",
+    "path": "assets/images/characters/keeper.webp",
     "label": "The Keeper",
     "width": 900,
     "height": 1200,
-    "description": "Symbolic human authority portrait."
+    "description": "Asset ID · characters/keeper\nPage and position · /keeper/, alongside the introduction about human ownership.\nWhat it explains · The human role in content/handbook/keeper.mdx that sets objectives and limits, approves consequential actions, and decides what to accept after review.\nStyle family · Painted fantasy scene\nAspect ratio · 2:3, later center-cropped to 3:4\nLabels · None\nPrompt · Paint the Keeper from behind in a dark wool cloak at the high Sanctum of the Arcane Warren. Center the figure in the vertical 2:3 painting, filling about half the frame and leaving room for the later 3:4 crop. Place a brass compass, an unused approval seal, and an empty evidence tray within reach on the stone ledge. Suggest the Warren below with the soft arcane violet outline of a single arch. Let one off-frame lantern brush the scene in gold and leave the surrounding space in soft plum-black shadow. Keep the portrait wordless.",
+    "caption": "The Keeper chooses the goal, approves actions that matter, and decides whether the evidence is enough to accept the work.",
+    "alt": "A cloaked figure seen from behind at a stone ledge, with a compass, a wax seal, and an empty tray, looking toward a violet arch."
   },
   "characters/liora": {
     "path": "assets/images/characters/liora.svg",
@@ -91,11 +93,13 @@
     "description": "Individual Liora portrait; consistent character design."
   },
   "characters/lucerna": {
-    "path": "assets/images/characters/lucerna.svg",
+    "path": "assets/images/characters/lucerna.webp",
     "label": "Lucerna",
     "width": 900,
     "height": 1200,
-    "description": "Lightkeeper portrait."
+    "description": "Asset ID · characters/lucerna\nPage and position · /lucerna/, alongside the introduction to the proposed coordinator.\nWhat it explains · The coordinator in content/handbook/lucerna.mdx that turns an authorized goal into assigned Quests and returns evidence to the Keeper. The lantern’s meaning comes from content/handbook/guide.mdx.\nStyle family · Painted fantasy scene\nAspect ratio · 2:3, later center-cropped to 3:4\nLabels · None\nPrompt · Paint Lucerna as a hooded guide holding a brass lantern at a junction in the Arcane Warren. Center the figure and lantern as one silhouette filling about half the vertical 2:3 frame, with room for the later 3:4 crop. Let the lantern send two clear gold beams along separate routes, with a faint arcane violet tint at their tips. Show an empty evidence tray in a shallow stone recess within reach. Suggest the hall with one softly lit arch and let the rest sink into open plum-black shadow. Keep the portrait wordless.",
+    "caption": "Lucerna turns one approved goal into Quests with owners, then brings the evidence back for the Keeper to review.",
+    "alt": "A hooded figure holds a lantern that sends two beams to the floor. An empty tray sits in front, and a tunnel opens behind."
   },
   "characters/lyra": {
     "path": "assets/images/characters/lyra.svg",
@@ -196,81 +200,101 @@
     "description": "Individual Zephyr portrait; consistent character design."
   },
   "circles/abjuration": {
-    "path": "assets/images/circles/abjuration.svg",
+    "path": "assets/images/circles/abjuration.webp",
     "label": "Circle of Abjuration",
     "width": 1200,
     "height": 675,
-    "description": "Discipline environment or symbolic illustration for Abjuration."
+    "description": "Asset ID · circles/abjuration\nPage and position · /circles/ in the Abjuration card and /circles/abjuration/ beside “Typical results.”\nWhat it explains · Abjuration’s risk registers, test evidence, and independent review findings in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint a stone ward under inspection in the Circle of Abjuration’s Warren hall. Center the ward on a plain stone slab so it fills about half the wide 16:9 frame. Suspend one brass inspection lens over the ward and let its soft arcane violet beam reveal a single hairline flaw. Set one simple brass gauge beside the lens to show how the ward is tested. Let light from one off-frame lantern warm a quiet stone wall to gold before it falls into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Abjuration examines risks and test evidence.",
+    "alt": "A brass lens reveals a hairline flaw in a stone ward while a single gauge checks it."
   },
   "circles/alchemy": {
-    "path": "assets/images/circles/alchemy.svg",
+    "path": "assets/images/circles/alchemy.webp",
     "label": "Circle of Alchemy",
     "width": 1200,
     "height": 675,
-    "description": "Discipline environment or symbolic illustration for Alchemy."
+    "description": "Asset ID · circles/alchemy\nPage and position · /circles/ in the Alchemy card and /circles/alchemy/ beside “Typical results.”\nWhat it explains · Alchemy’s product hypotheses, prototype plans, and experiment findings in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint a half-formed prototype suspended in the Circle of Alchemy’s Warren workshop. Center it within a paired test rig that fills about half the wide 16:9 frame. Give the rig two glass vessels on a single brass base, with one plain valve beneath each vessel. Let soft arcane violet glow at the prototype and use one off-frame lantern to catch the glass in gold. Suggest the room with a single softly lit stone wall fading into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Alchemy turns hypotheses into tests.",
+    "alt": "A half-formed prototype hangs between two glass test vessels with separate brass valves."
   },
   "circles/artifice": {
-    "path": "assets/images/circles/artifice.svg",
+    "path": "assets/images/circles/artifice.webp",
     "label": "Circle of Artifice",
     "width": 1200,
     "height": 675,
-    "description": "Discipline environment or symbolic illustration for Artifice."
+    "description": "Asset ID · circles/artifice\nPage and position · /circles/ in the Artifice card and /circles/artifice/ beside “Typical results.”\nWhat it explains · Artifice’s feasibility studies, technical designs, working prototypes, tests, and deployment notes in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint a brass prototype clamped in a simple stone test rig in the Circle of Artifice’s Warren workshop. Center the assembly so it fills about half the wide 16:9 frame and rests on a bare wooden bench. Show one exposed gear seated in the prototype and a small test gauge with faint dial marks on the rig. Lay one wordless sketch of the prototype flat beside it. Let soft arcane violet glow from the gear and one off-frame lantern cast gold across a single stone wall that fades into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Artifice designs, prototypes, and tests technology.",
+    "alt": "A brass prototype with one exposed gear sits in a stone rig with a gauge, beside a sketch on the bench."
   },
   "circles/chronomancy": {
-    "path": "assets/images/circles/chronomancy.svg",
+    "path": "assets/images/circles/chronomancy.webp",
     "label": "Circle of Chronomancy",
     "width": 1200,
     "height": 675,
-    "description": "Discipline environment or symbolic illustration for Chronomancy."
+    "description": "Asset ID · circles/chronomancy\nPage and position · /circles/ in the Chronomancy card and /circles/chronomancy/ beside “Typical results.”\nWhat it explains · Chronomancy’s dependency maps, execution plans, and workflow specifications in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint a brass clockwork latch where two tracks meet in the Circle of Chronomancy’s Warren workshop. Center the mechanism on a plain work surface so it fills about half the wide 16:9 frame. Show one shuttle already seated and another approaching, with the onward track held shut until both arrive. Give the shared latch a soft arcane violet glow and let one off-frame lantern trace the brass in gold. Suggest the chamber with a single softly lit stone wall that recedes into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Chronomancy maps dependencies and handoffs.",
+    "alt": "Two brass shuttles sit on a track with an open clockwork latch between them, and the track continues past the second shuttle."
   },
   "circles/commerce": {
-    "path": "assets/images/circles/commerce.svg",
+    "path": "assets/images/circles/commerce.webp",
     "label": "Circle of Commerce",
     "width": 1200,
     "height": 675,
-    "description": "Discipline environment or symbolic illustration for Commerce."
+    "description": "Asset ID · circles/commerce\nPage and position · /circles/ in the Commerce card and /circles/commerce/ beside “Typical results.”\nWhat it explains · Commerce’s unit economics, sales plans, and customer insight briefs in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint a brass balance in the Circle of Commerce’s Warren appraisal hall. Center the scale and its pans so they fill about half the wide 16:9 frame. Place a piece of raw material in one pan and a trade token in the other, with one blank order slip below the balance. Give the trade pan a soft arcane violet glow and let one off-frame lantern cast gold on the brass. Suggest the hall with one softly lit stone arch fading into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Commerce studies business value and customer needs.",
+    "alt": "A brass balance weighs raw material against a trade token, with one blank order slip below it."
   },
   "circles/divination": {
-    "path": "assets/images/circles/divination.svg",
+    "path": "assets/images/circles/divination.webp",
     "label": "Circle of Divination",
     "width": 1200,
     "height": 675,
-    "description": "Discipline environment or symbolic illustration for Divination."
+    "description": "Asset ID · circles/divination\nPage and position · /circles/ in the Divination card and /circles/divination/ beside “Typical results.”\nWhat it explains · Divination’s evidence briefs, analysis reports, and uncertainty assessments in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint an adjustable brass lens in the Circle of Divination’s Warren chamber. Center the lens and its narrow beam on a plain stone surface so the comparison fills about half the wide 16:9 frame. Place two mineral fragments under the lens so their soft arcane violet beams overlap in one sharply bounded band on the stone. Let one off-frame lantern bring gold to the edge of the lens. A softly lit stone wall fades into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Divination weighs evidence and states uncertainty.",
+    "alt": "A brass lens shines a gold beam toward two mineral fragments that each cast a separate violet beam."
   },
   "circles/enchantment": {
-    "path": "assets/images/circles/enchantment.svg",
+    "path": "assets/images/circles/enchantment.webp",
     "label": "Circle of Enchantment",
     "width": 1200,
     "height": 675,
-    "description": "Discipline environment or symbolic illustration for Enchantment."
+    "description": "Asset ID · circles/enchantment\nPage and position · /circles/ in the Enchantment card and /circles/enchantment/ beside “Typical results.”\nWhat it explains · Enchantment’s campaign briefs, channel strategies, and editorial calendars in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint a brass lantern fitted with a lens wheel in the Circle of Enchantment’s Warren workshop. Center the lantern and its beams so they fill about half the wide 16:9 frame. Let two different lenses shape its lantern-gold light into distinct beams with faint arcane violet edges. Fit one small timing dial to the wheel, with a few subtle marks to suggest when each beam is sent. Catch the beams on a single stone wall and let the rest fall into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Enchantment plans campaigns, channels, and editorial work.",
+    "alt": "A brass lantern uses two lenses to cast two beams, with a timing dial on the lantern body beside the lens wheel."
   },
   "circles/illusion": {
-    "path": "assets/images/circles/illusion.svg",
+    "path": "assets/images/circles/illusion.webp",
     "label": "Circle of Illusion",
     "width": 1200,
     "height": 675,
-    "description": "Discipline environment or symbolic illustration for Illusion."
+    "description": "Asset ID · circles/illusion\nPage and position · /circles/ in the Illusion card and /circles/illusion/ beside “Typical results.”\nWhat it explains · Illusion’s creative direction, production-ready assets, and visual specifications in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint a cut-crystal prism casting an image onto a single silk hanging in the Circle of Illusion’s Warren atelier. Center the prism and its projection as one composition filling about half the wide 16:9 frame. Pass light from one off-frame lantern through the prism so a lantern-gold seed outline unfolds into an arcane violet tree silhouette on the silk. Keep the outlines crisp and the silk folds broad. Suggest the atelier with a single softly lit stone wall fading into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Illusion gives ideas visual and narrative form.",
+    "alt": "A crystal prism projects a seed unfolding into a tree silhouette on a single silk hanging."
   },
   "circles/lore": {
-    "path": "assets/images/circles/lore.svg",
+    "path": "assets/images/circles/lore.webp",
     "label": "Circle of Lore",
     "width": 1200,
     "height": 675,
-    "description": "Discipline environment or symbolic illustration for Lore."
+    "description": "Asset ID · circles/lore\nPage and position · /circles/ in the Lore card and /circles/lore/ beside “Typical results.”\nWhat it explains · Lore’s knowledge briefs, decision records, and memory reviews in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint one open folio on a plain wooden lectern in the Circle of Lore’s Warren archive. Center the folio so it fills about half the wide 16:9 frame. Let a single arcane violet thread draw one blank source leaf into the binding beside a plain wax decision seal. Use one off-frame lantern to warm the exposed paper and wood to gold. Suggest the archive with one softly lit stone wall and leave the rest in open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Lore turns experience into durable knowledge.",
+    "alt": "An open book with blank pages has a violet thread running to a wax seal on the right page."
   },
   "diagrams/delver-anatomy": {
     "path": "assets/images/diagrams/delver-anatomy.svg",
-    "label": "Delver anatomy",
+    "label": "Circle anatomy",
     "width": 1600,
     "height": 900,
     "description": "Identity, skills, tools, permissions and outputs."
   },
   "diagrams/expedition-lifecycle": {
-    "path": "assets/images/diagrams/expedition-lifecycle.svg",
+    "path": "assets/images/diagrams/expedition-lifecycle.webp",
     "label": "Expedition lifecycle",
     "width": 1600,
     "height": 900,
-    "description": "Seven-stage expedition diagram."
+    "description": "Asset ID · diagrams/expedition-lifecycle\nPage and position · /architecture/, under Design in “An Expedition from start to finish,” above the seven stages.\nWhat it explains · The seven stages in site/content.json, shown by ExpeditionTimeline in components/handbook.tsx, from stating a shared goal through review and the Chronicle.\nStyle family · Painted cutaway diagram\nAspect ratio · 16:9\nLabels · \"The Call\", \"The Conclave\", \"The Descent\", \"The Ritual\", \"The Revelation\", \"The Return\", \"The Chronicle\"\nPrompt · Paint a cutaway of a Warren Expedition from the first shared goal to the record of what was learned. Spread seven adjoining chambers in a single horizontal gallery that fills the 16:9 frame with carved floors, arches, and beams. From left to right, give the first four chambers a compass, a pair of interlocked rings, a carved stair, and a knotted handoff cord. Place an evidence lens, a review tray, and a bound chronicle in the last three rooms, keeping one clear symbol in each room. Run one gold path left to right across the thresholds and use arrow-shaped runes to point toward the last vault. Tint the stretch leading from the evidence lens to the review tray in violet to show the return for human review, then carry the gold light onward to the chronicle. Use painterly realism with warm lantern gold on carved stone and wood, a soft arcane violet glow, and deep plum-black shadows. Carve one large, legible stone plaque per chamber and use only these words from left to right: \"The Call\", \"The Conclave\", \"The Descent\", \"The Ritual\", \"The Revelation\", \"The Return\", and \"The Chronicle\".",
+    "caption": "An Expedition is several Quests under one goal. A person reviews their evidence, and what was learned is written into the Chronicle.",
+    "alt": "Seven arches labeled The Call, The Conclave, The Descent, The Ritual, The Revelation, The Return, and The Chronicle. A gold arrow runs across them and turns violet near the end."
   },
   "diagrams/memory-lifecycle": {
     "path": "assets/images/diagrams/memory-lifecycle.svg",
@@ -294,11 +318,13 @@
     "description": "Four-phase roadmap; no invented dates."
   },
   "scenes/cairn-memory": {
-    "path": "assets/images/scenes/cairn-memory.svg",
+    "path": "assets/images/scenes/cairn-memory.webp",
     "label": "Cairn Memory",
     "width": 1200,
     "height": 675,
-    "description": "Memory landmark illustration."
+    "description": "Asset ID · scenes/cairn-memory\nPage and position · /memory/, alongside the introduction to Cairn Memory.\nWhat it explains · Cairn’s proposed role in content/handbook/memory.mdx as the home of reusable lessons with evidence and context, and the cairn landmark symbol in content/handbook/guide.mdx.\nStyle family · Painted fantasy scene\nAspect ratio · 16:9\nLabels · None\nPrompt · Paint a weathered stone cairn at a quiet crossroads in the Arcane Warren. Center the cairn so it fills about half the wide 16:9 frame. In a single niche, use one glowing arcane violet thread to tie a blank lesson slip to its source folio. Let light from one off-frame lantern warm the stones to gold. Suggest the crossroads with two plain floor paths and one softly lit wall that falls away into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "A later Quest can look up a lesson, check the evidence it came from, and see where that lesson applies.",
+    "alt": "A stone cairn at a fork in the path. In its niche, a violet thread ties a book to a loose page."
   },
   "scenes/origin": {
     "path": "assets/images/scenes/origin.svg",
@@ -315,11 +341,13 @@
     "description": "Product launch collaboration illustration."
   },
   "scenes/warren-hero": {
-    "path": "assets/images/scenes/warren-hero.svg",
+    "path": "assets/images/scenes/warren-hero.webp",
     "label": "Warren hero",
     "width": 1200,
     "height": 1000,
-    "description": "Main hero artwork: interconnected arcane realm."
+    "description": "Asset ID · scenes/warren-hero\nPage and position · /, in the hero figure beside the landing-page introduction.\nWhat it explains · The blueprint in app/page.tsx for human direction, specialized Circles, and reviewable evidence, the connected-paths symbol in content/handbook/guide.mdx, and the nine Circles in site/content.json.\nStyle family · Painted fantasy scene\nAspect ratio · 1:1, later center-cropped to 6:5\nLabels · None\nPrompt · Paint a great guiding lantern at the heart of the Arcane Warren. Make it the central subject, filling about half a square frame with the meaningful details inside the later 6:5 crop. Begin the lantern-gold path at one compass marker and let the lantern fan its light toward nine simple workshop openings set into one curved stone wall. Carry one blank evidence folio back toward the foreground along a soft arcane violet path. Let the chamber fall away around the lantern into open plum-black shadow. Keep the scene wordless and unpeopled.",
+    "caption": "Your goal goes to specialized Circles. The evidence comes back for you to review.",
+    "alt": "A large lantern stands on a round platform in a circular stone hall. A gold path runs to it from an arch, and a closed book lies on a violet path in front."
   },
   "scenes/thalos-workshop": {
     "path": "assets/images/scenes/thalos-workshop.svg",
@@ -488,5 +516,77 @@
     "width": 1200,
     "height": 900,
     "description": "Workspace concept for Eldrin. A thoughtful sage in a quiet council library with multiple open manuscripts, a modest guiding lantern and overlapping maps of perspectives. Placeholder only."
+  },
+  "diagrams/design-layers": {
+    "path": "assets/images/diagrams/design-layers.webp",
+    "label": "Warren design layers",
+    "width": 1600,
+    "height": 900,
+    "description": "Asset ID · diagrams/design-layers\nPage and position · /architecture/, under Design in “Who does what,” above the four-layer list.\nWhat it explains · The four responsibilities in content/handbook/architecture.mdx, covering the Keeper and Sanctum for direction and review, Lucerna for coordination, Circles for scoped work, and Cairn Memory for reusable lessons.\nStyle family · Painted cutaway diagram\nAspect ratio · 16:9\nLabels · \"The Keeper\", \"Lucerna\", \"Circles\", \"Cairn Memory\"\nPrompt · Paint a wide cutaway of the Warren that shows how a goal is assigned, how evidence comes back for review, and where reusable lessons are kept. Stack four broad floors across a 16:9 frame so carved halls, wooden beams, and their connecting stairs run to both edges. From top to bottom, furnish the halls with a high-backed chair for the Keeper, a brass lantern for Lucerna, a work anvil for the Circles, and a low stone cairn for memory. Give each floor one symbol and keep the surrounding stonework bare. Run one continuous ribbon of gold light down the stairs between all four floors, with downward arrow-shaped runes at each landing. On a separate stair, let a thinner violet thread carry the Circles’ evidence back up to Lucerna and then to the Keeper, with upward runes ending at the top hall. Render the stone and carved wood with painterly realism, warm lantern gold, a soft arcane violet glow, and deep plum-black shadows. Carve one large, legible stone plaque per floor and use only these words in top-to-bottom order: \"The Keeper\", \"Lucerna\", \"Circles\", and \"Cairn Memory\".",
+    "caption": "The Keeper sets the goal and the review. Lucerna assigns the work, each Circle does its part, and Cairn Memory keeps lessons later work can use.",
+    "alt": "Four stacked halls labeled The Keeper, Lucerna, Circles, and Cairn Memory. A gold arrow runs down the stairs and a violet arrow runs up a separate stair."
+  },
+  "diagrams/home-flow": {
+    "path": "assets/images/diagrams/home-flow.webp",
+    "label": "From a question to a result",
+    "width": 1600,
+    "height": 900,
+    "description": "Asset ID · diagrams/home-flow\nPage and position · /, under Design in “From a question to a result,” above the five links.\nWhat it explains · The five steps in app/page.tsx and content/handbook/architecture.mdx, from setting a human goal to reviewing evidence and preserving lessons.\nStyle family · Painted cutaway diagram\nAspect ratio · 16:9\nLabels · \"Set the goal\", \"Plan the work\", \"Do the work\", \"Review the result\", \"Preserve lessons\"\nPrompt · Paint a cutaway of the Warren that follows a human goal through work and review into reusable lessons. Carve a five-chamber gallery that fills a 16:9 frame from edge to edge, with all five rooms open to view in a single horizontal row. Place a compass, a folded plan, a forge hammer, an inspection lens, and a small cairn from left to right, each alone in its chamber. Run a broad gold ribbon through the consecutive doorways, with bright arrow-shaped runes pointing right toward the archive. Give the portion that carries the Circle’s evidence from work into review a violet glow along the same path. Render carved stone and worn wood with painterly realism, warm lantern gold with soft arcane violet light and deep plum-black shadows. Carve one large, legible stone plaque per chamber and use only these words from left to right: \"Set the goal\", \"Plan the work\", \"Do the work\", \"Review the result\", and \"Preserve lessons\".",
+    "caption": "A question follows five steps: set the goal, plan the work, do it, review the result, and keep the lesson.",
+    "alt": "Five stone arches in a row, labeled Set the goal, Plan the work, Do the work, Review the result, and Preserve lessons, joined by a glowing arrow."
+  },
+  "diagrams/lucerna-dispatch": {
+    "path": "assets/images/diagrams/lucerna-dispatch.webp",
+    "label": "Lucerna dispatch",
+    "width": 1600,
+    "height": 900,
+    "description": "Asset ID · diagrams/lucerna-dispatch\nPage and position · /lucerna/, under Design in “Plan and assign,” above the six-step list.\nWhat it explains · The six steps in content/handbook/lucerna.mdx, from framing a Quest and assigning its Circle to tracking, reviewing, and returning evidence.\nStyle family · Painted cutaway diagram\nAspect ratio · 16:9\nLabels · \"Frame\", \"Plan\", \"Dispatch\", \"Observe\", \"Review\", \"Return\"\nPrompt · Paint a cutaway of Lucerna’s dispatch gallery as it carries a Quest from its objective to the evidence returned to the Keeper. Open six adjacent chambers in one horizontal row and let their floors, walls, and overhead vaults fill the 16:9 frame edge to edge. Set a brass sighting ring, a folded plan, a dispatch lantern, a carved eye, an inspection lens, and a sealed folio in order, one object per room. Thread a gold ribbon through the doorways from left to right and mark its direction with clear arrow-shaped runes. Give the stretch from Review into Return a violet glow along the same path as the evidence reaches its final chamber. Use painterly realism with warm lantern gold on carved stone and wood, a soft arcane violet glow, and deep plum-black shadows. Carve one large, legible stone plaque per chamber and use only these words from left to right: \"Frame\", \"Plan\", \"Dispatch\", \"Observe\", \"Review\", and \"Return\".",
+    "caption": "Lucerna confirms the goal, gives each Quest to one Circle, follows the work, and returns the evidence for review.",
+    "alt": "Six arches labeled Frame, Plan, Dispatch, Observe, Review, and Return. A gold arrow turns violet as it runs across them to the right."
+  },
+  "diagrams/quest-states": {
+    "path": "assets/images/diagrams/quest-states.webp",
+    "label": "Quest states",
+    "width": 1600,
+    "height": 900,
+    "description": "Asset ID · diagrams/quest-states\nPage and position · /quests/, under Design in “Quest states,” above the main state list and separate notes for other states.\nWhat it explains · The five main Quest states in content/handbook/quests.mdx, with evidence checked against acceptance criteria before completion.\nStyle family · Painted cutaway diagram\nAspect ratio · 16:9\nLabels · \"Proposed\", \"Ready\", \"Running\", \"Review\", \"Completed\"\nPrompt · Paint a Warren corridor cut away to show the five main states of a Quest. Set five open doorways side by side in a wide 16:9 view and fill the frame with the corridor’s stone walls, floor, and wooden lintels. Place a blank scroll, a prepared tool, a turning gear, an inspection lens, and a finished wax seal in the rooms from left to right, one clear object at each doorway. Lead one gold ribbon along the floor with bold right-pointing arrow runes between the successive doorways. Carry it through the inspection doorway before it ends at the final seal. Render the carved stone and wood with painterly realism, warm lantern gold, a soft arcane violet glow, and deep plum-black shadows. Carve one large, legible stone plaque per doorway and use only these words from left to right: \"Proposed\", \"Ready\", \"Running\", \"Review\", and \"Completed\".",
+    "caption": "A Quest is proposed, prepared, and worked, then checked. It is complete only when the evidence shows the result meets the criteria.",
+    "alt": "Five arches labeled Proposed, Ready, Running, Review, and Completed. Gold arrows run left to right and bend up into the last arch."
+  },
+  "diagrams/covenant-decision-flow": {
+    "path": "assets/images/diagrams/covenant-decision-flow.webp",
+    "label": "Covenant decision flow",
+    "width": 1600,
+    "height": 900,
+    "description": "Asset ID · diagrams/covenant-decision-flow\nPage and position · /covenants/, under Design in “When something changes,” above the four escalation steps.\nWhat it explains · The escalation sequence in content/handbook/covenants.mdx, covering check permitted scope, pause affected work, get the Keeper’s decision, and record the outcome.\nStyle family · Painted cutaway diagram\nAspect ratio · 16:9\nLabels · \"Check scope\", \"Pause\", \"Get a decision\", \"Record\"\nPrompt · Paint the Warren’s approval passage cut away to show what happens when changed conditions need a Keeper decision. Build a row of four connected chambers across a 16:9 frame and let the stone passage and timber vaults fill it to both edges. Place a bounded scroll, a lowered iron gate, a Keeper’s seal, and a Chronicle ledger from left to right, one symbol per chamber. Run a gold ribbon along the front walkway through all four rooms with right-pointing arrow runes between them. Keep the gate lowered behind the lit walkway as the decision continues to the ledger. Use painterly realism with warm lantern gold on carved stone and wood, a soft arcane violet glow, and deep plum-black shadows. Carve one large, legible stone plaque per chamber and use only these words from left to right: \"Check scope\", \"Pause\", \"Get a decision\", and \"Record\".",
+    "caption": "Check what the Quest is allowed to do. If something has changed, pause the work, ask the Keeper, and record the decision.",
+    "alt": "Four arches labeled Check scope, Pause, Get a decision, and Record, with a scroll, a barred gate, a star seal, and an open book."
+  },
+  "diagrams/memory-loop": {
+    "path": "assets/images/diagrams/memory-loop.webp",
+    "label": "Memory loop",
+    "width": 1600,
+    "height": 900,
+    "description": "Asset ID · diagrams/memory-loop\nPage and position · /memory/, under Design in “Recall, check, record,” above the four memory steps.\nWhat it explains · The four memory steps in content/handbook/memory.mdx, including evidence checks, provenance, preservation, and later authorized recall.\nStyle family · Painted cutaway diagram\nAspect ratio · 16:9\nLabels · \"Recall\", \"Explore\", \"Distill\", \"Preserve\"\nPrompt · Paint a cutaway of the Warren’s memory archive, where lessons are checked, recorded, and recalled when a later Quest is authorized to use them. Open four chambers around a broad oval walkway viewed from above at an angle, with their carved walls and floors filling a 16:9 frame all the way to the edges. Set an open archive drawer in the upper left, a lens in the upper right, a bound lesson in the lower right, and a stone cairn in the lower left, one object in each chamber. Trace a continuous gold current clockwise from the drawer through the lens and bound lesson to the cairn, with bright arrow-shaped runes pointing ahead at each doorway. Close the ring with a violet current rising from the cairn to the drawer, with its own arrow-shaped runes showing the direction of later authorized recall. Paint the carved stone and wood with warm lantern gold and deep plum-black shadows, letting soft arcane violet light spill along the return passage. Carve one large, legible stone plaque per chamber and use only these words in clockwise reading order: \"Recall\", \"Explore\", \"Distill\", and \"Preserve\".",
+    "caption": "Look up what was saved, check it against the current evidence, and keep the lesson with enough context for a later Quest.",
+    "alt": "Four chambers labeled Recall, Explore, Distill, and Preserve around a stone ring. A gold arrow circles one way and a violet arrow returns the other."
+  },
+  "diagrams/circle-anatomy": {
+    "path": "assets/images/diagrams/circle-anatomy.webp",
+    "label": "Circle anatomy",
+    "width": 1600,
+    "height": 900,
+    "description": "Asset ID · diagrams/circle-anatomy\nPage and position · /grimoire/, under Design in “What an instruction profile contains,” above the three definitions.\nWhat it explains · The three parts in content/handbook/grimoire.mdx, covering standing Circle instructions, the current Quest, and the Covenant’s access and approval boundaries.\nStyle family · Painted cutaway diagram\nAspect ratio · 16:9\nLabels · \"Grimoire\", \"Quest\", \"Covenant\"\nPrompt · Paint a cutaway of a Warren chamber where a Circle’s standing instructions, current work, and permitted actions come together. Set three distinct open alcoves side by side and spread the carved stone, beams, and floor across the full 16:9 frame. Display an open book, a rolled scroll, and a brass lock from left to right, each alone in its alcove. Open all three onto one broad stone threshold lit in gold, with an even glow where the alcoves meet. Keep the threshold free of arrowheads, directional runes, and tracks so the three alcoves read as parts used together. Render the stone and wood with painterly realism, warm lantern gold, soft arcane violet glow, and deep plum-black shadows. Carve one large, legible stone plaque per alcove and use only these words from left to right: \"Grimoire\", \"Quest\", and \"Covenant\".",
+    "caption": "A Circle’s standing instructions, its current job, and its permissions stay separate, and all three apply to the work.",
+    "alt": "Three alcoves labeled Grimoire, Quest, and Covenant, holding an open book, a rolled scroll, and a locked chest."
+  },
+  "diagrams/ritual-handoffs": {
+    "path": "assets/images/diagrams/ritual-handoffs.webp",
+    "label": "Ritual handoffs",
+    "width": 1600,
+    "height": 900,
+    "description": "Asset ID · diagrams/ritual-handoffs\nPage and position · /quests/, under Design in “When Quests work together,” above the five Ritual rules.\nWhat it explains · The Ritual rules in content/handbook/quests.mdx, covering establish the trigger, assign Quests in order or in parallel, hand off artifacts and allowed context, handle failures, and review evidence.\nStyle family · Painted cutaway diagram\nAspect ratio · 16:9\nLabels · \"Start\", \"Assign\", \"Hand off\", \"Handle failures\", \"Review\"\nPrompt · Paint a wide cutaway of a Warren gallery that shows how a Ritual moves work from one step to the next. Four stone chambers stand in one row from left to right across the full 16:9 frame, joined by a single glowing gold path with arrow-shaped runes that all point to the right. In the first chamber a brass lever is being pulled down beside a small glowing bell; in the second a plain stone table holds a short row of carved tokens laid out in order; in the third a sealed parcel passes through an open doorway toward the next chamber; in the fourth a large brass-framed lens rests on a stand. Between the third and fourth chambers, one thin violet branch splits downward from the gold path to a small barred side gate set lower in the wall, clearly apart from the main row. Keep each chamber bare except for its one symbol, with no second path, no extra lanterns, and no scattered objects. Render carved stone and wood with painterly realism, warm lantern gold, a soft arcane violet glow on the side gate, and deep plum-black shadows. Carve one large, legible stone plaque above each chamber reading \"Start\", \"Assign\", \"Hand off\", and \"Review\" from left to right, and one smaller plaque above the side gate reading \"Handle failures\".",
+    "caption": "A Ritual is a repeatable way to start Quests, pass work between them, handle a failure, and review the evidence.",
+    "alt": "Four arches labeled Start, Assign, Hand off, and Review along a gold arrow, with a violet branch down to a barred gate labeled Handle failures."
   }
 }

@@ -1,0 +1,41 @@
+---
+title: Memory and lessons
+description: Carry verified findings, decisions, and dead ends forward so the next Quest can build on them.
+---
+
+<SceneHero id="scenes/cairn-memory" title="Memory and lessons" summary="Carry verified findings, decisions, and dead ends forward so the next Quest can build on them." />
+
+[Cairn Memory](https://github.com/cunilab/cairn-memory) is the independent project selected for the Warren’s planned memory integration. Warren owns Quest artifacts and the Chronicle.
+
+## What gets recorded
+
+<div className="warren-table" role="region" aria-label="Warren work and memory records" tabIndex={0}>
+
+| Record | What it holds |
+| --- | --- |
+| **Quest artifact** | The delivered brief, design, patch, or other result, with evidence a reviewer can check. |
+| **Chronicle** | The execution history, including assignments, state changes, approvals, and failures. |
+| **Cairn lesson** | A reusable finding or decision with evidence, context, and limits on where it applies. |
+
+</div>
+
+## Recall, check, record
+
+<PlaceholderImage id="diagrams/memory-loop" />
+
+<ol className="not-prose warren-diagram-key" aria-label="Memory and lessons lifecycle">
+  <li><strong>Recall</strong><p>Retrieve authorized records relevant to the Quest.</p></li>
+  <li><strong>Explore</strong><p>Check the records against current evidence and scope.</p></li>
+  <li><strong>Distill</strong><p>Capture what was learned, including its evidence, provenance, and context.</p></li>
+  <li><strong>Preserve</strong><p>Save reusable lessons and correct records when better evidence changes the finding.</p></li>
+</ol>
+
+## Access and retention
+
+<dl className="not-prose warren-card-grid" aria-label="Proposed memory access scopes">
+  <div className="warren-panel"><dt>Personal</dt><dd>Context authorized for an individual.</dd></div>
+  <div className="warren-panel"><dt>Expedition</dt><dd>Decisions, findings, and context for one project.</dd></div>
+  <div className="warren-panel"><dt>Warren</dt><dd>Reviewed lessons suitable for reuse across projects.</dd></div>
+</dl>
+
+Before this is connected to a live system, check who is asking, what they are allowed to see, how records are searched and saved, how corrections and deletions work, how long records are kept, and what a Quest does when the memory service is unavailable.

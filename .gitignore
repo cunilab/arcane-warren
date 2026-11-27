@@ -1,0 +1,9 @@
+/node_modules/
+/.next/
+/.source/
+/out/
+/public/assets/
+/next-env.d.ts
+/*.tsbuildinfo
+/.orca-shots/
+/.playwright-mcp/
