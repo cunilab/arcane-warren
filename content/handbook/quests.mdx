@@ -5,7 +5,7 @@ description: A Quest gives one Circle a job and defines what you’ll review whe
 
 ## Quest contract
 
-Use this blank contract to write a Quest. Fill in each field before handing it to a Circle.
+Use this blank contract to write a Quest. Fill in each field before handing it to a Circle. Keep the provider, model, and effort out of the contract. The Keeper chooses them before the Quest starts.
 
 <dl className="not-prose warren-brief warren-contract" aria-label="Blank Quest contract">
   <div><dt>Intent</dt><dd>Objective, Circle owner, scope, and acceptance criteria.</dd></div>
@@ -28,10 +28,15 @@ Use this blank contract to write a Quest. Fill in each field before handing it t
 
 <dl className="not-prose warren-card-grid warren-state-notes" aria-label="Other Quest states">
   <div className="warren-panel"><dt>Blocked</dt><dd>A dependency, input, or decision is missing.</dd></div>
+  <div className="warren-panel"><dt>Blocked: limit</dt><dd>A model hit a usage limit. The Quest stops until the Keeper decides what to do.</dd></div>
   <div className="warren-panel"><dt>Awaiting approval</dt><dd>The Keeper needs to authorize a specific action.</dd></div>
   <div className="warren-panel"><dt>Failed</dt><dd>The work ended without meeting the criteria.</dd></div>
   <div className="warren-panel"><dt>Canceled</dt><dd>The work was stopped and the reason recorded.</dd></div>
 </dl>
+
+## Progress and resume
+
+Each Quest has its own Git worktree. The `.warren/quest-progress.md` file tracks what is done and what comes next. Its `Start commit` line identifies the commit used to check the worktree diff when work resumes. See the [Quest skill](/skills/warren-quest/) for the progress format and resume rules.
 
 ## When Quests work together
 
