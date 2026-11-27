@@ -1,0 +1,239 @@
+@import 'tailwindcss';
+@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/preset.css';
+
+.dark {
+  color-scheme: dark;
+  --color-fd-background: #100d17;
+  --color-fd-foreground: #f3edf7;
+  --color-fd-muted: #201929;
+  --color-fd-muted-foreground: #c4b9cf;
+  --color-fd-popover: #191421;
+  --color-fd-popover-foreground: #f3edf7;
+  --color-fd-card: #191421;
+  --color-fd-card-foreground: #f3edf7;
+  --color-fd-border: #43364f;
+  --color-fd-primary: #e4c18a;
+  --color-fd-primary-foreground: #221726;
+  --color-fd-secondary: #211a2b;
+  --color-fd-secondary-foreground: #f3edf7;
+  --color-fd-accent: #30243d;
+  --color-fd-accent-foreground: #f3edf7;
+  --color-fd-ring: #e4c18a;
+  --warren-violet: #c0a5e9;
+  --warren-serif: Georgia, 'Times New Roman', serif;
+}
+
+body {
+  background: radial-gradient(ellipse at 80% 0%, #291d3a 0%, transparent 42rem), var(--color-fd-background);
+  color: var(--color-fd-foreground);
+}
+:focus-visible { outline: 2px solid var(--color-fd-ring); outline-offset: 4px; }
+:target { scroll-margin-top: 5rem; }
+.warren-wrap { width: min(100% - 3rem, 72rem); margin-inline: auto; }
+.warren-wordmark { display: inline-flex; align-items: center; gap: .625rem; font: 1.36rem var(--warren-serif); white-space: nowrap; }
+.warren-mark { width: 28px; height: 28px; flex: none; }
+.warren-header { background: #130f1b; border-bottom: 1px solid var(--color-fd-border); }
+.warren-header-inner { display: flex; min-height: 4.25rem; align-items: center; justify-content: space-between; gap: 1rem; }
+.warren-header nav { display: flex; flex-wrap: wrap; gap: .5rem 1.55rem; font-size: .9rem; color: var(--color-fd-muted-foreground); }
+.warren-header a:hover, .warren-footer a:hover { color: var(--color-fd-primary); }
+.warren-skip { position: fixed; top: .5rem; left: .5rem; padding: .65rem; transform: translateY(-150%); background: var(--color-fd-background); z-index: 10; }
+.warren-skip:focus { transform: translateY(0); }
+.warren-home { flex: 1; }
+.warren-hero {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  align-items: center;
+  overflow: hidden;
+  min-height: clamp(32rem, 72vh, 46rem);
+  background: radial-gradient(ellipse at 76% 44%, #30223d, transparent 62%), #15101e;
+  border-bottom: 1px solid var(--color-fd-border);
+}
+.warren-hero-copy { padding-block: clamp(3.25rem, 8vw, 6.75rem); }
+.warren-hero h1 { margin-bottom: 1.45rem; font: clamp(3.25rem, 7.6vw, 7rem)/.96 var(--warren-serif); letter-spacing: -.055em; text-shadow: 0 3px 24px #100d179e; }
+.warren-tagline { color: var(--color-fd-primary); font: 1.22rem var(--warren-serif); }
+.warren-intro { max-width: 29rem; color: var(--color-fd-muted-foreground); font-size: clamp(1rem, 1.7vw, 1.18rem); line-height: 1.65; }
+.warren-actions { display: flex; flex-wrap: wrap; gap: .75rem 1.35rem; align-items: center; margin-top: 1.8rem; font-size: .91rem; }
+.warren-button { padding: .75rem 1.15rem; border-radius: .3rem; background: var(--color-fd-primary); color: var(--color-fd-primary-foreground); font-weight: 700; }
+.warren-button:hover { background: #f3d6a5; }
+.warren-text-link { text-decoration: underline; text-underline-offset: .25rem; color: var(--warren-violet); }
+.warren-hero-art { position: absolute; inset: 0 0 0 40%; z-index: -1; }
+.warren-hero-art .warren-zoom-open,
+.warren-hero-art .warren-zoom-open img { width: 100%; height: 100%; object-fit: cover; }
+.warren-hero-art .warren-zoom-open img {
+  opacity: .68;
+  /* Fade the picture into the hero background. A painted scrim left a flat band. */
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgb(0 0 0 / .18) 16%, rgb(0 0 0 / .55) 36%, #000 62%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgb(0 0 0 / .18) 16%, rgb(0 0 0 / .55) 36%, #000 62%);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+.warren-index { padding-block: clamp(2.5rem, 6vw, 4.8rem); }
+.warren-index h2 { max-width: 28rem; font: clamp(2rem, 4vw, 3.35rem)/1.05 var(--warren-serif); letter-spacing: -.04em; }
+.warren-kicker { color: var(--color-fd-primary); font-size: .75rem; font-weight: 650; letter-spacing: .06em; }
+
+.warren-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .55rem; }
+.warren-stats a { display: grid; align-content: start; height: 100%; padding: clamp(.6rem, 2vw, 1.1rem); border: 1px solid var(--color-fd-border); border-top: 2px solid var(--color-fd-primary); border-radius: .4rem; background: var(--color-fd-card); }
+.warren-stats strong { font: clamp(1.65rem, 4vw, 2.75rem)/1.1 var(--warren-serif); }
+.warren-stats span { margin-top: .3rem; color: var(--color-fd-muted-foreground); font-size: .8rem; }
+.warren-art { min-width: 0; margin-block: .85rem 1rem; overflow: hidden; border: 1px solid var(--color-fd-border); border-radius: .4rem; background: var(--color-fd-card); }
+.warren-art img, #nd-page .warren-art img { display: block; width: 100%; height: auto; margin: 0; }
+.warren-art figcaption, #nd-page .warren-art figcaption { margin: 0; padding: .55rem .75rem; border-top: 1px solid var(--color-fd-border); color: var(--color-fd-muted-foreground); font-size: .8rem; }
+.warren-role .warren-art, .warren-banner.warren-art { margin: 0; }
+.warren-banner.warren-art { margin-bottom: 1.25rem; }
+.warren-banner.warren-art .warren-banner-media { border-radius: 0; }
+.warren-zoom-open { position: relative; display: block; width: 100%; min-width: 0; margin: 0; padding: 0; border: 0; background: none; color: inherit; font: inherit; text-align: inherit; cursor: zoom-in; }
+.warren-zoom-open:focus-visible { outline-offset: -3px; }
+.warren-zoom-open img { display: block; width: 100%; height: auto; margin: 0; }
+.warren-zoom-hint { position: absolute; z-index: 1; top: .45rem; inset-inline-end: .45rem; display: grid; place-items: center; width: 1.75rem; height: 1.75rem; border-radius: .3rem; background: #100d17cc; color: var(--color-fd-primary); pointer-events: none; }
+.warren-hero-art .warren-zoom-hint { top: auto; inset-block-end: .65rem; }
+.warren-zoom { display: none; position: fixed; inset: 0; box-sizing: border-box; width: 100%; height: 100%; max-width: none; max-height: none; margin: 0; padding: 3.2rem 1rem 1rem; border: 0; grid-template-rows: minmax(0, 1fr) auto auto; align-items: center; justify-items: center; gap: .7rem; overflow: hidden; background: #100d17; color: var(--color-fd-foreground); }
+.warren-zoom[open] { display: grid; }
+.warren-zoom::backdrop { background: #07050ce6; }
+.warren-zoom-close { position: absolute; top: .75rem; inset-inline-end: .75rem; }
+.warren-zoom-stage { display: grid; place-items: center; width: min(100%, 80rem); height: 100%; min-height: 0; overflow: hidden; touch-action: none; }
+.warren-zoom-stage[data-zoomed='true'] { cursor: grab; }
+.warren-zoom-stage[data-panning='true'] { cursor: grabbing; }
+/* min-size:0 lets max-height beat the grid item's intrinsic minimum, which was cropping the image. */
+#nd-page .warren-zoom-stage img, .warren-zoom-stage img { width: auto; height: auto; max-width: 100%; max-height: 100%; min-width: 0; min-height: 0; margin: 0; object-fit: contain; opacity: 1; transform-origin: center; }
+.warren-zoom-caption { max-width: min(100%, 46rem); margin: 0; color: var(--color-fd-muted-foreground); font-size: .9rem; text-align: center; overflow-wrap: anywhere; }
+.warren-zoom-controls { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem; }
+.warren-zoom-controls button, .warren-zoom-close { min-width: 2.4rem; min-height: 2.4rem; padding: .35rem .7rem; border: 1px solid var(--color-fd-border); border-radius: .3rem; background: var(--color-fd-card); color: var(--color-fd-foreground); font: inherit; cursor: pointer; }
+.warren-zoom-controls button:disabled { opacity: .4; cursor: default; }
+.warren-banner { margin: 0 0 1.25rem; }
+.warren-banner-media { position: relative; overflow: hidden; border-radius: .4rem; background: var(--color-fd-card); }
+
+.warren-banner-copy { position: absolute; inset-inline: 0; inset-block-end: 0; padding: 2.75rem 1.1rem .95rem; background: linear-gradient(to top, #100d17 0%, #100d17d4 46%, transparent 100%); pointer-events: none; }
+#nd-page .warren-banner-copy h1, #nd-page .warren-role-copy h1 { margin: 0; color: #f3edf7; }
+#nd-page .warren-banner-copy h1 { font-size: clamp(1.8rem, 4vw, 3.25rem); text-shadow: 0 2px 16px #100d17; }
+.warren-banner-copy p, .warren-role-summary { margin: .4rem 0 0; color: var(--color-fd-muted-foreground); font-size: 1.05rem; line-height: 1.45; }
+.warren-banner-copy p { max-width: 40rem; color: #f3edf7; text-shadow: 0 1px 8px #100d17; }
+.warren-role { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 7fr); gap: 1.25rem 1.5rem; align-items: center; margin-bottom: 1.5rem; }
+.warren-role .warren-zoom-open img { aspect-ratio: 3 / 4; object-fit: cover; }
+.warren-role-copy p { margin: 0; }
+.warren-role-copy > p + p { margin-top: .85rem; }
+.warren-circle-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: .75rem; margin-block: 1rem; }
+.warren-circle-facts h2 { margin: 0 0 .4rem; font-size: 1.15rem; }
+.warren-circle-facts ul { margin: 0; padding-inline-start: 1.15rem; }
+.warren-circle-facts li, .warren-circle-facts p { color: var(--color-fd-muted-foreground); font-size: .88rem; }
+.warren-circle-facts .warren-chips { margin-top: .15rem; padding-inline-start: 0; list-style: none; }
+.warren-circle-facts a { color: var(--warren-violet); }
+.warren-rune-total strong { display: block; margin-bottom: .15rem; color: var(--color-fd-foreground); font: 2rem/1 var(--warren-serif); }
+.warren-diagram-key { display: grid; gap: .55rem; margin-block: .85rem; }
+ol.warren-diagram-key { padding-inline-start: 1.35rem; list-style: decimal; }
+.warren-diagram-key p, .warren-diagram-key dd { color: var(--color-fd-muted-foreground); font-size: .88rem; }
+.warren-diagram-key dt { font-weight: 650; }
+.warren-diagram-key a { color: var(--warren-violet); text-decoration: underline; text-underline-offset: .18em; }
+.warren-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1rem; padding-block: 1rem 1.8rem; border-top: 1px solid var(--color-fd-border); font-size: .86rem; color: var(--color-fd-muted-foreground); }
+.warren-footer a { text-decoration: underline; text-underline-offset: .2rem; }
+
+#nd-sidebar, #nd-subnav { background-color: #130f1bef; }
+#nd-page h1, #nd-page h2 { font-family: var(--warren-serif); font-weight: 400; }
+#nd-page h1 { font-size: clamp(2.5rem, 5.4vw, 4rem); letter-spacing: -.045em; line-height: 1.04; }
+#nd-page h2 { letter-spacing: -.018em; }
+.warren-card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: .75rem; }
+.warren-directory { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+.warren-panel { min-width: 0; padding: .85rem; border: 1px solid var(--color-fd-border); border-radius: .4rem; background: var(--color-fd-card); }
+.warren-panel dt { font-weight: 650; }
+.warren-panel dd, .warren-panel p { margin-top: .25rem; color: var(--color-fd-muted-foreground); font-size: .88rem; }
+.warren-panel a, .warren-chips a { text-decoration: underline; text-underline-offset: .18em; }
+.warren-directory > .warren-panel { overflow: hidden; padding: 0; }
+.warren-directory .warren-art { margin: 0; border-width: 0 0 1px; border-radius: 0; }
+.warren-directory-copy { padding: .9rem; }
+.warren-directory-copy h2 { margin: 0; font-size: 1.5rem; line-height: 1.2; }
+.warren-directory-copy .warren-kicker { display: block; margin-top: .3rem; }
+.warren-count-link { display: inline-block; margin-top: .65rem; color: var(--color-fd-primary); font-size: .8rem; }
+.warren-directory-copy .warren-partners-label { margin-top: .65rem; font-size: .76rem; font-weight: 650; }
+.warren-chips { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .65rem; }
+.warren-directory-copy .warren-chips { margin-top: .28rem; }
+.warren-chips a { display: inline-block; padding: .23rem .46rem; border: 1px solid var(--color-fd-border); border-radius: .3rem; color: var(--warren-violet); font-size: .78rem; }
+.warren-state-notes { margin-top: .9rem; }
+.warren-symbols { grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr)); }
+.warren-table { max-width: 100%; overflow-x: auto; }
+.warren-table table { width: 100%; border-collapse: collapse; }
+.warren-brief { border: 1px solid var(--color-fd-border); border-top: 2px solid var(--color-fd-primary); border-radius: .4rem; background: var(--color-fd-card); }
+.warren-contract { padding-inline: clamp(.85rem, 4vw, 1.5rem); }
+.warren-contract > div { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: .2rem 1rem; padding-block: .65rem; }
+.warren-contract > div + div { border-top: 1px solid var(--color-fd-border); }
+.warren-brief dd { color: var(--color-fd-muted-foreground); }
+.warren-brief dt { color: var(--color-fd-foreground); font-weight: 650; }
+.warren-disclosure a { color: var(--warren-violet); text-decoration: underline; text-underline-offset: .18em; }
+.warren-disclosure a:hover { color: var(--color-fd-primary); }
+.warren-disclosure { margin-block: .5rem; border: 1px solid var(--color-fd-border); border-radius: .4rem; background: var(--color-fd-card); }
+.warren-disclosure:target { border-color: var(--color-fd-primary); }
+.warren-disclosure summary { display: grid; grid-template-columns: 1fr auto .6rem; gap: .75rem; align-items: center; padding: .65rem .95rem; cursor: pointer; list-style: none; }
+.warren-disclosure summary::-webkit-details-marker { display: none; }
+.warren-disclosure summary::after { content: ''; grid-column: 3; grid-row: 1; width: .48rem; height: .48rem; border: solid var(--color-fd-primary); border-width: 0 1.5px 1.5px 0; transform: rotate(45deg); }
+.warren-disclosure[open] summary::after { transform: rotate(225deg); }
+.warren-disclosure summary:hover { background: var(--color-fd-accent); }
+.warren-disclosure-count { color: var(--color-fd-primary); font-size: .82rem; white-space: nowrap; }
+.warren-relics table { min-width: 30rem; font-size: .86rem; }
+.warren-relics th, .warren-relics td { padding: .65rem .9rem; border-top: 1px solid var(--color-fd-border); text-align: start; vertical-align: top; }
+.warren-relics td li + li { margin-top: .35rem; }
+.warren-catalog { display: grid; grid-template-columns: minmax(14rem, .9fr) minmax(0, 1.45fr); align-items: start; gap: 1.25rem; }
+.warren-catalog-controls label { display: grid; gap: .3rem; font-size: .87rem; font-weight: 650; }
+.warren-catalog-controls input { width: 100%; min-height: 2.7rem; padding: .48rem .7rem; border: 1px solid var(--color-fd-border); border-radius: .35rem; background: var(--color-fd-card); font-weight: 400; }
+.warren-catalog-controls input::placeholder { color: var(--color-fd-muted-foreground); }
+.warren-catalog-status { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .3rem 1rem; margin-block: .65rem .42rem; font-size: .85rem; color: var(--color-fd-muted-foreground); }
+.warren-catalog-status button { color: var(--warren-violet); text-decoration: underline; text-underline-offset: .16rem; cursor: pointer; }
+.warren-empty { padding: .7rem .85rem; color: var(--color-fd-muted-foreground); }
+.warren-rune-categories { max-height: min(57vh, 30rem); overflow: auto; overscroll-behavior: contain; border: 1px solid var(--color-fd-border); border-radius: .4rem; background: var(--color-fd-card); }
+.warren-rune-group { margin: 0; border: 0; border-radius: 0; }
+.warren-rune-group + .warren-rune-group { border-top: 1px solid var(--color-fd-border); }
+.warren-rune-group summary { padding: .62rem .8rem; font-size: .87rem; }
+.warren-rune-bar { grid-column: 1 / -1; display: block; height: .25rem; margin-top: -.35rem; border-radius: 1rem; background: var(--color-fd-muted); }
+.warren-rune-bar > span { display: block; height: 100%; border-radius: inherit; background: var(--warren-violet); }
+.warren-rune-group:target summary, .warren-rune-group[open] summary { color: var(--color-fd-primary); }
+.warren-rune-group ul { padding: .1rem .4rem .45rem; }
+.warren-rune-group button { width: 100%; padding: .42rem .65rem; border-radius: .3rem; text-align: start; font-size: .86rem; cursor: pointer; }
+.warren-rune-group button:hover, .warren-rune-group button[aria-pressed='true'] { background: var(--color-fd-accent); }
+.warren-rune-group button[aria-pressed='true'] { color: var(--color-fd-primary); }
+.warren-rune-group button:focus-visible { outline-offset: -2px; }
+.warren-rune-group small { display: block; color: var(--color-fd-muted-foreground); }
+.warren-rune-brief { position: sticky; top: 5rem; padding: clamp(1rem, 3vw, 1.65rem); border: 1px solid var(--color-fd-border); border-top: 2px solid var(--color-fd-primary); border-radius: .4rem; background: linear-gradient(130deg, #2b2037, var(--color-fd-card) 72%); scroll-margin-top: 5rem; }
+.warren-skill-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .4rem .9rem; }
+.warren-rune-brief h2 { font-size: clamp(1.9rem, 4vw, 2.7rem); line-height: 1.08; }
+.warren-skill-meta { display: flex; flex-wrap: wrap; gap: .25rem .6rem; color: var(--color-fd-muted-foreground); font-size: .8rem; }
+.warren-rune-brief dl { margin-top: .9rem; }
+.warren-rune-brief dl > div { display: grid; grid-template-columns: 6rem minmax(0, 1fr); align-items: baseline; gap: .2rem .75rem; padding-block: .6rem; border-top: 1px solid var(--color-fd-border); }
+.warren-rune-brief dt { color: var(--color-fd-muted-foreground); font-size: .83rem; font-weight: 650; }
+.warren-rune-brief dd { font-size: .95rem; }
+.warren-rune-brief code { overflow-wrap: anywhere; }
+.warren-rune-brief a { color: var(--warren-violet); text-decoration: underline; text-underline-offset: .15rem; }
+.warren-rune-status { text-transform: capitalize; }
+
+@media (max-width: 700px) {
+  .warren-wrap { width: calc(100% - 2rem); }
+  .warren-header-inner { padding-block: .65rem; flex-wrap: wrap; }
+  .warren-header nav { gap: .5rem 1rem; }
+  .warren-hero { min-height: auto; }
+  .warren-hero h1 { font-size: clamp(2.1rem, 10vw, 4.5rem); }
+  .warren-hero-copy { grid-row: 1; padding-bottom: 2rem; }
+  .warren-hero-art { position: relative; inset: auto; height: clamp(10rem, 44vw, 17rem); }
+  .warren-hero-art .warren-zoom-open img {
+    -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 42%);
+    mask-image: linear-gradient(180deg, transparent 0%, #000 42%);
+  }
+  .warren-role { grid-template-columns: 1fr; }
+}
+@media (min-width: 700px) {
+  .warren-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1100px) {
+  .warren-directory { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 970px) {
+  .warren-catalog { grid-template-columns: 1fr; }
+  .warren-rune-categories { max-height: none; }
+  .warren-rune-brief { position: static; }
+  .warren-relics table { min-width: 0; }
+  .warren-relics thead { display: none; }
+  .warren-relics tr { display: block; padding-block: .65rem; border-top: 1px solid var(--color-fd-border); }
+  .warren-relics th, .warren-relics td { display: block; width: auto; padding: .15rem .9rem; border-top: 0; }
+}
+@media (max-width: 420px) {
+  .warren-contract > div, .warren-rune-brief dl > div { grid-template-columns: 1fr; }
+}

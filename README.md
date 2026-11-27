@@ -2,43 +2,37 @@
 
 Many paths. Shared discoveries.
 
-A Cunilab concept-stage project for human-guided multi-agent collaboration. This repository hosts a static website and foundation blueprint; no agent runtime or Cairn integration is implemented here.
+A Cunilab concept for human-directed collaboration among specialized AI workers. The Fumadocs handbook describes the operating model, a blank Quest contract, and proposed capabilities. Agent execution and the Cairn integration are planned.
 
 ## Preview and edit
 
-The generated website requires no build step to serve on GitHub Pages.
+Use Node.js 22 or later and Python 3.9 or later for the static audit.
 
 ```sh
-python3 -m http.server 8000
+npm ci
+npm run dev -- --hostname 127.0.0.1 --port 8000
 ```
 
 Open http://localhost:8000.
 
-Edit `site/content.json` for Circle and Delver information, `site/assets.json` for artwork paths, `site/build.mjs` for shared layout and content, and `styles.css` or `site.js` for presentation and filtering. Regenerate and audit with Node.js and Python 3:
+Edit the handbook in `content/handbook/`, Circle and Quest records in `site/content.json`, and capability records in `site/rune-registry.json`. The public pages are generated from these sources.
 
 ```sh
-node site/build.mjs
-python3 scripts/check_site.py
+npm run build
+npm run check
 ```
 
-Commit generated pages alongside source changes. GitHub Pages serves the checked-in static output from main.
+The static export is written to `out/`. To host it below a path like GitHub Pages at `/arcane-warren`, set `NEXT_PUBLIC_BASE_PATH=/arcane-warren` for both commands. Publish `out/` as the site root.
 
 ## Artwork
 
-All 70 artwork slots are placeholders. See [the artwork checklist](assets/ASSET-MANIFEST.md) for dimensions and placements. No finished artwork is supplied. To replace a placeholder with your own SVG, PNG, JPG or WebP:
+All 70 artwork slots are placeholders. See [the artwork checklist](assets/ASSET-MANIFEST.md) for recommended dimensions. To replace a placeholder with your own SVG, PNG, JPEG or WebP, update the shared registry and then restart the preview or rebuild.
 
 ```sh
-python3 scripts/replace_asset.py characters/veyra /path/to/veyra.webp
-python3 scripts/check_site.py
+python3 scripts/replace_asset.py scenes/warren-hero /path/to/warren-hero.webp
 ```
-
-The registry and generated pages are updated together. Original unused SVG files remain for history.
 
 ## Related
 
 - [Cunilab](https://github.com/cunilab)
 - [Cairn Memory](https://github.com/cunilab/cairn-memory)
-
-## Exploration and specifications
-
-The map, comparison, global search, simulation and capability registry are static conceptual tools. The simulator does not execute agents. Run the build and static audit before committing.

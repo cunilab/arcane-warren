@@ -1,14 +1,37 @@
 name: Site checks
 on: [push, pull_request]
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
 jobs:
-  static:
+  build:
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_BASE_PATH: /arcane-warren
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node site/build.mjs
-      - run: python3 scripts/check_site.py
-      - run: node --check site.js
-      - run: git diff --exit-code
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,10 +1,8 @@
-"""Install existing artwork and regenerate all shared page references."""
+"""Install existing artwork and update the shared artwork registry."""
 import argparse
 import json
 from pathlib import Path
 import shutil
-import subprocess
-import sys
 
 root = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
@@ -20,13 +18,11 @@ source = args.image.resolve()
 suffix = source.suffix.lower()
 if suffix not in {".svg", ".png", ".jpg", ".jpeg", ".webp"} or not source.is_file():
     parser.error("Provide an existing SVG, PNG, JPG, JPEG or WebP file.")
-if not shutil.which("node"):
-    parser.error("Node.js is required to regenerate the website.")
 old = root / registry[key]["path"]
 new = old.with_suffix(suffix)
 if source != new.resolve():
     shutil.copyfile(source, new)
 registry[key]["path"] = new.relative_to(root).as_posix()
 registry_path.write_text(json.dumps(registry, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-subprocess.run(["node", str(root / "site/build.mjs")], cwd=root, check=True)
 print(f"Updated {key}: {registry[key]['path']}")
+print("Restart the dev preview or run npm run build to use the updated artwork.")

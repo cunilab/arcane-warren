@@ -1,0 +1,39 @@
+---
+title: Permissions and tools
+description: The person directing a Quest decides what the Circle may access and which actions require approval.
+---
+
+A **Covenant** records a Quest’s permitted data, tools, actions, budget, and approvals. Give each Circle the access needed for its assignment.
+
+## Tools and approval
+
+A **Relic** is a tool or integration. A [Rune](/runes/) describes a skill. The Covenant specifies which tools and data a Circle may use to apply a skill in a Quest.
+
+<div className="warren-table" role="region" aria-label="Approval gates" tabIndex={0}>
+
+| Action | Approval gate |
+| --- | --- |
+| Read data or prepare a draft | Stay within the authorized Quest scope. |
+| Publish or contact customers | Get explicit approval from the Keeper. |
+| Spend funds | Get approval for the budget and the specific action. |
+| Change production systems | Get human approval and provide a rollback plan. |
+| Read personal or project memory | Verify identity and that the requested scope is authorized. |
+
+</div>
+
+## When something changes
+
+<PlaceholderImage id="diagrams/covenant-decision-flow" />
+
+<ol className="not-prose warren-diagram-key" aria-label="Covenant approval and escalation">
+  <li><strong>Check scope</strong><p>Check the Covenant at assignment and before acting.</p></li>
+  <li><strong>Pause</strong><p>Stop the affected work if instructions are ambiguous, conditions are unsafe, permission is missing, or a limit is reached.</p></li>
+  <li><strong>Get a decision</strong><p>Tell the Keeper what changed and why. Bind approval to the specific action and scope reviewed.</p></li>
+  <li><strong>Record</strong><p>Save the decision, approved scope, result, and any failure in the Chronicle.</p></li>
+</ol>
+
+## Relics
+
+This catalog records proposed tools and intended Circle uses. Each Quest requires its own authorization.
+
+<RelicCatalog />

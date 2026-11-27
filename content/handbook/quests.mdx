@@ -1,0 +1,46 @@
+---
+title: Quests
+description: A Quest gives one Circle a job and defines what you’ll review when it comes back.
+---
+
+## Quest contract
+
+Use this blank contract to write a Quest. Fill in each field before handing it to a Circle.
+
+<dl className="not-prose warren-brief warren-contract" aria-label="Blank Quest contract">
+  <div><dt>Intent</dt><dd>Objective, Circle owner, scope, and acceptance criteria.</dd></div>
+  <div><dt>Inputs</dt><dd>Source references, dependency outputs, and authorized memory.</dd></div>
+  <div><dt>Execution</dt><dd>Allowed tools and actions, time or cost limit, and approval points.</dd></div>
+  <div><dt>Return</dt><dd>Deliverable, status, evidence, limitations, and decisions for review.</dd></div>
+</dl>
+
+## Quest states
+
+<PlaceholderImage id="diagrams/quest-states" />
+
+<ol className="not-prose warren-diagram-key" aria-label="Main Quest state sequence">
+  <li><strong>Proposed</strong><p>The work is defined.</p></li>
+  <li><strong>Ready</strong><p>Scope and required inputs are available.</p></li>
+  <li><strong>Running</strong><p>The assigned Circle is working.</p></li>
+  <li><strong>Review</strong><p>The result is checked against the criteria.</p></li>
+  <li><strong>Completed</strong><p>Evidence shows that the result meets the criteria.</p></li>
+</ol>
+
+<dl className="not-prose warren-card-grid warren-state-notes" aria-label="Other Quest states">
+  <div className="warren-panel"><dt>Blocked</dt><dd>A dependency, input, or decision is missing.</dd></div>
+  <div className="warren-panel"><dt>Awaiting approval</dt><dd>The Keeper needs to authorize a specific action.</dd></div>
+  <div className="warren-panel"><dt>Failed</dt><dd>The work ended without meeting the criteria.</dd></div>
+  <div className="warren-panel"><dt>Canceled</dt><dd>The work was stopped and the reason recorded.</dd></div>
+</dl>
+
+## When Quests work together
+
+An [Expedition](/architecture/#an-expedition-from-start-to-finish) groups Quests around a shared goal. A **Ritual** defines a repeatable workflow.
+
+<PlaceholderImage id="diagrams/ritual-handoffs" />
+
+- **Start** with a trigger and its required inputs.
+- **Assign** owners and state which Quests run in order or in parallel.
+- **Hand off** expected artifacts and the context the next Circle may use.
+- **Handle failures** with explicit stop, retry, and escalation rules.
+- **Review** the evidence and record any required human approval.

@@ -1,0 +1,44 @@
+---
+title: Lucerna
+description: The proposed coordinator that plans Quests, assigns Circles, and brings evidence back to the Keeper.
+---
+
+<RoleHero id="characters/lucerna" title="Lucerna" description="The proposed coordinator that plans Quests, assigns Circles, and brings evidence back to the Keeper.">
+  <p>Lucerna turns the Keeper’s goal into work Circles can deliver and someone can check. The Keeper supplies the authority for the work.</p>
+</RoleHero>
+
+## Plan and assign
+
+<PlaceholderImage id="diagrams/lucerna-dispatch" />
+
+<ol className="not-prose warren-diagram-key" aria-label="Lucerna dispatch and review">
+  <li><strong>Frame</strong><p>Confirm the objective, acceptance criteria, budget, and stop conditions.</p></li>
+  <li><strong>Plan</strong><p>Define one Circle owner per Quest. Record inputs, dependencies, and the expected deliverable.</p></li>
+  <li><strong>Dispatch</strong><p>Start independent Quests when ready. Pass each Circle the locations of the results it needs and the approved context for its work.</p></li>
+  <li><strong>Observe</strong><p>Track where the work stands, how long it has taken, which tools were used, which models were used, and what is blocking it.</p></li>
+  <li><strong>Review</strong><p>Check acceptance criteria, complete and unaltered results, unresolved risks, and approval status.</p></li>
+  <li><strong>Return</strong><p>Give the Keeper the artifacts, evidence, limitations, and outstanding decisions.</p></li>
+</ol>
+
+### Selection checks
+
+<div className="warren-table" role="region" aria-label="Circle selection checks" tabIndex={0}>
+
+| Check | What Lucerna checks |
+| --- | --- |
+| Capability | Match the skills the work needs and what each skill must return. |
+| Permissions | Confirm that the task inputs, tools, and data are allowed. |
+| Capacity | Check the time and resource budget before assigning work. |
+| Independence | Use a separate reviewer when the consequences warrant it. |
+
+</div>
+
+Choose the smallest set of [Circles](/circles/) that can deliver. Escalate a capability gap or unresolved scope question to the [Keeper](/keeper/).
+
+## Track work and handle blockers
+
+Keep a [Quest](/quests/#quest-states) blocked when a required input, result, or approval is missing. Retry a transient failure within the agreed limits. Verify the outcome of an action that might already have taken effect before considering another attempt.
+
+## Review and return
+
+If Circles disagree, evaluate their evidence against the criteria and use an independent reviewer if needed. Record assignments, state changes, and outcomes in the [Chronicle](/memory/#what-gets-recorded). In the design, Lucerna verifies recalled Cairn records against current evidence before using them.

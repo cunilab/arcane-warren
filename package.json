@@ -1,0 +1,28 @@
+{
+  "name": "arcane-warren",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/prepare-assets.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/prepare-assets.mjs",
+    "build": "next build",
+    "check": "python3 scripts/check_site.py"
+  },
+  "dependencies": {
+    "fumadocs-core": "16.19.7",
+    "fumadocs-mdx": "15.6.4",
+    "fumadocs-ui": "16.19.7",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/mdx": "2.0.14",
+    "@types/node": "22.20.7",
+    "@types/react": "19.3.3",
+    "@types/react-dom": "19.3.0",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.9.3"
+  }
+}
